@@ -11,9 +11,23 @@ AI 素养对 Z 世代员工向上影响行为的研究
 | 文件夹 | 职责 | 关键文件 |
 |--------|------|----------|
 | **PR/** | 论文修改请求，独立完整可执行 | `agent.md`, `_INDEX.md`, `_TEMPLATE.md` |
-| **Reference/** | 学术文献库，APA 引用规范 | `agent.md`, `_INDEX.md` |
+| **Reference/** | 学术文献库，APA 引用规范 | `agent.md`, `_INDEX.md`, `PDF-MD/` |
 | **Consensus/** | 学术 AI 问答记录 | `agent.md`, `_INDEX.md`, `_TEMPLATE.md` |
 | **Target/** | 论文最终产物 | `agent.md`, `Draft.md` |
+
+### Reference/PDF-MD 工具
+
+PDF 转 Markdown 转换工具，让 AI 能够阅读学术文献。
+
+```
+PDF-MD/
+├── pdfs/           # 放入待转换的 PDF
+├── pdfs_done/      # 已转换的 PDF 存档
+├── output_api/     # 转换后的 Markdown（AI 阅读用）
+└── convert_api.py  # 运行: python convert_api.py
+```
+
+**当前已转换文献**: 32 篇
 
 ## 核心原则
 
