@@ -13,6 +13,13 @@ import requests
 from pathlib import Path
 from datetime import datetime
 
+# PDF 页数检测
+try:
+    import pypdf
+    HAS_PYPDF = True
+except ImportError:
+    HAS_PYPDF = False
+
 # 自动加载 .env 文件
 try:
     from dotenv import load_dotenv
@@ -39,11 +46,24 @@ PDF_DIR = SCRIPT_DIR / "pdfs"
 OUTPUT_DIR = SCRIPT_DIR / "output_api"
 DONE_DIR = SCRIPT_DIR / "pdfs_done"
 INDEX_FILE = SCRIPT_DIR.parent / "_INDEX.md"
+MAX_PAGES = 50  # 超过此页数需要确认
 
 # 确保目录存在
 PDF_DIR.mkdir(exist_ok=True)
 OUTPUT_DIR.mkdir(exist_ok=True)
 DONE_DIR.mkdir(exist_ok=True)
+
+
+def get_pdf_pages(pdf_path: Path) -> int:
+    """获取 PDF 页数"""
+    if not HAS_PYPDF:
+        return -1
+    try:
+        with open(pdf_path, "rb") as f:
+            reader = pypdf.PdfReader(f)
+            return len(reader.pages)
+    except:
+        return -1
 
 
 # ============================================================
@@ -190,9 +210,25 @@ def append_to_index(title: str, filename: str):
 # ============================================================
 # 主流程
 # ============================================================
-def process_single_pdf(pdf_path: Path) -> bool:
-    """处理单个 PDF：转录 → 重命名 → 加入索引"""
+def process_single_pdf(pdf_path: Path, skip_large: bool = False) -> str:
+    """处理单个 PDF：转录 → 重命名 → 加入索引
+    返回: 'success' | 'failed' | 'skipped'
+    """
     print(f"\n📄 {pdf_path.name}")
+    
+    # 检查页数
+    pages = get_pdf_pages(pdf_path)
+    if pages > 0:
+        print(f"  页数: {pages}")
+        if pages > MAX_PAGES:
+            if skip_large:
+                print(f"  ⚠️ 跳过: 超过 {MAX_PAGES} 页")
+                return "skipped"
+            else:
+                confirm = input(f"  ⚠️ 此文件有 {pages} 页，是否处理? (y/N): ")
+                if confirm.lower() != 'y':
+                    print(f"  跳过")
+                    return "skipped"
     
     # 步骤 1: 转录
     print("  [1/3] 转录中...")
@@ -202,7 +238,7 @@ def process_single_pdf(pdf_path: Path) -> bool:
     
     if not result or "markdown" not in result:
         print(f"  ✗ 转录失败")
-        return False
+        return "failed"
     
     # 保存 MD 文件（先用原始文件名）
     temp_md_path = OUTPUT_DIR / (pdf_path.stem + ".md")
@@ -229,7 +265,7 @@ def process_single_pdf(pdf_path: Path) -> bool:
         pdf_path.rename(done_path)
     
     print(f"  ✅ 处理完成!")
-    return True
+    return "success"
 
 
 def main():
@@ -250,19 +286,25 @@ def main():
     
     success = 0
     failed = 0
+    skipped = 0
     
     for i, pdf_path in enumerate(pdf_files, 1):
         print(f"\n[{i}/{len(pdf_files)}]", end="")
-        if process_single_pdf(pdf_path):
+        result = process_single_pdf(pdf_path)
+        if result == "success":
             success += 1
+        elif result == "skipped":
+            skipped += 1
         else:
             failed += 1
         time.sleep(1)
     
     print("\n" + "=" * 60)
-    print(f"处理完成! 成功: {success} | 失败: {failed}")
+    print(f"处理完成! 成功: {success} | 失败: {failed} | 跳过: {skipped}")
     print(f"输出目录: {OUTPUT_DIR}")
     print(f"索引文件: {INDEX_FILE}")
+    if skipped > 0:
+        print(f"\n💡 跳过的大文件可手动处理，或修改 MAX_PAGES 设置")
 
 
 if __name__ == "__main__":

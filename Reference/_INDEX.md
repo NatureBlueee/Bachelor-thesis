@@ -44,6 +44,38 @@
 
 ---
 
+| 33 | Artificial Intelligence and Competition | `Artificial Intelligence and Competition.md` |
+
+| 34 | Ethics of AI: A Systematic Literature Review of Pr... | `Ethics of AI - A Systematic Literature Review of Principles and Challenges.md` |
+
+| 35 | Explicating AI Literacy of Employees at Digital Wo... | `Explicating AI Literacy of Employees at Digital Workplaces.md` |
+
+| 36 | Human-AI collaboration is not very collaborative y... | `Human-AI collaboration is not very collaborative yet - a taxonomy of interaction patterns in AI-assi.md` |
+
+| 37 | Come as You Are: Examining Autistic Identity Devel... | `Come as You Are - Examining Autistic Identity Development and the Neurodiversity Movement through an.md` |
+
+| 38 | The roles of outcome and race on applicant reactio... | `The roles of outcome and race on applicant reactions to AI systems.md` |
+
+| 39 | Social Science & Medicine | `Social Science & Medicine.md` |
+
+| 40 | Chapter 2Qualitative Methods in Organizational Res... | `Chapter 2Qualitative Methods in Organizational Research - An Example of Grounded Theory Data Analysi.md` |
+
+| 41 | Human Resource Management Review | `Human Resource Management Review.md` |
+
+| 42 | **AI as a talent management tool: An organizationa... | `AI as a talent management tool - An organizational justice perspective.md` |
+
+| 43 | Allying with AI? Reactions toward human-based, AI/... | `Allying with AI Reactions toward human-based, AI-ML-based, and augmented hiring processes.md` |
+
+| 44 | Attempting rigour and replicability in thematic an... | `Attempting rigour and replicability in thematic analysis of qualitative research data; a case study.md` |
+
+| 45 | Using thematic analysis in psychology | `Using thematic analysis in psychology.md` |
+
+| 46 | Design and validation of the AI literacy questionn... | `Design and validation of the AI literacy questionnaire - The affective, behavioural, cognitive and e.md` |
+
+| 47 | LEADERSHIP BEHAVIOR AND EMPLOYEE VOICE: IS THE DOO... | `DetertandBurris2007AMJDoorOpen....md` |
+
+| 48 | A simple method to assess and report thematic satu... | `A simple method to assess and report thematic saturation in qualitative research.md` |
+
 ## 使用说明
 
 文献 Markdown 文件位于 `PDF-MD/output_api/` 目录。
