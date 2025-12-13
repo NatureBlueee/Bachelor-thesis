@@ -4,7 +4,7 @@ AI 素养对 Z 世代员工向上影响行为的研究
 
 ## 工作流架构
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 ## 文件夹结构
 
