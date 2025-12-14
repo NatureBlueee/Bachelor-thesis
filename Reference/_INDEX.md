@@ -92,6 +92,96 @@
 
 | 56 | Human Resource Management Review | `Implications-of-a-changing-workforce-and-workplace-f_2015_Human-Resource-Man.md` |
 
+| 57 | AI 创造力感知影响员工创新行为的 双刃剑机制研究 | `AI 创造力感知影响员工创新行为的 双刃剑机制研究.md` |
+
+| 58 | AI 技术替代感对工作场所人与 AI 合作意愿的影响机制 | `AI 技术替代感对工作场所人与 AI 合作意愿的影响机制.md` |
+
+| 59 | 个性化契约与员工创新关系的元分析 | `个性化契约与员工创新关系的元分析.md` |
+
+| 60 | 主动性人格、知识分享与员工创新行为关系研究 | `主动性人格、知识分享与员工创新行为关系研究.md` |
+
+| 61 | 人工智能素养:提出背景、概念界定与构成要素\* | `人工智能素养 -提出背景、概念界定与构成要素-.md` |
+
+| 62 | 人工智能素养的内涵、结构和评价体系\* | `人工智能素养的内涵、结构和评价体系-.md` |
+
+| 63 | 人工智能视阈下智力资本如何影响科技人员创新工作行为——基于交互调节效应模型 | `人工智能视阈下智力资本如何影响科技人员创新工作行为——基于交互调节效应模型.md` |
+
+| 64 | 人工智能赋能企业工商管理的决策优化策略探讨 | `人工智能赋能企业工商管理的决策优化策略探讨.md` |
+
+| 65 | 人工智能赋能工商管理创新发展的实践应用探索 | `人工智能赋能工商管理创新发展的实践应用探索.md` |
+
+| 66 | 人机协同关系与员工创新——基于领导授权的中介机制 | `人机协同关系与员工创新——基于领导授权的中介机制.md` |
+
+| 67 | 何谓人工智能素养:本质、构成与评价体系\* | `何谓人工智能素养 -本质、构成与评价体系-.md` |
+
+| 68 | 信息异化的社会根源及其控制研究 | `信息异化的社会根源及其控制研究.md` |
+
+| 69 | 数智时代的人工智能素养:内涵、框架与实施路径 | `数智时代的人工智能素养 -内涵、框架与实施路径.md` |
+
+| 70 | 知识型员工创新行为影响因素研究 | `知识型员工创新行为影响因素研究.md` |
+
+| 71 | 纵横视角下人工智能素养的理论研究与行动启示\* | `纵横视角下人工智能素养的理论研究与行动启示-.md` |
+
+| 72 | 马克思主义机器论及当代人学反思 | `马克思主义机器论及当代人学反思.md` |
+
+| 73 | Social Science & Medicine | `1-s2.0-S0277953621008558-main.md` |
+
+| 74 | Organizational Behavior and Human Decision Process... | `Organizational Behavior and Human Decision Processes.md` |
+
+| 75 | Effect of supervisor-subordinate Guanxi on employe... | `Effect of supervisor-subordinate Guanxi on employees work behavior - An empirical dynamic framework.md` |
+
+| 76 | DETERMINANTS OF INNOVATIVE BEHAVIOR: A PATH MODEL ... | `DETERMINANTS OF INNOVATIVE BEHAVIOR - A PATH MODEL OF INDIVIDUAL INNOVATION IN THE WORKPLACE.md` |
+
+| 77 | Determinants of employees' innovative behavior | `Determinants of employees' innovative behavior.md` |
+
+| 78 | Supervisor-Directed Emotional Labor as Upward Infl... | `Supervisor-Directed Emotional Labor as Upward Influence - An Emotions-as-Social-Information Perspect.md` |
+
+| 79 | Measuring user competence in using artificial inte... | `Measuring user competence in using artificial intelligence - validity and reliability of artificial.md` |
+
+| 80 | A Step-by-Step Process of Thematic Analysis to Dev... | `A Step-by-Step Process of Thematic Analysis to Develop a Conceptual Model in Qualitative Research.md` |
+
+| 81 | SEMINAR | `SEMINAR.md` |
+
+| 82 | Zooming in on Generational Differences: Exploring ... | `Zooming in on Generational Differences - Exploring Intergenerational Employee Relationships and the.md` |
+
+| 83 | 不得已者而后言：基于自我调节理论的员工建言 新内涵及其影响机制研究 ——心理契约破裂的视角 | `不得已者而后言：基于自我调节理论的员工建言 新内涵及其影响机制研究 ——心理契约破裂的视角.md` |
+
+| 84 | 不确定环境中员工建言对授权领导 影响的机制研究 | `不确定环境中员工建言对授权领导 影响的机制研究.md` |
+
+| 85 | 与上级关系好的员工一定会建言吗？ 基于资源保存理论的双中介模型 | `与上级关系好的员工一定会建言吗？ 基于资源保存理论的双中介模型.md` |
+
+| 86 | 为何中国员工偏好沉默 ——威权领导对员工建言的消极影响 | `为何中国员工偏好沉默 ——威权领导对员工建言的消极影响.md` |
+
+| 87 | 主管发展性反馈与员工建言的 双向反馈机制研究 | `主管发展性反馈与员工建言的 双向反馈机制研究.md` |
+
+| 88 | 人工智能技术应用对员工建言和沉默的影响： 工作反刍和工作自主性的作用 | `人工智能技术应用对员工建言和沉默的影响： 工作反刍和工作自主性的作用.md` |
+
+| 89 | 价值共创如何影响创新型企业的即兴能力？\* | `价值共创如何影响创新型企业的即兴能力？-.md` |
+
+| 90 | 包容型氛围感知对员工建言的影响： 心理安全感与惰性感知的双重路径\* | `包容型氛围感知对员工建言的影响： 心理安全感与惰性感知的双重路径-.md` |
+
+| 91 | 参与型领导与员工建言： 积极印象管理动机的中介作用 | `参与型领导与员工建言： 积极印象管理动机的中介作用.md` |
+
+| 92 | 员工为什么不建言：基于中国文化视角的解析\* | `员工为什么不建言：基于中国文化视角的解析-.md` |
+
+| 93 | 员工建言发生和领导者建言采纳：权力感的视角 | `员工建言发生和领导者建言采纳：权力感的视角.md` |
+
+| 94 | 员工建言策略的 VOICE 模型——基于访谈数据的探索性研究 | `员工建言策略的 VOICE 模型——基于访谈数据的探索性研究.md` |
+
+| 95 | 如何通过改变情境助推员工建言：时间标记的作用 | `如何通过改变情境助推员工建言：时间标记的作用.md` |
+
+| 96 | 工作设计的新视角：员工的工作重塑\* | `工作设计的新视角：员工的工作重塑-.md` |
+
+| 97 | 悔不当初：主管纳谏偏离背景下员工建言后悔的 反事实思维过程研究 | `悔不当初：主管纳谏偏离背景下员工建言后悔的 反事实思维过程研究.md` |
+
+| 98 | 资质过剩感会激发员工建言吗？ ——基于公平启发视角 | `资质过剩感会激发员工建言吗？ ——基于公平启发视角.md` |
+
+| 99 | 逆境中何以建言？成就目标视角下员工建言 韧性的形成机制与作用效果\* | `逆境中何以建言？成就目标视角下员工建言 韧性的形成机制与作用效果-.md` |
+
+| 100 | 领导情绪表达怎样影响员工建言? | `领导情绪表达怎样影响员工建言.md` |
+
+| 101 | 领导者情绪智力一致性对员工建言影响的路径与边界 | `领导者情绪智力一致性对员工建言影响的路径与边界.md` |
+
 ## 使用说明
 
 文献 Markdown 文件位于 `PDF-MD/output_api/` 目录。

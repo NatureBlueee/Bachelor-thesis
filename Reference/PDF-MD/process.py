@@ -23,9 +23,26 @@ except ImportError:
 # 自动加载 .env 文件
 try:
     from dotenv import load_dotenv
-    load_dotenv(Path(__file__).parent.parent.parent / ".env")
+    # 脚本位置: Reference/PDF-MD/process.py
+    # .env位置: 项目根目录
+    # 路径: parent(PDF-MD) -> parent(Reference) -> parent(根目录)
+    env_path = Path(__file__).resolve().parent.parent.parent / ".env"
+    if env_path.exists():
+        load_dotenv(env_path)
+    else:
+        # 尝试当前工作目录
+        cwd_env = Path.cwd() / ".env"
+        if cwd_env.exists():
+            load_dotenv(cwd_env)
+        else:
+            # 尝试向上查找
+            for parent in Path.cwd().parents:
+                p = parent / ".env"
+                if p.exists():
+                    load_dotenv(p)
+                    break
 except ImportError:
-    pass  # 如果没安装 dotenv，跳过（依赖手动设置环境变量）
+    print("⚠️ 未安装 python-dotenv，请运行: pip install python-dotenv")
 
 # ============================================================
 # 配置
