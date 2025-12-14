@@ -76,6 +76,22 @@
 
 | 48 | A simple method to assess and report thematic satu... | `A simple method to assess and report thematic saturation in qualitative research.md` |
 
+| 49 | In consilium apparatus: Artificial intelligence, s... | `In consilium apparatus - Artificial intelligence, stakeholder reciprocity, and firm performance.md` |
+
+| 50 | Intraorganizational Influence Tactics: Exploration... | `InteraorganizationalInfluenceTactics-ExplorationsinGettingOnesWay.md` |
+
+| 51 | Sample Size in Qualitative Interview Studies: Guid... | `Sample Size in Qualitative Interview Studies - Guided by Information Power.md` |
+
+| 52 | Digital Natives, Digital Immigrants | `Digital Natives, Digital Immigrants.md` |
+
+| 53 | The future of artificial intelligence at work: A r... | `The future of artificial intelligence at work - A review on effects of decision automation and augme.md` |
+
+| 54 | Reading 16 | `Reading 16.md` |
+
+| 55 | Unpacking human-AI interaction: Exploring unintend... | `Unpacking human-AI interaction - Exploring unintended consequences on employee Well-being in entrepr.md` |
+
+| 56 | Human Resource Management Review | `Implications-of-a-changing-workforce-and-workplace-f_2015_Human-Resource-Man.md` |
+
 ## 使用说明
 
 文献 Markdown 文件位于 `PDF-MD/output_api/` 目录。

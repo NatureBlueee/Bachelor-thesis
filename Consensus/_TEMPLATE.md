@@ -4,7 +4,17 @@
 
 - **索引码**: CON-XXXX
 - **创建日期**: YYYY-MM-DD
-- **背景动机**: [为什么要问这些问题]
+- **状态**: 🔵 进行中 / ✅ 已关闭
+
+---
+
+## 问题动机
+
+**来源**: [与导师讨论 / 自己阅读文献时的困惑 / PR讨论中发现的问题]
+
+**背景**: [为什么要问这些问题？遇到了什么困惑？]
+
+**期望**: [希望通过这些问题获得什么？对论文有什么帮助？]
 
 ---
 
@@ -12,19 +22,53 @@
 
 **索引**: CON-XXXX-Q1
 
-**问题**:
-[具体、深入的问题，不预设答案]
+### 完整提问（发给Consensus的内容）
 
-**Consensus 回答**:
+```markdown
+## Context
+[从 _CONTEXT.md 复制研究上下文]
+
+## Why I'm Asking
+[说明问题动机]
+
+## My Question
+[具体问题]
+
+## Output Requirements
+Please act as an experienced organizational behavior researcher. Provide specific details from the studies, including:
+- Research methodology (quantitative/qualitative, sample size, country/industry context)
+- How key variables were measured (scales, instruments, number of items)
+- Specific findings (effect sizes β, coefficients r, key quotes from qualitative studies)
+- The authors' reasoning and argumentation logic
+- Boundary conditions and limitations the authors acknowledged
+
+Do NOT just provide conclusions. I need granular details.
+```
+
+### Consensus 回答
+
 [粘贴回答内容]
 
+### 回答质量评估
+
+- [ ] 获得了至少1个研究的具体样本信息？
+- [ ] 获得了变量测量方式/量表名称？
+- [ ] 获得了具体统计数据（系数、效应量）？
+- [ ] 获得了作者论证逻辑而非仅结论？
+
+**评估结果**: [✅ 可用 / ⚠️ 需追问 / ❌ 需重新提问]
+
+### 讨论
+
+[对这个回答的分析和讨论]
+
 **回答中的文献**:
-| 文献 | Reference 状态 |
-|------|----------------|
-| [APA 引用] | ✅ 已收录 / ❌ 需收集 |
+| 文献 | Reference 状态 | 优先级 |
+|------|----------------|--------|
+| [APA 引用] | ✅ 已收录 / ❌ 需收集 | 高/中/低 |
 
 **关键洞见**:
-[提炼的核心发现]
+[提炼的核心发现，要有颗粒度]
 
 ---
 
@@ -32,11 +76,31 @@
 
 **索引**: CON-XXXX-Q2
 
-（按需添加更多问题）
+（按需添加更多问题，格式同上）
 
 ---
 
-## 后续行动
+## 本轮问答梳理
+
+### 状态: ✅ 已关闭 / 🔵 进行中
+
+### 产出
+
+- [ ] PR-XXXX: [描述修改需求]
+- [ ] 需收集文献: [列表]
+- [ ] 访谈提纲调整: [如有]
+- [ ] 论文章节补充: [在哪里补充什么内容]
+
+### 形成的关键洞见
+
+[这一轮问答最重要的发现是什么？]
+
+### 未解决的问题
+
+- [如果有遗留问题，可能成为新的CON]
+
+### 后续行动
 
 - [ ] 需收集的文献已提交至 Reference
-- [ ] 关键洞见已纳入 PR 考虑
+- [ ] PR已创建: PR-XXXX
+- [ ] 相关章节已更新

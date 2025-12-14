@@ -216,6 +216,18 @@ def process_single_pdf(pdf_path: Path, skip_large: bool = False) -> str:
     """
     print(f"\n📄 {pdf_path.name}")
     
+    # 检查是否已处理过（output_api 中已有同名 MD）
+    existing_md = OUTPUT_DIR / (pdf_path.stem + ".md")
+    if existing_md.exists():
+        print(f"  ⏭️ 已存在，跳过")
+        # 清理源文件
+        done_path = DONE_DIR / pdf_path.name
+        if done_path.exists():
+            pdf_path.unlink()
+        else:
+            pdf_path.rename(done_path)
+        return "skipped"
+    
     # 检查页数
     pages = get_pdf_pages(pdf_path)
     if pages > 0:
@@ -261,7 +273,10 @@ def process_single_pdf(pdf_path: Path, skip_large: bool = False) -> str:
     
     # 移动原始 PDF 到已完成目录
     done_path = DONE_DIR / pdf_path.name
-    if not done_path.exists():
+    if done_path.exists():
+        # 已存在同名文件，删除源文件
+        pdf_path.unlink()
+    else:
         pdf_path.rename(done_path)
     
     print(f"  ✅ 处理完成!")

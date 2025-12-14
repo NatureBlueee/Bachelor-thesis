@@ -1,3 +1,7 @@
+---
+trigger: model_decision
+---
+
 # Consensus 文件夹
 
 ## 设计目的
