@@ -86,7 +86,7 @@ December 2025
 ### Speaking Script (约1分钟)
 > "Let me set the context. Since ChatGPT's release two years ago, AI has rapidly become a workplace standard. But here's the interesting part—there's a generational asymmetry.
 > 
-> Gen Z employees, born between 1995 and 2010, are digital natives. Research shows they adopt AI tools faster and often have higher AI literacy than their managers.
+> Gen Z employees, born between 1995 and 2010, are digital natives. **Industry data confirms this: McKinsey's 2025 research shows employees are using AI for over 30% of daily tasks at a rate 3.25 times higher than their C-suite leaders estimate (13% vs. 4%). Even more striking, IWG reports that 59% of Gen Z employees are actively coaching older colleagues on how to use AI tools.**
 > 
 > This leads to my core research question: **When young employees possess AI skills their supervisors lack, can they use these competencies to influence organizational decisions?**
 > 
@@ -442,6 +442,7 @@ December 2025
 - **ABCE Model**: Ng et al. (2023), *British Journal of Educational Technology*
 - **Thematic Analysis**: Braun & Clarke (2006)
 - **Leadership Construction**: DeRue & Ashford (2010), *Academy of Management Review*
+- **Industry Data**: McKinsey Superagency (2025), IWG Gen Z Report (2025), Deloitte Gen Z Survey (2025)
 
 ---
 
