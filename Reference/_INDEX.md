@@ -188,6 +188,8 @@
 
 | 104 | Are You Ready for Gen Z in the Workplace? | `Are You Ready for Gen Z in the Workplace.md` |
 
+| 105 | New research reveals Gen Z is coaching older colle... | `New research reveals Gen Z is coaching older colleagues to use AI, boosting productivity and collabo.md` |
+
 ## 使用说明
 
 文献 Markdown 文件位于 `PDF-MD/output_api/` 目录。
