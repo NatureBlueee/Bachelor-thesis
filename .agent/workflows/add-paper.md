@@ -13,7 +13,7 @@ description: 添加新的PDF文献并转换为Markdown格式
    ```
 
 3. 确认转换成功
-   - 检查 `Reference/PDF-MD/output_api/` 是否有新的MD文件
+   - 检查 `Reference/Uncited/` 是否有新的MD文件
    - 检查文件名是否已重命名为论文标题
 
 4. 确认 `Reference/_INDEX.md` 已更新

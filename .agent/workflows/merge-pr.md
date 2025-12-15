@@ -25,5 +25,13 @@ description:  合并PR到论文产出物，执行修改并更新状态
    - 更新论文进度
    - 记录完成的章节
 
-8. 考虑是否需要更新 `MEMORY.md`
+// turbo
+8. 同步引用文献
+   - 如果PR涉及REFERENCES部分的修改，运行同步脚本
+   ```powershell
+   cd Reference/PDF-MD
+   python sync_citations.py
+   ```
+
+9. 考虑是否需要更新 `MEMORY.md`
    - 如有重要洞见产生

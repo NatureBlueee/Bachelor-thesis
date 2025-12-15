@@ -60,7 +60,7 @@ if not API_KEY:
 # 目录（相对于脚本位置）
 SCRIPT_DIR = Path(__file__).parent
 PDF_DIR = SCRIPT_DIR / "pdfs"
-OUTPUT_DIR = SCRIPT_DIR / "output_api"
+OUTPUT_DIR = SCRIPT_DIR.parent / "Uncited"  # 转换后直接放入 Uncited
 DONE_DIR = SCRIPT_DIR / "pdfs_done"
 INDEX_FILE = SCRIPT_DIR.parent / "_INDEX.md"
 MAX_PAGES = 50  # 超过此页数需要确认

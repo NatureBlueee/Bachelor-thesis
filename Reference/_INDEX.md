@@ -182,6 +182,12 @@
 
 | 101 | 领导者情绪智力一致性对员工建言影响的路径与边界 | `领导者情绪智力一致性对员工建言影响的路径与边界.md` |
 
+| 102 | Reporting and justifying the number of interview p... | `Reporting and justifying the number of interview participants in organisation and workplace research.md` |
+
+| 103 | WHO WILL LEAD AND WHO WILL FOLLOW? A SOCIAL PROCES... | `WHO WILL LEAD AND WHO WILL FOLLOW A SOCIAL PROCESS OF LEADERSHIP IDENTITY CONSTRUCTION IN ORGANIZATI.md` |
+
+| 104 | Are You Ready for Gen Z in the Workplace? | `Are You Ready for Gen Z in the Workplace.md` |
+
 ## 使用说明
 
 文献 Markdown 文件位于 `PDF-MD/output_api/` 目录。
