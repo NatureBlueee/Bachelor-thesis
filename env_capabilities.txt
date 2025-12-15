@@ -1,0 +1,7 @@
+PIL: False
+cairosvg: False
+svglib: False
+selenium: False
+pytesseract: False
+easyocr: False
+cv2: False
