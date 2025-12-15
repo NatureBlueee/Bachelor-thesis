@@ -1,490 +1,260 @@
-# Proposal Defense Presentation Framework
+# Proposal Defense PPT Content Framework
 
-## The Impact of AI Literacy on Upward Influence Behavior among Generation Z Employees: A Resource Dependence Perspective
+**Title**: The Impact of AI Literacy on Upward Influence Behavior among Generation Z Employees: A Resource Dependence Perspective
 
----
-
-## DESIGN GUIDELINES
-
-**Overall Style**: Professional yet dynamic academic presentation. Not stiff traditional slides, but not overly casual either. Use visual charts, diagrams, and flow structures wherever possible.
-
-**Layout Principles**:
-- Clean, generous white space
-- Maximum 3 core elements per slide
-- Text should support the visual, not replace it
-- Use boxes, arrows, and comparison tables as visual structure
+**Purpose**: This document provides the exact content for each PPT slide. All content is directly aligned with the thesis draft. AI generators should use this content verbatim and NOT add or modify any claims.
 
 ---
 
-## SLIDE 1: Title Slide
+## Slide 1: Title Slide
 
-### Layout
-```
-[Center: Abstract visual element representing AI + Human connection]
+**Title (English)**:  
+The Impact of AI Literacy on Upward Influence Behavior among Generation Z Employees: A Resource Dependence Perspective
 
-THE IMPACT OF AI LITERACY ON 
-UPWARD INFLUENCE BEHAVIOR 
-AMONG GENERATION Z EMPLOYEES
-
-A Resource Dependence Perspective
-
-[Bottom center]
-Presenter: [Chenxi Zhang]
-Supervisor: [Luna]
-Overseas Chinese College | Business Administration
-December 2025
-```
-
-### Slide Content (visible text)
-- Full title in English
-- Subtitle: "A Resource Dependence Perspective"
-- Presenter info
-
-### Speaking Script (约45秒)
-> "Good morning, professors. My research addresses a question that has emerged in the AI era: **What happens when young employees know more about AI than their bosses?**
-> 
-> Since ChatGPT was released in November 2022, we've observed an interesting phenomenon—Generation Z employees often possess higher AI skills than their managers. This creates what I call a 'generational technology inversion.'
-> 
-> My study explores whether this AI knowledge can become a new source of organizational influence for young employees."
+**Presenter**: Chenxi Zhang  
+**Supervisor**: Luna  
+**Institution**: Overseas Chinese College, Business Administration  
+**Date**: December 2025
 
 ---
 
-## SLIDE 2: Research Problem & Question
+## Slide 2: Research Background - The Rise of AI
 
-### Layout
-```
-┌─────────────────────────────────────────────────────┐
-│  [Left side: Timeline graphic]                      │
-│                                                     │
-│  Nov 2022 ──────────────────────→ Dec 2024         │
-│  ChatGPT Launch           AI as Workplace Standard  │
-│                                                     │
-├─────────────────────────────────────────────────────┤
-│  [Right side: Two-column comparison]                │
-│                                                     │
-│  Gen Z Employees          vs     Supervisors        │
-│  (Born 1995-2010)                (Often 40+)        │
-│  ────────────────               ────────────────    │
-│  ✓ High AI Literacy             ✗ Lower AI Skills  │
-│  ✓ Quick AI Adoption            ✗ Traditional Ways  │
-│                                                     │
-├─────────────────────────────────────────────────────┤
-│  [Bottom: Core Question in highlighted box]         │
-│                                                     │
-│  RESEARCH QUESTION:                                │
-│  Can Gen Z employees use their AI competencies     │
-│  to influence supervisors' decisions?              │
-│                                                     │
-└─────────────────────────────────────────────────────┘
-```
+**Section 1.1.1 from Thesis**
 
-### Slide Content (visible text)
-- Timeline: Nov 2022 → Dec 2024
-- Comparison: Gen Z vs Supervisors (AI skills contrast)
-- Core Research Question (in prominent box)
+The rapid advancement of artificial intelligence (AI) technologies, exemplified by the emergence of ChatGPT, Claude, and other generative AI tools, has fundamentally transformed the modern workplace. Since the public release of ChatGPT in November 2022, AI-powered tools have been rapidly adopted across industries.
 
-### Speaking Script (约1分钟)
-> "Let me set the context. Since ChatGPT's release two years ago, AI has rapidly become a workplace standard. But here's the interesting part—there's a generational asymmetry.
-> 
-> Gen Z employees, born between 1995 and 2010, are digital natives. **Industry data confirms this: McKinsey's 2025 research shows employees are using AI for over 30% of daily tasks at a rate 3.25 times higher than their C-suite leaders estimate (13% vs. 4%). Even more striking, IWG reports that 59% of Gen Z employees are actively coaching older colleagues on how to use AI tools.**
-> 
-> This leads to my core research question: **When young employees possess AI skills their supervisors lack, can they use these competencies to influence organizational decisions?**
-> 
-> Traditionally, experience equals power. But in the AI era, could technical competence become a new power base?"
+**Key Industry Data**:
+- 92% of companies plan to increase their AI investments over the next three years (McKinsey, 2025)
+- 92% of Fortune 500 companies already have employees actively using ChatGPT (OpenAI, 2025)
+- Over 70% of employees believe that AI will change more than 30% of their work within two years (McKinsey, 2025)
+
+In China, the national "AI+" strategy has further accelerated the integration of AI into organizational processes, positioning AI literacy as an increasingly critical competency for employees in the digital economy.
 
 ---
 
-## SLIDE 3: Theoretical Foundation
+## Slide 3: Research Background - Generational Asymmetry
 
-### Layout
-```
-┌─────────────────────────────────────────────────────┐
-│  THEORETICAL FOUNDATION                             │
-│                                                     │
-│  [Center: Balance scale icon or visual]             │
-│                                                     │
-│  RESOURCE DEPENDENCE THEORY                         │
-│  "Those who control scarce, valuable resources      │
-│   hold power over those who need them"              │
-│         — Pfeffer & Salancik (1978)                │
-│                                                     │
-├─────────────────────────────────────────────────────┤
-│  [Timeline showing theoretical evolution]           │
-│                                                     │
-│  1978 ─────────→ 2021 ─────────→ 2024 (This Study) │
-│  Pfeffer &      Tripathi        AI Literacy         │
-│  Salancik       (Frontiers)     as Resource         │
-│  ↓              ↓               ↓                   │
-│  Inter-org      Employee-       AI competency       │
-│  Relations      Supervisor      creates new         │
-│                 Dependency      power dynamics      │
-│                                                     │
-├─────────────────────────────────────────────────────┤
-│  [Key Insight box]                                  │
-│  KEY INSIGHT: AI Literacy = Scarce Resource = Power │
-│                                                     │
-└─────────────────────────────────────────────────────┘
-```
+**Section 1.1.2 from Thesis**
 
-### Slide Content (visible text)
-- RDT core statement with citation
-- Three-stage timeline (1978 → 2021 → 2024)
-- Key insight statement
+A distinctive feature of the current AI revolution is the generational asymmetry in technological competence. Generation Z employees, typically defined as those born between 1995 and 2010, have grown up immersed in digital technologies and are often characterized as "digital natives" (Prensky, 2001).
 
-### Speaking Script (约1分钟)
-> "My theoretical foundation is Resource Dependence Theory, proposed by Pfeffer and Salancik in 1978. The core idea is simple: **whoever controls scarce, valuable resources has power over those who need them.**
-> 
-> Originally, this theory explained inter-organizational relationships. But in 2021, Tripathi published a groundbreaking paper in Frontiers in Psychology, extending RDT to the employee-supervisor relationship. He argued that employees who hold 'tacit resources' their managers need can gain upward influence.
-> 
-> My study takes this one step further: I propose that **AI literacy is exactly this kind of scarce resource** that enables young employees to influence their supervisors."
+**Key Industry Data**:
+- 80% of Gen Z employees (aged 18-24) report feeling comfortable using gen AI at work, significantly higher than older cohorts (McKinsey, 2025)
+- 57% of Gen Z employees use generative AI in their daily work (Deloitte, 2025 survey of 23,000+ respondents across 44 countries)
+- 70% of Gen Z actively invest time to develop AI-related skills (Deloitte, 2025)
+- 59% of Gen Z employees are actively coaching older colleagues on how to use AI tools (IWG, 2025)
+- Employees aged 35-44 (core millennials, often in managerial roles) exhibit even higher comfort levels at 90% (McKinsey, 2025)
+
+This creates an interesting power dynamic: while managers typically hold formal authority and institutional knowledge, younger employees may possess superior AI skills that are increasingly valuable in the workplace.
 
 ---
 
-## SLIDE 4: Research Model (KEY SLIDE)
+## Slide 4: Research Background - Shifting Power Dynamics
 
-### Layout
-```
-┌─────────────────────────────────────────────────────┐
-│  RESEARCH MODEL                                     │
-│                                                     │
-│  [Flow diagram - the core visual]                   │
-│                                                     │
-│  ┌─────────────┐    ┌──────────────┐    ┌─────────────────┐
-│  │ AI LITERACY │    │ PERCEIVED    │    │ UPWARD INFLUENCE│
-│  │             │───→│ RESOURCE     │───→│ BEHAVIOR        │
-│  │ • Knowledge │    │ ADVANTAGE    │    │                 │
-│  │ • Affectivity│   │              │    │ • Idea Generation│
-│  │ • Thinking   │   │ "I have what │    │ • Idea Promotion │
-│  │             │    │  my boss     │    │ • Idea           │
-│  │ (Zhong 2024)│    │  needs"      │    │   Implementation │
-│  └─────────────┘    └──────────────┘    └─────────────────┘
-│       (IV)              (Mediator)            (DV)          │
-│                              ↑                              │
-│                    ┌─────────────────┐                      │
-│                    │ SUPERVISOR      │                      │
-│                    │ OPENNESS        │                      │
-│                    │ (Moderator)     │                      │
-│                    └─────────────────┘                      │
-│                                                             │
-├─────────────────────────────────────────────────────┤
-│  RESEARCH PROPOSITIONS:                             │
-│  P1: AI Literacy → Perceived Resource Advantage     │
-│  P2: Perceived Resource Advantage → Upward Influence│
-│  P3: Mediation effect of Perceived Resource Advantage│
-│  P4: Moderation effect of Supervisor Openness       │
-│                                                     │
-└─────────────────────────────────────────────────────┘
-```
+**Section 1.1.3 from Thesis**
 
-### Slide Content (visible text)
-- Complete research model diagram with all four variables
-- Four propositions listed below the model
+According to Resource Dependence Theory (Pfeffer & Salancik, 1978), power in organizations derives from the control of scarce and valuable resources. When Generation Z employees possess AI skills that their supervisors lack, they may acquire a form of resource-based power that enables them to exert upward influence on their managers.
 
-### Speaking Script (约1分30秒)
-> "This is my research model. Let me walk you through it.
-> 
-> On the left is **AI Literacy**, my independent variable. I use Zhong et al.'s 2024 framework from East China Normal University, which defines AI literacy as three dimensions: AI Knowledge—understanding AI concepts; AI Affectivity—attitudes toward AI; and AI Thinking—the ability to think with AI.
-> 
-> In the middle is **Perceived Resource Advantage**, my mediating variable. This is the key psychological mechanism. It's not enough to objectively have AI skills—employees must subjectively perceive that 'I have something my boss needs.' This perception drives action.
-> 
-> On the right is **Upward Influence Behavior**, my dependent variable. Following Scott and Bruce's framework, this includes idea generation, idea promotion, and idea implementation.
-> 
-> At the bottom is **Supervisor Openness**, my moderator. Even with perceived advantages, employees may not act if supervisors are closed to input. This is particularly important in China's high power distance culture.
-> 
-> I have four propositions: P1 links AI literacy to perceived advantage; P2 links perceived advantage to influence behavior; P3 is the mediation; P4 is the moderation."
+**Key Industry Data - The Perception Gap**:
+- Employees are using AI for more than 30% of their daily tasks at a rate **3.25 times higher** than their C-suite leaders estimate (13% vs. 4%) — McKinsey Superagency, 2025
+- This "invisible" adoption creates a form of information asymmetry where subordinates hold resources that supervisors may not even be aware of
+- 47% of C-suite executives express frustration that their companies are developing gen AI tools too slowly
+- 2.4 times more leaders cite "employee readiness" as an adoption barrier compared to employees themselves — despite employees already using AI at rates far exceeding expectations
+
+This phenomenon challenges conventional top-down leadership models and raises important questions about how AI literacy translates into organizational influence.
 
 ---
 
-## SLIDE 5: Key Variables Explained
+## Slide 5: Research Background - The Chinese Context
 
-### Layout
-```
-┌─────────────────────────────────────────────────────┐
-│  KEY VARIABLES                                      │
-│                                                     │
-│  [Three-column layout]                              │
-│                                                     │
-│  ┌────────────────┐ ┌────────────────┐ ┌────────────────┐
-│  │ AI LITERACY    │ │ PERCEIVED      │ │ UPWARD         │
-│  │ (IV)           │ │ RESOURCE       │ │ INFLUENCE      │
-│  │                │ │ ADVANTAGE      │ │ BEHAVIOR (DV)  │
-│  │ [Venn diagram] │ │ (Mediator)     │ │                │
-│  │                │ │                │ │ 1. Generate    │
-│  │   Knowledge    │ │ Subjective     │ │    Ideas       │
-│  │    ╱    ╲     │ │ perception of  │ │                │
-│  │ Affect─Think  │ │ holding        │ │ 2. Promote     │
-│  │                │ │ valuable AI    │ │    Ideas       │
-│  │ (Zhong et al. │ │ resources that │ │                │
-│  │  2024)        │ │ supervisors    │ │ 3. Implement   │
-│  │                │ │ need but lack  │ │    Ideas       │
-│  │                │ │                │ │                │
-│  │                │ │ Key Point:     │ │ (Scott & Bruce │
-│  │                │ │ Skills ≠ Power │ │  1994 adapted) │
-│  │                │ │ Perception     │ │                │
-│  │                │ │ = Power        │ │                │
-│  └────────────────┘ └────────────────┘ └────────────────┘
-│                                                     │
-└─────────────────────────────────────────────────────┘
-```
+**Section 1.1.4 from Thesis**
 
-### Slide Content (visible text)
-- Three variable definitions in parallel columns
-- Key conceptual distinction: "Skills ≠ Power; Perception = Power"
+The Chinese organizational context presents unique characteristics:
+- China's high power distance culture (Hofstede, 2001) traditionally emphasizes hierarchical relationships and deference to authority
+- The rapid pace of digital transformation in Chinese organizations, combined with the large proportion of Generation Z entering the workforce, creates tensions between traditional power structures and emerging technology-driven influence patterns
 
-### Speaking Script (约1分钟)
-> "Let me briefly explain the key variables.
-> 
-> **AI Literacy** has three dimensions: Knowledge—understanding how AI works; Affectivity—confidence and attitudes toward AI; and Thinking—applying AI logic to problems.
-> 
-> **Perceived Resource Advantage** is the critical mediator. Here's the key insight: **having AI skills is not enough**. Employees must perceive that 'I possess something my supervisor needs but lacks.' Only this perception motivates influence attempts.
-> 
-> **Upward Influence Behavior** includes three stages: generating ideas about how AI can improve work, promoting those ideas to leadership, and implementing approved changes.
-> 
-> The core logic: objective competency must become subjective perception before it drives behavior."
+Understanding how AI literacy enables upward influence in this context can provide valuable insights for both theory and practice.
 
 ---
 
-## SLIDE 6: Research Method
+## Slide 6: Core Research Question
 
-### Layout
-```
-┌─────────────────────────────────────────────────────┐
-│  RESEARCH METHODOLOGY                               │
-│                                                     │
-│  [Left column: Method choice]                       │
-│  ┌────────────────────────────┐                    │
-│  │ QUALITATIVE RESEARCH       │                    │
-│  │ Semi-structured Interviews │                    │
-│  │                            │                    │
-│  │ WHY QUALITATIVE?           │                    │
-│  │ • Phenomenon is new (AI)   │                    │
-│  │ • No mature scales exist   │                    │
-│  │ • Need to understand       │                    │
-│  │   "how" not just "if"      │                    │
-│  │ • Exploratory → Future     │                    │
-│  │   quantitative studies     │                    │
-│  └────────────────────────────┘                    │
-│                                                     │
-│  [Right column: Sample & Analysis]                  │
-│  ┌────────────────────────────┐                    │
-│  │ SAMPLE                     │                    │
-│  │ • 15-20 Gen Z employees    │                    │
-│  │ • Born 1995-2010           │                    │
-│  │ • 6+ months work experience│                    │
-│  │ • Regular AI tool users    │                    │
-│  │                            │                    │
-│  │ DATA ANALYSIS              │                    │
-│  │ Thematic Analysis          │                    │
-│  │ (Braun & Clarke, 2006)     │                    │
-│  │                            │                    │
-│  │ [6-step flow diagram]      │                    │
-│  │ 1→2→3→4→5→6               │                    │
-│  │ Familiarize→Code→Theme→   │                    │
-│  │ Review→Define→Report       │                    │
-│  └────────────────────────────┘                    │
-│                                                     │
-└─────────────────────────────────────────────────────┘
-```
+**Central Question**:  
+When young employees possess AI skills that their supervisors lack, can they use these competencies to influence organizational decisions?
 
-### Slide Content (visible text)
-- Qualitative research justification (4 points)
-- Sample: 15-20 Gen Z employees with criteria
-- Analysis method: Thematic Analysis with 6-step flow
+**Research Objectives** (Section 1.2 from Thesis):
 
-### Speaking Script (约1分钟)
-> "I'm using qualitative research—specifically semi-structured interviews.
-> 
-> Why qualitative? Four reasons: First, the phenomenon is new—ChatGPT is only two years old, so no mature scales exist. Second, I want to understand **how** AI literacy translates to influence, not just whether a relationship exists. Third, I want to capture rich contextual details that surveys might miss. Fourth, this exploratory study lays groundwork for future quantitative research.
-> 
-> My sample is 15-20 Generation Z knowledge workers—born 1995 to 2010, with at least 6 months of work experience, who regularly use AI tools.
-> 
-> For analysis, I'll use Braun and Clarke's thematic analysis—a rigorous six-step process from data familiarization to final reporting."
+1. Explore how AI literacy enables Generation Z employees to engage in upward influence behavior in the workplace, identifying the specific mechanisms and processes involved.
+
+2. Investigate the role of perceived resource advantage as a psychological mechanism linking AI literacy to upward influence behavior.
+
+3. Examine how supervisor openness moderates the relationship between AI literacy and upward influence behavior.
+
+4. Provide theoretical insights grounded in Resource Dependence Theory and practical recommendations for talent management and intergenerational collaboration in AI-driven organizations.
 
 ---
 
-## SLIDE 7: Research Significance
+## Slide 7: Theoretical Foundation
 
-### Layout
-```
-┌─────────────────────────────────────────────────────┐
-│  RESEARCH SIGNIFICANCE                              │
-│                                                     │
-│  [Upper section: Theoretical Contributions]         │
-│  ┌────────────────────────────────────────────┐    │
-│  │ THEORETICAL CONTRIBUTIONS                   │    │
-│  │                                             │    │
-│  │ 1. EXTEND RDT to AI Context                │    │
-│  │    From inter-org → employee-supervisor     │    │
-│  │                                             │    │
-│  │ 2. REVEAL Psychological Mechanism           │    │
-│  │    Perceived resource advantage as mediator │    │
-│  │                                             │    │
-│  │ 3. EXPLORE Chinese High Power Distance      │    │
-│  │    How AI disrupts traditional hierarchy    │    │
-│  └────────────────────────────────────────────┘    │
-│                                                     │
-│  [Lower section: Practical Implications]            │
-│  ┌────────────────────────────────────────────┐    │
-│  │ PRACTICAL IMPLICATIONS                      │    │
-│  │                                             │    │
-│  │ For Organizations    For Managers    For    │    │
-│  │                                     Gen Z   │    │
-│  │ ─────────────────  ─────────────  ───────  │    │
-│  │ Manage inter-      Stay open to   Convert  │    │
-│  │ generational       younger        AI skills│    │
-│  │ tech gaps          employees'     into     │    │
-│  │                    input          career   │    │
-│  │                                   capital  │    │
-│  └────────────────────────────────────────────┘    │
-│                                                     │
-└─────────────────────────────────────────────────────┘
-```
+**Core Theory: Resource Dependence Theory (RDT)**
 
-### Slide Content (visible text)
-- Three theoretical contributions (numbered)
-- Three practical implications (for organizations, managers, Gen Z)
+Original Formulation: Pfeffer & Salancik (1978)
+- Core principle: "Those who control scarce, valuable resources hold power over those who need them"
+- Originally applied to inter-organizational relationships
 
-### Speaking Script (约45秒)
-> "Why does this research matter?
-> 
-> **Theoretically**, I make three contributions. First, I extend Resource Dependence Theory to the AI context, applying it at the employee-supervisor level. Second, I reveal the psychological mechanism—perceived resource advantage—that explains how AI competency becomes organizational influence. Third, I explore how AI disrupts traditional power dynamics in China's high power distance culture.
-> 
-> **Practically**, my findings will help organizations manage intergenerational technology gaps, help managers understand how to stay open to input from younger employees, and help Gen Z workers strategically convert their AI skills into career capital."
+**Theoretical Evolution**:
+- 1978: Pfeffer & Salancik — RDT for inter-organizational power
+- 2021: Tripathi (Frontiers in Psychology) — Extended RDT to employee-supervisor relationships; proposed that employees holding "tacit resources" can exert upward influence
+- 2024/This Study: AI literacy as the specific scarce resource that creates new power dynamics
+
+**Key Insight**: AI Literacy = Scarce Resource = Power Base
 
 ---
 
-## SLIDE 8: Timeline & Progress
+## Slide 8: Research Model (Core Slide)
 
-### Layout
-```
-┌─────────────────────────────────────────────────────┐
-│  RESEARCH TIMELINE                                  │
-│                                                     │
-│  [Gantt chart style visualization]                  │
-│                                                     │
-│  Phase    Time       Task              Status       │
-│  ─────────────────────────────────────────────────  │
-│  1        Dec 2024   Literature Review   ✓ Done    │
-│                      & Interview Guide             │
-│                                                     │
-│  2        Jan 2025   Pilot Interviews    Planned   │
-│                      & Adjustments                 │
-│                                                     │
-│  3        Feb 2025   Data Collection     Planned   │
-│                      (15-20 interviews)            │
-│                                                     │
-│  4        Mar 2025   Data Analysis       Planned   │
-│                      & Theme Identification        │
-│                                                     │
-│  5        Apr 2025   Draft Writing       Planned   │
-│                                                     │
-│  6        May 2025   Revision            Planned   │
-│                                                     │
-│  7        Jun 2025   Final Submission    Planned   │
-│                      & Defense                     │
-│                                                     │
-│  ─────────────────────────────────────────────────  │
-│  [Progress bar showing ~15% complete]               │
-│                                                     │
-└─────────────────────────────────────────────────────┘
-```
+**Four Variables and Their Relationships**:
 
-### Slide Content (visible text)
-- 7-phase timeline with dates and tasks
-- Current status indicator (Phase 1 complete)
+1. **AI Literacy (Independent Variable)**
+   - Definition: Zhong et al. (2024) three-dimensional framework
+   - Dimensions: AI Knowledge, AI Affectivity, AI Thinking
 
-### Speaking Script (约30秒)
-> "Here's my research timeline. Phase 1—literature review and interview guide—is complete. That's where we are now.
-> 
-> In January, I'll conduct pilot interviews and refine my questions. February is the main data collection—15 to 20 interviews. March for analysis, April for writing, May for revision, and June for final submission and defense.
-> 
-> This schedule is feasible and includes buffer time for unexpected challenges."
+2. **Perceived Resource Advantage (Mediator)**
+   - Definition: Employees' subjective perception that they hold AI-related resources that their supervisors need but lack
+   - Key insight: Objective skills ≠ Power; Subjective perception = Power
+
+3. **Upward Influence Behavior (Dependent Variable)**
+   - Definition: Adapted from Scott & Bruce (1994)
+   - Three stages: Idea Generation → Idea Promotion → Idea Implementation
+
+4. **Supervisor Openness (Moderator)**
+   - Definition: The extent to which supervisors are receptive to employee input and new ideas (Detert & Burris, 2007)
+   - Critical boundary condition, especially in high power distance cultures
+
+**Research Propositions**:
+- P1: AI Literacy → Perceived Resource Advantage (grounded in RDT)
+- P2: Perceived Resource Advantage → Upward Influence Behavior (grounded in Social Cognitive Theory)
+- P3: Perceived Resource Advantage mediates the AI Literacy → Upward Influence relationship
+- P4: Supervisor Openness moderates the Perceived Resource Advantage → Upward Influence relationship
 
 ---
 
-## SLIDE 9: Closing & Q&A
+## Slide 9: Variable Definitions
 
-### Layout
-```
-┌─────────────────────────────────────────────────────┐
-│                                                     │
-│                                                     │
-│                                                     │
-│               THANK YOU                             │
-│                                                     │
-│      Thank you for your time and attention          │
-│                                                     │
-│                                                     │
-│        I welcome your questions and feedback        │
-│                                                     │
-│                    Q & A                            │
-│                                                     │
-│                                                     │
-│                                                     │
-└─────────────────────────────────────────────────────┘
-```
+**AI Literacy** (Zhong et al., 2024):
+- AI Knowledge: Understanding AI concepts, capabilities, and limitations
+- AI Affectivity: Attitudes, confidence, and emotional responses toward AI
+- AI Thinking: Ability to think with and through AI to solve problems
 
-### Slide Content (visible text)
-- Thank You
-- Q & A
+**Perceived Resource Advantage**:
+- Subjective perception: "I possess something my supervisor needs but lacks"
+- This psychological mechanism transforms objective competencies into behavioral motivation
 
-### Speaking Script (约15秒)
-> "That concludes my proposal presentation. I sincerely appreciate your time and attention, and I welcome your questions and constructive feedback. Thank you."
+**Upward Influence Behavior** (adapted from Scott & Bruce, 1994):
+- Idea Generation: Identifying opportunities where AI can improve work
+- Idea Promotion: Persuading supervisors to adopt AI-related suggestions
+- Idea Implementation: Actively participating in executing approved changes
+
+**Supervisor Openness** (Detert & Burris, 2007):
+- Receptiveness to subordinate input
+- Openness to new technologies and ideas from younger employees
 
 ---
 
-## BACKUP SLIDE: Key References (Show if asked)
+## Slide 10: Research Methodology
 
-### Content
-- **Resource Dependence Theory**: Pfeffer & Salancik (1978)
-- **Employee-Supervisor RDT Extension**: Tripathi (2021), *Frontiers in Psychology*
-- **AI Literacy Framework**: Zhong et al. (2024), *Journal of East China Normal University*
-- **ABCE Model**: Ng et al. (2023), *British Journal of Educational Technology*
-- **Thematic Analysis**: Braun & Clarke (2006)
-- **Leadership Construction**: DeRue & Ashford (2010), *Academy of Management Review*
-- **Industry Data**: McKinsey Superagency (2025), IWG Gen Z Report (2025), Deloitte Gen Z Survey (2025)
+**Approach**: Qualitative Research — Semi-structured In-depth Interviews
 
----
+**Justification for Qualitative Method**:
+1. The phenomenon is novel (ChatGPT released only ~2 years ago)
+2. Need to understand "how" the relationship operates, not just "whether" it exists
+3. No mature quantitative scales exist for this specific phenomenon
+4. Exploratory research to build foundation for future quantitative studies
 
-## TIMING GUIDE
+**Sample**:
+- 15-20 Generation Z knowledge workers
+- Born 1995-2010
+- Minimum 6 months full-time work experience
+- Regular users of AI tools in their work
+- Purposive and snowball sampling
 
-| Slide | Content | Time | Cumulative |
-|-------|---------|------|------------|
-| 1 | Title + Hook | 45 sec | 0:45 |
-| 2 | Research Problem | 1 min | 1:45 |
-| 3 | Theoretical Foundation | 1 min | 2:45 |
-| 4 | Research Model (KEY) | 1.5 min | 4:15 |
-| 5 | Variables Explained | 1 min | 5:15 |
-| 6 | Methodology | 1 min | 6:15 |
-| 7 | Significance | 45 sec | 7:00 |
-| 8 | Timeline | 30 sec | 7:30 |
-| 9 | Q&A | 15 sec | 7:45 |
-
-**Total Speaking Time**: ~8 minutes (leaves buffer for ~10 minutes slot)
-
-**If running short on time**: Skip detailed variable explanation (Slide 5); reference model directly.
-**If time allows**: Spend more time on Research Model (Slide 4) as it's the core.
+**Data Analysis**:
+- Thematic Analysis following Braun & Clarke (2006) six-step process:
+  1. Familiarization with data
+  2. Initial coding
+  3. Searching for themes
+  4. Reviewing themes
+  5. Defining and naming themes
+  6. Writing the report
 
 ---
 
-## NOTES FOR PRESENTATION GENERATOR
+## Slide 11: Research Significance
 
-1. **Visual Priority**: This is designed for image-based PPT generation. Prioritize visual layouts (boxes, arrows, timelines) over text walls.
+**Theoretical Contributions** (Section 1.3.1 from Thesis):
 
-2. **Key Visual Elements**:
-   - Slide 2: Timeline + Comparison table
-   - Slide 3: Balance scale + Timeline
-   - Slide 4: Flow diagram with four connected boxes (CORE VISUAL)
-   - Slide 5: Three-column parallel structure
-   - Slide 6: Two-column layout
-   - Slide 8: Gantt chart style timeline
+1. Extends Resource Dependence Theory (Pfeffer & Salancik, 1978) to the employee-supervisor dyad by examining AI literacy as a form of firm-specific human capital that creates dependency relationships enabling upward influence.
 
-3. **Typography Hierarchy**: 
-   - Titles should stand out
-   - Key phrases can be highlighted or boxed
-   - Supporting text should be smaller
+2. Contributes to AI literacy literature by exploring organizational behavior outcomes beyond educational settings — specifically power, influence, and leadership dynamics.
 
-4. **Color Usage**:
-   - Use one primary color for key concepts
-   - Use accent color for highlights and conclusions
-   - Keep background clean and professional
+3. Advances upward influence literature by identifying AI literacy as a novel antecedent of influence behavior in the context of generational dynamics and digital transformation.
+
+**Practical Implications** (Section 1.3.2 from Thesis):
+
+- For HR managers: Inform talent development strategies and succession planning
+- For organizational leaders: Guide creation of cultures leveraging AI competencies of younger employees while maintaining intergenerational collaboration
+- For Gen Z employees: Understand how to strategically convert AI skills into career capital
+- For Chinese organizations: Manage transition to AI-driven work while respecting cultural norms around hierarchy
+
+---
+
+## Slide 12: Research Timeline
+
+| Phase | Time | Task | Status |
+|-------|------|------|--------|
+| 1 | Dec 2024 | Literature Review & Interview Guide | ✓ Complete |
+| 2 | Jan 2025 | Pilot Interviews & Adjustments | Planned |
+| 3 | Feb 2025 | Data Collection (15-20 interviews) | Planned |
+| 4 | Mar 2025 | Data Analysis & Theme Identification | Planned |
+| 5 | Apr 2025 | Draft Writing | Planned |
+| 6 | May 2025 | Revision based on Supervisor Feedback | Planned |
+| 7 | Jun 2025 | Final Submission & Defense | Planned |
+
+---
+
+## Slide 13: Closing
+
+**Summary**:
+- This study explores a novel phenomenon in the AI era: how Gen Z employees use AI literacy as a resource for organizational influence
+- Grounded in Resource Dependence Theory with clear propositions
+- Qualitative methodology to capture rich, contextual insights
+- Contributions to both theory (RDT extension, AI literacy outcomes) and practice (talent management, intergenerational collaboration)
+
+**Thank you for your attention.**
+
+**Q & A**
+
+---
+
+## Backup Slide: Key References
+
+**Theoretical Foundations**:
+- Pfeffer, J., & Salancik, G. R. (1978). The external control of organizations: A resource dependence perspective.
+- Tripathi, N. (2021). Reverse the lens, set focus on the followers. Frontiers in Psychology.
+- Bandura, A. (1997). Self-efficacy: The exercise of control.
+- DeRue, D. S., & Ashford, S. J. (2010). Who will lead and who will follow? Academy of Management Review.
+
+**AI Literacy**:
+- Zhong, B., Liu, X., & Yang, M. (2024). What is AI literacy. Journal of East China Normal University.
+- Ng, D., et al. (2023). Design and validation of the AI literacy questionnaire. British Journal of Educational Technology.
+
+**Methodology**:
+- Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology.
+- Guest, G., Namey, E., & Chen, M. (2020). A simple method to assess thematic saturation.
+
+**Industry Reports**:
+- McKinsey & Company. (2025). Superagency in the workplace.
+- Deloitte. (2025). 2025 Gen Z and Millennial Survey.
+- International Workplace Group. (2025). Gen Z coaching older colleagues to use AI.
+- OpenAI. (2025). The State of Enterprise AI.

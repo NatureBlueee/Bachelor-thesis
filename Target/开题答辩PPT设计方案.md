@@ -19,7 +19,7 @@
   - 数据/关键词：思源黑体 Medium（加粗）
 
 - **视觉风格**：
-  - 极简主义（每页不超过3个核心元素）
+  - 极简主义（每页不超过4个核心元素）
   - 图标化表达（用icon代替长文字）
   - 渐进式动画（要点逐条出现，不要一次性全显示）
 
@@ -44,10 +44,10 @@
 │   Upward Influence Behavior among   │
 │   Generation Z Employees            │
 │                                     │
-│   汇报人：XXX                        │
-│   指导教师：XXX                      │
-│   华侨学院 工商管理专业                │
-│   2024年12月                         │
+│   汇报人：Chenxi Zhang                        │
+│   指导教师: Luna                      │
+│   Overseas Chinese Collegue Business Administration                │
+│   2025年12月                         │
 │                                     │
 └─────────────────────────────────────┘
 ```
