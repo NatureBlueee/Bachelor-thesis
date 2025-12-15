@@ -200,60 +200,67 @@ Z世代员工掌握AI素养（稀缺资源）
 
 ---
 
-## 九、Z世代术语的理论处理
+## 九、Z世代术语的处理
 
-### 9.1 Parry & Urwin (2011) 的理论警示
+### 9.1 定位：样本界定，而非理论辩论
 
-**文献来源**: Parry, E., & Urwin, P. (2011). Generational differences in work values: A review of theory and evidence. *International Journal of Management Reviews*, 13(1), 79-96.
+本研究中"Z世代"仅作为**研究对象的界定**，不涉及代际理论的深入辩论。
 
-**核心警示**：代际差异的实证证据"充其量是混合的"(mixed at best)
+**核心逻辑**：
+- Z世代 → 特征识别（数字原住民、AI亲和力）→ 作为研究AI素养与向上影响的合适样本
+- 不需要证明"代际差异是否存在"，只需引用权威文献说明这个群体的特征
 
-> "Many studies are unable to find the predicted differences in work values, and those that do often fail to distinguish between 'generation' and 'age' as possible drivers of such observed differences."
+### 9.2 权威文献支撑
 
-### 9.2 关键概念区分
+| 文献 | 类型 | Z世代特征 |
+|------|------|----------|
+| **Schroth (2019)** CMR | 综述 | 成就导向、数字原住民、偏好即时反馈、缺乏工作经验、希望想法被重视 |
+| **Seemiller & Grace (2016)** | 经典著作 | 数字原住民、期待使用数字工具、重视多元和真实性 |
+| **Zahra et al. (2025)** | Scoping Review | 工作期望、技术角色、代际挑战、领导风格 |
 
-| 概念 | 定义 | 与本研究的关系 |
-|------|------|---------------|
-| **Generations（代际）** | 共享历史事件和文化现象影响而形成的独特群体 | 需要"社会邻近性" |
-| **Cohorts（队列）** | 在同一时间出生、因共享经历而相似的群体 | 本研究的Z世代更接近此概念 |
-| **Age effects（年龄效应）** | 个体随成熟而发生的变化 | 可能与代际效应混淆 |
-| **Period effects（时期效应）** | 环境对价值观的混淆影响 | 如AI时代的影响 |
+### 9.3 论文中的Z世代逻辑链
 
-### 9.3 方法论问题
+```
+1. 定义Z世代（1995-2010出生）
+      ↓
+2. 引用特征文献（Schroth, 2019; Seemiller & Grace, 2016）：
+   - 数字原住民 → 天然AI亲和力
+   - 期望想法被重视 → 向上影响意愿
+   - 敢于挑战过时规范 → 与传统等级文化的张力
+      ↓
+3. 连接到研究问题：
+   - 这些特征使Z世代成为研究"AI素养→向上影响"的理想样本
+   - 中国高权力距离情境放大了这种张力
+```
 
-1. 大多数研究使用**横截面设计**，无法区分代际效应和年龄效应
-2. 对"代际"vs."队列"定义的**混淆**
-3. 缺乏对**国家情境**、性别和种族差异的考虑
+### 9.4 论文2.4节现有内容检查
 
-### 9.4 对本研究的处理建议
+**✅ 已有的支撑**：
+- Seemiller & Grace (2016) - 数字原住民特征
+- Schroth (2019) - 职场特征和期望
+- Hofstede (2001) - 中国情境的高权力距离
 
-**在论文中的处理方式**：
+**⚠️ 可补充（非必须）**：
+- Zahra et al. (2025) - 2025年最新综述，强化时效性
+- Bencsik et al. (2016) - Y and Z Generations at Workplaces
 
-1. **研究局限部分承认**：
-   - 明确承认本研究使用"Z世代"这一概念更接近于"队列"而非严格意义上的"代际"
-   - 指出无法完全区分代际效应与年龄/职业阶段效应
+### 9.5 研究局限的简单处理
 
-2. **避免刻板印象**：
-   - 不假设所有Z世代员工都有相同的AI素养水平
-   - 访谈关注**个体差异**，而非代际同质性
+在论文研究局限部分，一句话带过即可：
 
-3. **中国情境的独特性**：
-   - 西方的代际划分是否适用于中国需要审慎考虑
-   - 在讨论部分探讨这一局限
+> "This study focuses on employees born between 1995-2010, commonly referred to as Generation Z. While we acknowledge scholarly debates about the conceptual validity of generational categories (Parry & Urwin, 2011), our focus is on this cohort's demonstrated characteristics—particularly technological fluency and AI affinity—rather than making claims about inherent generational differences."
 
-4. **替代概念考虑**：
-   - 可使用更具体的特征描述，如"职场新人"、"数字原住民员工"或"高AI素养的年轻员工"
-   - 但为保持与主流文献对话，保留"Z世代"术语
+### 9.6 结论
 
-### 9.5 论文具体写法建议
+**不需要**：
+- 讨论代际效应 vs 年龄效应 vs 时期效应
+- 论证"代际"是否是有效的分析范畴
+- 担心Parry & Urwin (2011)的批评
 
-**在2.4节（Generation Z in the Workplace）可加入**：
-
-> "While this study uses 'Generation Z' as a convenient label for employees born between 1995-2010, we acknowledge Parry and Urwin's (2011) caution that generational differences in work values may be overstated and difficult to distinguish from age or period effects. Following their recommendation, our qualitative approach focuses on individual variation rather than assuming generational homogeneity."
-
-**在研究局限部分**：
-
-> "A key limitation relates to the use of generational categories. Scholars have questioned whether 'generations' represent meaningful analytical categories distinct from simple birth cohorts or age effects (Parry & Urwin, 2011). Our cross-sectional design cannot definitively distinguish whether observed patterns reflect stable generational characteristics or transient life-stage phenomena."
+**只需要**：
+- 引用2-3篇权威文献定义Z世代特征
+- 说明这些特征与研究问题的相关性
+- 研究局限中一句话承认概念争议
 
 ---
 
