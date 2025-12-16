@@ -26,4 +26,4 @@
 ## 📅 下一步 (Next Steps)
 
 1. **Methodology**: 更新访谈提纲，加入探测“自主性”和“被倾听感”的问题。
-2. **References**: 清洗参考文献列表，确保 PR-0004 引入的新文献（Schroth, Murphy, Chen et al., Liang et al.）格式正确。
+2. **References**: 清洗参考文献列表，确保 PR-0004 引入的新文献格式正确。 ✅ 2025-12-16 已完成

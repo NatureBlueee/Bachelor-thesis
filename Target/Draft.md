@@ -30,11 +30,15 @@ $$待填写$$
 
 AI素养对Z世代员工向上影响行为的影响：资源依赖视角
 
-$$学生姓名$$
+$$张晨曦$$
 
-随着ChatGPT等生成式人工智能工具的快速发展，人工智能素养已成为现代职场中的关键能力。值得注意的是，Z世代员工（1995-2010年出生）作为”数字原住民”，往往比其管理者和资深同事拥有更高水平的AI素养，这种代际技术能力差异有可能重塑组织内部传统的权力动态。本研究基于资源依赖理论，采用定性研究方法，通过对15-20名Z世代知识型员工的半结构化深度访谈，探索AI素养如何影响员工的向上影响行为。研究聚焦于感知资源优势的中介作用以及上级开放性的调节作用，旨在揭示AI时代年轻员工获得组织影响力的微观机制。研究发现将为AI驱动型组织的人才管理和代际协作提供理论洞见与实践建议。
+ChatGPT问世不过两年，生成式AI已从技术玩物演变为职场必需品。一个耐人寻味的现象随之浮现：在AI应用这件事上，刚入职的Z世代员工往往比他们的管理者更熟练——这种代际间的技能倒挂，在以往任何一轮技术革命中都极为罕见。资源依赖理论告诉我们，当你持有对方需要却无法自行获取的资源，权力便向你倾斜。那么，当AI素养成为这样一种"稀缺资源"，年轻员工会因此获得影响上级的能力吗？这种影响又是如何发生的？
 
-关键词： AI素养；向上影响行为；资源依赖理论；Z世代员工；感知资源优势
+本研究正是围绕这一问题展开。我采用定性方法，通过对15-20名在工作中使用AI的Z世代知识型员工进行深度访谈，探索AI素养如何转化为向上影响行为。研究聚焦于"感知资源优势"这一中介机制——即员工对"我有上司需要的东西"这一认知——并考察上级开放性作为边界条件的调节作用。
+
+研究的理论贡献在于将资源依赖理论的分析单元从组织间下沉到上下级关系层面，揭示AI时代职场权力动态重构的微观过程。实践层面，研究将为组织如何激活年轻员工的AI赋能潜力、促进代际知识双向流动提供依据。
+
+关键词：AI素养；向上影响行为；资源依赖理论；Z世代员工；感知资源优势
 
 ABSTRACT
 
@@ -42,7 +46,11 @@ The Impact of AI Literacy on Upward Influence Behavior among Generation Z Employ
 
 $$Student Name$$
 
-With the rapid advancement of generative artificial intelligence technologies such as ChatGPT, AI literacy has become a critical competency in the modern workplace. Notably, Generation Z employees (born 1995-2010), as “digital natives,” often possess higher levels of AI literacy compared to their managers and senior colleagues, creating a generational asymmetry that has the potential to reshape traditional power dynamics within organizations. Grounded in Resource Dependence Theory, this study adopts a qualitative research approach, utilizing semi-structured in-depth interviews with 15-20 Generation Z knowledge workers to explore how AI literacy influences upward influence behavior. The research focuses on the mediating role of perceived resource advantage and the moderating role of supervisor openness, aiming to reveal the micro-mechanisms through which young employees acquire organizational influence in the AI era. The findings will provide theoretical insights and practical recommendations for talent management and intergenerational collaboration in AI-driven organizations.
+arely two years after ChatGPT's launch, generative AI has evolved from a technological novelty into a workplace essential. A striking phenomenon has emerged in parallel: in AI application, newly hired Generation Z employees often outperform their managers—an inversion of competence rarely seen in previous technological revolutions. Resource Dependence Theory suggests that when you control resources others need but cannot acquire on their own, power tilts in your favor. Does AI literacy, then, constitute such a "scarce resource" that enables young employees to influence their supervisors? And through what mechanisms does this influence unfold?
+
+This study tackles precisely these questions. Employing qualitative methods, I conduct in-depth interviews with 15-20 Generation Z knowledge workers who use AI in their daily work, exploring how AI literacy translates into upward influence behavior. The research focuses on perceived resource advantage—the subjective recognition that "I possess something my supervisor needs"—as the mediating mechanism, while examining supervisor openness as a moderating boundary condition.
+
+Theoretically, this study extends Resource Dependence Theory by shifting its unit of analysis from inter-organizational to supervisor-subordinate relationships, illuminating the micro-level processes through which workplace power dynamics are being reconfigured in the AI era. Practically, the findings will inform how organizations can activate the AI-enabled potential of young employees and foster bidirectional intergenerational knowledge flows.
 
 Key words: AI Literacy; Upward Influence Behavior; Resource Dependence Theory; Generation Z Employees; Perceived Resource Advantage
 
@@ -723,9 +731,13 @@ Kipnis, D., Schmidt, S. M., & Wilkinson, I. (1980). Intraorganizational influenc
 
 Kvale, S., & Brinkmann, S. (2009). InterViews: Learning the craft of qualitative research interviewing (2nd ed.). SAGE Publications.
 
+Liang, X. J., Yu, G. L., & Fu, B. (2019). Do employees with good relationships with supervisors voice? A dual-mediation model based on conservation of resources theory [与上级关系好的员工一定会建言吗?基于资源保存理论的双中介模型]. Management Review, 31(4), 128-137.
+
 Long, D., & Magerko, B. (2020). What is AI literacy? Competencies and design considerations. Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems, 1-16. https://doi.org/10.1145/3313831.3376727
 
 Malterud, K., Siersma, V. D., & Guassora, A. D. (2016). Sample size in qualitative interview studies: Guided by information power. Qualitative Health Research, 26(13), 1753-1760. https://doi.org/10.1177/1049732315617444
+
+Murphy, W. M. (2012). Reverse mentoring at work: Fostering cross-generational learning and developing millennial leaders. Human Resource Management, 51(4), 549-573. https://doi.org/10.1002/hrm.21489
 
 Naeem, M., Ozuem, W., Howell, K., & Ranfagni, S. (2023). A step-by-step process of thematic analysis to develop a conceptual model in qualitative research. International Journal of Qualitative Methods, 22, 16094069231205789. https://doi.org/10.1177/16094069231205789
 
@@ -760,6 +772,12 @@ International Workplace Group. (2025, August 19). New research reveals Gen Z is 
 McKinsey & Company. (2025, November). Superagency in the workplace: Empowering people to unlock AI's full potential. https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/superagency-in-the-workplace
 
 OpenAI. (2025, December). The State of Enterprise AI. OpenAI Enterprise Report.
+
+**中文文献**
+
+陈文平, 段锦云, 田晓明. (2013). 员工为什么不建言:基于中国文化视角的解析. 心理科学进展, 21(5), 905-913.
+
+梁潇杰, 于桂兰, 付博. (2019). 与上级关系好的员工一定会建言吗?基于资源保存理论的双中介模型. 管理评论, 31(4), 128-137.
 
 钟柏昌, 刘晓凡, 杨明欢. (2024). 何谓人工智能素养：本质、构成与评价体系. 华东师范大学学报（教育科学版）, (1), 71-84. https://doi.org/10.16382/j.cnki.1000-5560.2024.01.007
 

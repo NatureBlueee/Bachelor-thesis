@@ -1,8 +1,7 @@
 ---
-trigger: model_decision
+trigger: always_on
 description: 论文写作规则。核心原则：通过PR修改Target/Draft.md、每个论点需文献支撑、APA第7版引用格式、保持整体风格一致。包含正文引用格式（单/双/多作者）、参考文献格式（期刊/专著）、修改流程（创建PR→讨论→合并→更新Context）、质量检查清单。
 ---
-
 
 # 论文写作规则
 

@@ -1,14 +1,18 @@
-# Proposal Defense PPT Content Framework
+ Proposal Defense PPT Content Framework
 
 Title: The Impact of AI Literacy on Upward Influence Behavior among Generation Z Employees: A Resource Dependence Perspective
 
-## Overall Style
+ Overall Style
 
-Academic yet modern. Clean layout with ample white space. Use a professional color scheme such as navy blue and white or dark gray and teal. Typography should be clear and readable with sans-serif fonts like Calibri or Arial. Each slide should have one main message. Avoid clutter and decorative elements. Data points should be visually highlighted when they appear. Diagrams should be simple and geometric. The overall impression should be scholarly but contemporary, reflecting the intersection of traditional organizational theory and emerging AI technology.
+ Visual Style: "Academic Tech"
+
+The visual style should embody an "Academic Tech" aesthetic that bridges professional rigor with digital innovation. The design needs to feel structured and authoritative to reflect the theoretical foundations, while incorporating fluid and energetic accents to represent the AI context.
+
+The color palette should rely on a deep midnight blue base for professionalism, using electric teal or cyan sparingly to highlight key AI elements and data. Layouts must prioritize extreme simplicity with generous white space, strictly adhering to a one-idea-per-slide principle. Visuals should be clean and geometric, avoiding decorative clutter and focusing attention solely on critical data points. Typography should remain clean, modern, and highly readable throughout.
 
 ---
 
-## Slide 1: Title
+ Slide 1: Title
 
 Title in English
 Presenter: Chenxi Zhang
@@ -18,7 +22,7 @@ December 2025
 
 ---
 
-## Slide 2: Research Background
+ Slide 2: Research Background
 
 The rapid advancement of AI technologies has transformed the modern workplace. A distinctive feature is the generational asymmetry in AI competence. Generation Z employees often possess superior AI skills compared to their supervisors, creating an interesting power dynamic.
 
@@ -31,7 +35,7 @@ This phenomenon challenges conventional leadership models and raises questions a
 
 ---
 
-## Slide 3: Research Question and Objectives
+ Slide 3: Research Question and Objectives
 
 Core Question: When young employees possess AI skills their supervisors lack, can they use these competencies to influence organizational decisions?
 
@@ -43,7 +47,7 @@ Objectives:
 
 ---
 
-## Slide 4: Theoretical Foundation
+ Slide 4: Theoretical Foundation
 
 Core Theory: Resource Dependence Theory (Pfeffer and Salancik, 1978)
 
@@ -56,7 +60,7 @@ Theoretical Evolution:
 
 ---
 
-## Slide 5: Research Model
+ Slide 5: Research Model
 
 Four Variables:
 1. AI Literacy (IV): AI knowledge, affectivity, thinking (Zhong et al. 2024)
@@ -72,7 +76,7 @@ Propositions:
 
 ---
 
-## Slide 6: Methodology
+ Slide 6: Methodology
 
 Approach: Qualitative research using semi-structured interviews
 
@@ -87,7 +91,7 @@ Justification: The phenomenon is novel and requires understanding how the relati
 
 ---
 
-## Slide 7: Significance
+ Slide 7: Significance
 
 Theoretical Contributions:
 - Extends RDT to employee-supervisor dyad with AI literacy as the resource
@@ -101,7 +105,7 @@ Practical Implications:
 
 ---
 
-## Slide 8: Timeline
+ Slide 8: Timeline
 
 Dec 2024: Literature review and interview guide (Complete)
 Jan 2025: Pilot interviews
@@ -113,7 +117,7 @@ Jun 2025: Submission and defense
 
 ---
 
-## Slide 9: Closing
+ Slide 9: Closing
 
 Thank you for your attention.
 

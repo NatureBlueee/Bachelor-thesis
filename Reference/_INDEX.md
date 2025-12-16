@@ -33,7 +33,7 @@
 | 27 | Well-being-oriented human resource management practices | `Well-being-oriented human resource management practices and employee performance in the Chinese bank.md` |
 | 28 | Y and Z Generations at Workplaces | `Y and Z Generations at Workplaces.md` |
 
-## 中文文献 (4篇)
+## 中文文献 (6篇)
 
 | 编号 | 论文标题 | 文件名 |
 |------|----------|--------|
@@ -41,6 +41,8 @@
 | 30 | 人工智能时代下"Z世代"员工的自我角色认知 | `人工智能时代下"Z世代"员工的自我角色认知.md` |
 | 31 | 后Morrison (2011) 以来员工建言研究的演进与整合 | `后Morrison (2011) 以来员工建言研究的演进与整合.md` |
 | 32 | 平台型领导赋能共同成长："己欲达而达人"的反哺学习机制 | `平台型领导赋能共同成长 -"己欲达而达人"的反哺学习机制.md` |
+| 33 | 员工为什么不建言：基于中国文化视角的解析 | `员工为什么不建言：基于中国文化视角的解析-.md` |
+| 34 | 与上级关系好的员工一定会建言吗？基于资源保存理论的双中介模型 | `与上级关系好的员工一定会建言吗？ 基于资源保存理论的双中介模型.md` |
 
 ---
 
