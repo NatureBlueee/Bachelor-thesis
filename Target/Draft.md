@@ -252,6 +252,8 @@ Particularly relevant to the Chinese context is the three-dimensional framework 
 
 Zhong’s framework is grounded in Piaget’s genetic epistemology and Bloom’s taxonomy of educational objectives, providing a theoretically robust foundation. The framework emphasizes the dynamic transformation among the three dimensions, suggesting that AI literacy develops through the interplay of knowing, feeling, and thinking about AI.
 
+Although developed within educational research, Zhong's framework captures AI literacy as an internalized cognitive and affective capacity—the foundation upon which workplace behaviors are built. The three dimensions describe how individuals know, feel, and think about AI, capacities that are not context-bound but rather form the basis for context-specific applications.
+
 2.2.3 AI Literacy in Organizational Contexts
 
 While most research on AI literacy has focused on educational settings, Cetindamar et al. (2022) made an important contribution by explicating AI literacy in the context of digital workplaces. Their study, published in IEEE Transactions on Engineering Management, identified key competencies that employees need to effectively use AI tools in professional settings. Wang et al. (2022) further developed and validated an AI literacy scale specifically designed for general users, demonstrating good reliability (Cronbach’s α = 0.906) in Chinese samples.
@@ -273,6 +275,10 @@ Table 2.1 Comparison of AI Literacy Frameworks
 Upward influence refers to employees’ attempts to affect the attitudes, perceptions, or behaviors of their supervisors or other organizational members who hold higher positions (Kipnis et al., 1980). Unlike downward influence, which flows from managers to subordinates and is often supported by formal authority, upward influence requires employees to rely on alternative power bases such as expertise, information control, or personal relationships.
 
 The study of upward influence has a rich tradition in organizational behavior research. Kipnis, Schmidt, and Wilkinson (1980) developed the foundational taxonomy of influence tactics, identifying strategies such as rational persuasion, ingratiation, coalition building, and pressure. Subsequent research has refined this taxonomy and examined the antecedents, processes, and outcomes of upward influence across different contexts.
+
+It is worth distinguishing upward influence behavior from reverse mentoring—a related but distinct phenomenon. Reverse mentoring typically refers to formalized organizational arrangements in which junior employees are paired with senior colleagues to share specialized expertise (Murphy, 2012). The key distinction lies in origin: reverse mentoring is **institutionally mandated**, whereas upward influence behavior is **self-initiated**.
+
+This study focuses on the latter, as it better aligns with the workplace characteristics of Generation Z. As noted in Section 2.4.1, Gen Z employees value authenticity and autonomy, and are willing to challenge established norms (Schroth, 2019). They are driven by a desire to have their ideas heard and implemented, rather than simply participating in assigned programs. Upward influence behavior, as a proactive and employee-driven activity, captures this spontaneous agency and the desire to make a direct impact on the organization.
 
 2.3.2 Dimensions of Upward Influence Behavior
 
@@ -305,6 +311,8 @@ Generation Z, typically defined as individuals born between 1995 and 2010, repre
 
 Research on Gen Z in the workplace has identified several distinctive characteristics. Gen Z employees tend to be technologically fluent, comfortable with multitasking, and expect to use digital tools in their work. They value authenticity, diversity, and meaningful work, and may be more willing than previous generations to challenge organizational norms that they perceive as outdated or inefficient (Schroth, 2019).
 
+Furthermore, Schroth (2019) highlights a fundamental shift in the psychological contract for Generation Z. Unlike previous generations who might view respect as deference to hierarchy, Gen Z employees equate respect with **being heard**. They possess a strong "do-it-yourself" mindset and a desire for autonomy, often preferring to drive solutions themselves rather than waiting for top-down directives. Consequently, when they perceive organizational inefficiencies, their instinct is not to withdraw but to actively seek influence, expecting their unique perspectives—including their digital expertise—to be validated by their supervisors.
+
 2.4.2 Generational Dynamics and Power
 
 The entry of Generation Z into the workforce has created interesting dynamics around knowledge and power. In traditional organizations, knowledge and expertise typically accumulated with tenure, reinforcing the authority of senior employees. However, the rapid pace of technological change has disrupted this pattern. In the domain of AI and digital technologies, younger employees often possess superior skills, creating what some scholars have termed a “reverse knowledge gap.”
@@ -314,6 +322,8 @@ This dynamic has implications for power relationships in organizations. Accordin
 2.4.3 The Chinese Organizational Context
 
 The Chinese organizational context presents unique characteristics that make this research particularly relevant and theoretically interesting. China is characterized by high power distance (Hofstede, 2001), meaning that hierarchical relationships and deference to authority are culturally emphasized. In traditional Chinese organizations, subordinates are expected to show respect for their superiors and may be hesitant to challenge or openly influence those in positions of authority.
+
+Empirical studies confirm this pattern: high power distance has been shown to suppress employee voice behavior in Chinese organizations (Chen et al., 2013), as subordinates weigh the relational costs of speaking up. Yet the picture is not purely one of constraint. Liang et al. (2019) found that supervisor-subordinate guanxi operates as a double-edged sword—close relationships provide psychological safety that encourages voice, but simultaneously raise concerns about "face" (mianzi), as employees worry that suggestions may be perceived as implicit criticism of their supervisor's competence.
 
 However, several contemporary forces are creating tensions with these traditional norms. First, China’s rapid digital transformation, accelerated by the national “AI+” strategy, has created urgent demand for AI competencies that younger employees are more likely to possess. Second, the large cohort of Generation Z entering the workforce brings different expectations about workplace dynamics, including greater comfort with challenging established practices. Third, multinational companies and technology firms in China often adopt flatter organizational structures that may encourage more open communication across hierarchical levels.
 
