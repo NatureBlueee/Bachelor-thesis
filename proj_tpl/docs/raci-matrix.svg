@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1180" height="560" viewBox="0 0 1180 560" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: 700 20px Arial, Helvetica, sans-serif; fill: #111827; }
+    .label { font: 600 13px Arial, Helvetica, sans-serif; fill: #111827; }
+    .legend { font: 500 12px Arial, Helvetica, sans-serif; fill: #374151; }
+    .cell { font: 500 12px Arial, Helvetica, sans-serif; fill: #111827; }
+    .badge-text { font: 700 12px Arial, Helvetica, sans-serif; fill: #ffffff; text-anchor: middle; dominant-baseline: middle; }
+  </style>
+
+  <text class="title" x="40" y="30">RACI Responsibility Matrix</text>
+
+  <g id="legend">
+    <rect x="40" y="44" width="22" height="18" rx="4" fill="#1f9d55" />
+    <text class="badge-text" x="51" y="53">R</text>
+    <text class="legend" x="70" y="53" dominant-baseline="middle">Responsible</text>
+
+    <rect x="200" y="44" width="22" height="18" rx="4" fill="#3b82f6" />
+    <text class="badge-text" x="211" y="53">A</text>
+    <text class="legend" x="230" y="53" dominant-baseline="middle">Accountable</text>
+
+    <rect x="360" y="44" width="22" height="18" rx="4" fill="#f59e0b" />
+    <text class="badge-text" x="371" y="53">C</text>
+    <text class="legend" x="390" y="53" dominant-baseline="middle">Consulted</text>
+
+    <rect x="500" y="44" width="22" height="18" rx="4" fill="#9ca3af" />
+    <text class="badge-text" x="511" y="53">I</text>
+    <text class="legend" x="530" y="53" dominant-baseline="middle">Informed</text>
+  </g>
+
+  <g id="table">
+    <rect x="40" y="80" width="1100" height="400" rx="10" fill="#ffffff" stroke="#e5e7eb" />
+    <rect x="40" y="80" width="1100" height="50" fill="#f3f4f6" />
+    <rect x="40" y="130" width="200" height="350" fill="#f9fafb" />
+
+    <line x1="40" y1="80" x2="1140" y2="80" stroke="#e5e7eb" />
+    <line x1="40" y1="130" x2="1140" y2="130" stroke="#e5e7eb" />
+    <line x1="40" y1="200" x2="1140" y2="200" stroke="#e5e7eb" />
+    <line x1="40" y1="270" x2="1140" y2="270" stroke="#e5e7eb" />
+    <line x1="40" y1="340" x2="1140" y2="340" stroke="#e5e7eb" />
+    <line x1="40" y1="410" x2="1140" y2="410" stroke="#e5e7eb" />
+    <line x1="40" y1="480" x2="1140" y2="480" stroke="#e5e7eb" />
+
+    <line x1="40" y1="80" x2="40" y2="480" stroke="#e5e7eb" />
+    <line x1="240" y1="80" x2="240" y2="480" stroke="#e5e7eb" />
+    <line x1="390" y1="80" x2="390" y2="480" stroke="#e5e7eb" />
+    <line x1="540" y1="80" x2="540" y2="480" stroke="#e5e7eb" />
+    <line x1="690" y1="80" x2="690" y2="480" stroke="#e5e7eb" />
+    <line x1="840" y1="80" x2="840" y2="480" stroke="#e5e7eb" />
+    <line x1="990" y1="80" x2="990" y2="480" stroke="#e5e7eb" />
+    <line x1="1140" y1="80" x2="1140" y2="480" stroke="#e5e7eb" />
+  </g>
+
+  <g id="header" class="label" text-anchor="middle" dominant-baseline="middle">
+    <text x="140" y="105">Role / Phase</text>
+    <text x="315" y="105">Biz Direction</text>
+    <text x="465" y="105">PRD/Story</text>
+    <text x="615" y="105">Tech Design</text>
+    <text x="765" y="105">Project Plan</text>
+    <text x="915" y="105">Build/Deliver</text>
+    <text x="1065" y="105">Release/QA</text>
+  </g>
+
+  <g id="roles" class="label" text-anchor="middle" dominant-baseline="middle">
+    <text x="140" y="165">biz-owner</text>
+    <text x="140" y="235">prd</text>
+    <text x="140" y="305">tech</text>
+    <text x="140" y="375">proj</text>
+    <text x="140" y="445">dev</text>
+  </g>
+
+  <g id="badges">
+    <!-- biz-owner row -->
+    <rect x="284" y="153" width="28" height="24" rx="6" fill="#1f9d55" />
+    <text class="badge-text" x="298" y="165">R</text>
+    <rect x="318" y="153" width="28" height="24" rx="6" fill="#3b82f6" />
+    <text class="badge-text" x="332" y="165">A</text>
+
+    <rect x="451" y="153" width="28" height="24" rx="6" fill="#f59e0b" />
+    <text class="badge-text" x="465" y="165">C</text>
+
+    <rect x="601" y="153" width="28" height="24" rx="6" fill="#9ca3af" />
+    <text class="badge-text" x="615" y="165">I</text>
+
+    <rect x="751" y="153" width="28" height="24" rx="6" fill="#9ca3af" />
+    <text class="badge-text" x="765" y="165">I</text>
+
+    <rect x="901" y="153" width="28" height="24" rx="6" fill="#9ca3af" />
+    <text class="badge-text" x="915" y="165">I</text>
+
+    <rect x="1051" y="153" width="28" height="24" rx="6" fill="#9ca3af" />
+    <text class="badge-text" x="1065" y="165">I</text>
+
+    <!-- prd row -->
+    <rect x="301" y="223" width="28" height="24" rx="6" fill="#f59e0b" />
+    <text class="badge-text" x="315" y="235">C</text>
+
+    <rect x="434" y="223" width="28" height="24" rx="6" fill="#1f9d55" />
+    <text class="badge-text" x="448" y="235">R</text>
+    <rect x="468" y="223" width="28" height="24" rx="6" fill="#3b82f6" />
+    <text class="badge-text" x="482" y="235">A</text>
+
+    <rect x="601" y="223" width="28" height="24" rx="6" fill="#f59e0b" />
+    <text class="badge-text" x="615" y="235">C</text>
+
+    <rect x="751" y="223" width="28" height="24" rx="6" fill="#9ca3af" />
+    <text class="badge-text" x="765" y="235">I</text>
+
+    <rect x="901" y="223" width="28" height="24" rx="6" fill="#9ca3af" />
+    <text class="badge-text" x="915" y="235">I</text>
+
+    <rect x="1051" y="223" width="28" height="24" rx="6" fill="#f59e0b" />
+    <text class="badge-text" x="1065" y="235">C</text>
+
+    <!-- tech row -->
+    <rect x="301" y="293" width="28" height="24" rx="6" fill="#9ca3af" />
+    <text class="badge-text" x="315" y="305">I</text>
+
+    <rect x="451" y="293" width="28" height="24" rx="6" fill="#f59e0b" />
+    <text class="badge-text" x="465" y="305">C</text>
+
+    <rect x="584" y="293" width="28" height="24" rx="6" fill="#1f9d55" />
+    <text class="badge-text" x="598" y="305">R</text>
+    <rect x="618" y="293" width="28" height="24" rx="6" fill="#3b82f6" />
+    <text class="badge-text" x="632" y="305">A</text>
+
+    <rect x="751" y="293" width="28" height="24" rx="6" fill="#f59e0b" />
+    <text class="badge-text" x="765" y="305">C</text>
+
+    <rect x="901" y="293" width="28" height="24" rx="6" fill="#f59e0b" />
+    <text class="badge-text" x="915" y="305">C</text>
+
+    <rect x="1051" y="293" width="28" height="24" rx="6" fill="#f59e0b" />
+    <text class="badge-text" x="1065" y="305">C</text>
+
+    <!-- proj row -->
+    <rect x="301" y="363" width="28" height="24" rx="6" fill="#9ca3af" />
+    <text class="badge-text" x="315" y="375">I</text>
+
+    <rect x="451" y="363" width="28" height="24" rx="6" fill="#9ca3af" />
+    <text class="badge-text" x="465" y="375">I</text>
+
+    <rect x="601" y="363" width="28" height="24" rx="6" fill="#f59e0b" />
+    <text class="badge-text" x="615" y="375">C</text>
+
+    <rect x="734" y="363" width="28" height="24" rx="6" fill="#1f9d55" />
+    <text class="badge-text" x="748" y="375">R</text>
+    <rect x="768" y="363" width="28" height="24" rx="6" fill="#3b82f6" />
+    <text class="badge-text" x="782" y="375">A</text>
+
+    <rect x="901" y="363" width="28" height="24" rx="6" fill="#f59e0b" />
+    <text class="badge-text" x="915" y="375">C</text>
+
+    <rect x="1051" y="363" width="28" height="24" rx="6" fill="#3b82f6" />
+    <text class="badge-text" x="1065" y="375">A</text>
+
+    <!-- dev row -->
+    <rect x="301" y="433" width="28" height="24" rx="6" fill="#9ca3af" />
+    <text class="badge-text" x="315" y="445">I</text>
+
+    <rect x="451" y="433" width="28" height="24" rx="6" fill="#9ca3af" />
+    <text class="badge-text" x="465" y="445">I</text>
+
+    <rect x="601" y="433" width="28" height="24" rx="6" fill="#f59e0b" />
+    <text class="badge-text" x="615" y="445">C</text>
+
+    <rect x="751" y="433" width="28" height="24" rx="6" fill="#f59e0b" />
+    <text class="badge-text" x="765" y="445">C</text>
+
+    <rect x="884" y="433" width="28" height="24" rx="6" fill="#1f9d55" />
+    <text class="badge-text" x="898" y="445">R</text>
+    <rect x="918" y="433" width="28" height="24" rx="6" fill="#3b82f6" />
+    <text class="badge-text" x="932" y="445">A</text>
+
+    <rect x="1051" y="433" width="28" height="24" rx="6" fill="#1f9d55" />
+    <text class="badge-text" x="1065" y="445">R</text>
+  </g>
+</svg>
