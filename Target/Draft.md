@@ -32,13 +32,17 @@ AI素养对Z世代员工向上影响行为的影响：资源依赖视角
 
 $$张晨曦$$
 
-ChatGPT问世不过两年，生成式AI已从技术玩物演变为职场必需品。一个耐人寻味的现象随之浮现：在AI应用这件事上，刚入职的Z世代员工往往比他们的管理者更熟练——这种代际间的技能倒挂，在以往任何一轮技术革命中都极为罕见。资源依赖理论告诉我们，当你持有对方需要却无法自行获取的资源，权力便向你倾斜。那么，当AI素养成为这样一种"稀缺资源"，年轻员工会因此获得影响上级的能力吗？这种影响又是如何发生的？
+ChatGPT公开发布不过两年，生成式AI已从技术圈的谈资变成职场的基础设施。但这场变革真正不寻常的地方，不在于速度——而在于谁掌握了钥匙。
+
+回顾此前的技术浪潮——电话、计算机、互联网——资深员工或许适应得慢一些，但新技术在组织中的扩散几乎都是自上而下的：管理层主导，年轻人跟随。生成式AI却把这个模式翻转了过来。在各个行业，刚入职的Z世代员工往往比他们的上级更熟练地使用这些工具。调研数据印证了这一点：57%的Z世代员工每天使用生成式AI，59%正在"反向辅导"年长同事（Deloitte, 2025; IWG, 2025）。与此同时，高管对团队AI使用程度的估计，比实际情况低了3.25倍（McKinsey, 2025）。
+
+这意味着什么？资源依赖理论告诉我们，权力流向那些控制着他人所需资源的人。当年轻员工拥有上级缺乏的AI素养，一种不寻常的动态便浮现了：传统的上下级资源不对称——至少在这一领域——开始向新人倾斜。但这种资源优势会转化为实际影响力吗？在什么条件下？通过什么机制？
 
 本研究正是围绕这一问题展开。我采用定性方法，通过对15-20名在工作中使用AI的Z世代知识型员工进行深度访谈，探索AI素养如何转化为向上影响行为。研究聚焦于"感知资源优势"这一中介机制——即员工对"我有上司需要的东西"这一认知——并考察上级开放性作为边界条件的调节作用。
 
 研究的理论贡献在于将资源依赖理论的分析单元从组织间下沉到上下级关系层面，揭示AI时代职场权力动态重构的微观过程。实践层面，研究将为组织如何激活年轻员工的AI赋能潜力、促进代际知识双向流动提供依据。
 
-关键词：AI素养；向上影响行为；资源依赖理论；Z世代员工；感知资源优势
+**关键词：** AI素养；向上影响行为；资源依赖理论；Z世代员工；感知资源优势
 
 ABSTRACT
 
@@ -46,13 +50,17 @@ The Impact of AI Literacy on Upward Influence Behavior among Generation Z Employ
 
 $$Student Name$$
 
-arely two years after ChatGPT's launch, generative AI has evolved from a technological novelty into a workplace essential. A striking phenomenon has emerged in parallel: in AI application, newly hired Generation Z employees often outperform their managers—an inversion of competence rarely seen in previous technological revolutions. Resource Dependence Theory suggests that when you control resources others need but cannot acquire on their own, power tilts in your favor. Does AI literacy, then, constitute such a "scarce resource" that enables young employees to influence their supervisors? And through what mechanisms does this influence unfold?
+Barely two years after ChatGPT's public release, generative AI has ceased to be a curiosity and become infrastructure. What makes this wave of technological change unusual, however, is not its speed—it is who holds the keys.
 
-This study tackles precisely these questions. Employing qualitative methods, I conduct in-depth interviews with 15-20 Generation Z knowledge workers who use AI in their daily work, exploring how AI literacy translates into upward influence behavior. The research focuses on perceived resource advantage—the subjective recognition that "I possess something my supervisor needs"—as the mediating mechanism, while examining supervisor openness as a moderating boundary condition.
+In most previous technology revolutions—telephones, personal computers, the internet—senior employees may have lagged in adoption, but the organizational rollout was invariably top-down: management led, and the young followed. Generative AI has inverted this pattern. Across industries, newly hired Generation Z employees often wield these tools more fluently than their supervisors do. Survey data bears this out: 57% of Gen Z workers use generative AI daily, and 59% report "reverse-mentoring" older colleagues on how to use it (Deloitte, 2025; IWG, 2025). Meanwhile, executives underestimate the extent of AI use among their teams by a factor of 3.25 (McKinsey, 2025).
 
-Theoretically, this study extends Resource Dependence Theory by shifting its unit of analysis from inter-organizational to supervisor-subordinate relationships, illuminating the micro-level processes through which workplace power dynamics are being reconfigured in the AI era. Practically, the findings will inform how organizations can activate the AI-enabled potential of young employees and foster bidirectional intergenerational knowledge flows.
+This matters because, as Resource Dependence Theory tells us, power flows to those who control resources others need. When young employees possess AI competencies their managers lack, an unfamiliar dynamic emerges: the traditional resource asymmetry between supervisor and subordinate tilts—at least in this domain—in favor of the newcomer. Does that translate into actual influence? Under what conditions? And through what mechanisms?
 
-Key words: AI Literacy; Upward Influence Behavior; Resource Dependence Theory; Generation Z Employees; Perceived Resource Advantage
+This study investigates precisely these questions. Drawing on in-depth interviews with 15–20 Generation Z knowledge workers in China, I explore how AI literacy enables upward influence behavior. I focus on *perceived resource advantage*—the employee's subjective awareness that "I have something my boss needs"—as a mediating mechanism, and *supervisor openness* as a boundary condition that determines whether resource advantage converts into voice.
+
+Theoretically, the study extends Resource Dependence Theory downward: from inter-organizational relations to the supervisor-subordinate dyad. Practically, it offers evidence-based guidance on how organizations might unlock the AI-enabled potential of young employees and facilitate bidirectional intergenerational knowledge transfer.
+
+**Key words:** AI Literacy; Upward Influence Behavior; Resource Dependence Theory; Generation Z Employees; Perceived Resource Advantage
 
 Table of Contents
 
@@ -168,49 +176,55 @@ CHAPTER I INTRODUCTION
 
 1.1 Research Background
 
-1.1.1 The Rise of AI in the Workplace
+Barely two years after ChatGPT's public release, generative AI is no longer the province of technologists—it is workplace infrastructure. Ninety-two percent of companies plan to increase their AI investments over the next three years (McKinsey, 2025); 92% of Fortune 500 firms already have employees using ChatGPT in their daily work (OpenAI, 2025). More than 70% of employees believe AI will transform over 30% of their tasks within two years (McKinsey, 2025).
 
-The rapid advancement of artificial intelligence (AI) technologies, exemplified by the emergence of ChatGPT, Claude, and other generative AI tools, has fundamentally transformed the modern workplace. Since the public release of ChatGPT in November 2022, AI-powered tools have been rapidly adopted across industries, enabling employees to automate routine tasks, enhance creative output, and improve decision-making processes. **Recent industry data underscores this transformation: 92% of companies plan to increase their AI investments over the next three years (McKinsey, 2025), while 92% of Fortune 500 companies already have employees actively using ChatGPT (OpenAI, 2025). Furthermore, over 70% of employees believe that AI will change more than 30% of their work within two years (McKinsey, 2025).** In China, the national "AI+" strategy has further accelerated the integration of AI into organizational processes, positioning AI literacy as an increasingly critical competency for employees in the digital economy.
+What makes this transformation remarkable is not its speed—rapid adoption is, by now, expected. What is remarkable is *who is leading it*. In prior technology revolutions, organizational adoption was invariably top-down: management directed, and junior employees followed. Generative AI has inverted this pattern. Deloitte's 2025 survey of 23,000 respondents across 44 countries finds that 57% of Generation Z employees (born 1995–2010) use generative AI in their daily work, and 70% are actively investing time to develop AI-related skills. A study by International Workplace Group (2025) reports that 59% of Gen Z workers are coaching older colleagues on AI use—a phenomenon sometimes called "reverse mentoring." McKinsey's Superagency research (2025) reveals a striking perception gap: employees using AI for more than 30% of their daily tasks outnumber what C-suite leaders estimate by a factor of 3.25 (13% vs. 4%). In short, **managers often do not know how heavily their subordinates rely on AI**.
 
-1.1.2 Generational Asymmetry in AI Competence
+This generational inversion in technological competence has theoretical implications. Resource Dependence Theory (RDT), articulated by Pfeffer and Salancik (1978), holds that power accrues to those who control resources others need but cannot easily obtain. Tripathi (2021) extended this logic inward: employees, too, can be "hosts of tacit resources"—holders of firm-specific knowledge that supervisors depend on but do not themselves possess. When that knowledge concerns AI, and when younger employees hold more of it than their managers do, the traditional resource asymmetry between supervisor and subordinate shifts.
 
-A distinctive feature of the current AI revolution is the generational asymmetry in technological competence. Generation Z employees, typically defined as those born between 1995 and 2010, have grown up immersed in digital technologies and are often characterized as “digital natives” (Prensky, 2001). Research suggests that younger employees tend to adopt new technologies more quickly and exhibit higher levels of digital fluency compared to their older counterparts (Ng et al., 2023). **Recent survey data reveals that 80% of Gen Z employees (aged 18-24) report feeling comfortable using gen AI at work, significantly higher than older cohorts (McKinsey, 2025). Similarly, Deloitte's 2025 survey of over 23,000 respondents across 44 countries found that 57% of Gen Z employees use generative AI in their daily work, with 70% actively investing time to develop AI-related skills (Deloitte, 2025). Furthermore, a study by International Workplace Group highlights that Gen Z is playing a pivotal role in cross-generational upskilling, with 59% of Gen Z employees actively coaching older colleagues on how to use AI tools (IWG, 2025). Interestingly, employees aged 35-44 (core millennials, often in managerial roles) exhibit even higher comfort levels at 90%, suggesting that generational differences may be more nuanced than a simple "digital native" framing implies—both young employees and their direct supervisors often share high AI proficiency, potentially creating opportunities for intergenerational collaboration rather than conflict.** This creates an interesting power dynamic in organizations: while managers and senior employees typically hold formal authority and institutional knowledge, younger employees may possess superior AI skills that are increasingly valuable in the workplace.
+AI literacy is precisely such a resource. This study adopts the three-dimensional framework proposed by Zhong, Liu, and Yang (2024): *AI knowledge* (understanding of AI concepts and technologies), *AI affectivity* (emotional attitudes and motivation toward AI), and *AI thinking* (higher-order cognitive skills for integrating AI into problem-solving). When Generation Z employees outpace their supervisors on these dimensions, they acquire an informal resource advantage—one that, in principle, should enable upward influence.
 
-1.1.3 Shifting Power Dynamics
+But does it? And under what conditions?
 
-This generational asymmetry in AI competence has the potential to reshape traditional power dynamics within organizations. According to Resource Dependence Theory (Pfeffer & Salancik, 1978), power in organizations derives from the control of scarce and valuable resources. When Generation Z employees possess AI skills that their supervisors lack, they may acquire a form of resource-based power that enables them to exert upward influence on their managers. **Crucially, McKinsey's Superagency research (2025) reveals a significant perception gap: employees are using AI for more than 30% of their daily tasks at a rate 3.25 times higher than their C-suite leaders estimate (13% vs. 4%). This "invisible" adoption creates a form of information asymmetry where subordinates hold resources that supervisors may not even be aware of. Furthermore, while 47% of C-suite executives express frustration that their companies are developing gen AI tools too slowly, 2.4 times more leaders cite 'employee readiness' as an adoption barrier compared to employees themselves—despite employees already using AI at rates far exceeding expectations.** This phenomenon challenges conventional top-down leadership models and raises important questions about how AI literacy translates into organizational influence.
+This is the puzzle the present study addresses. Social Cognitive Theory (Bandura, 1997) suggests that objective competence does not translate directly into action; a psychological intermediary—self-efficacy—must intervene. Employees need not only to *possess* AI literacy but to *recognize* that they hold an advantage relative to their supervisors. This subjective awareness—what I term *perceived resource advantage*—is what drives behavior. Leadership Construction Theory (DeRue & Ashford, 2010) further reminds us that influence is relational: an employee's "claiming" requires a supervisor's "granting." If supervisors are open to input from below, resource advantages are more likely to convert into actual influence; if supervisors are closed, even highly capable employees may remain silent.
 
-1.1.4 The Chinese Context
-
-The Chinese organizational context presents unique characteristics that make this research particularly relevant. China’s high power distance culture (Hofstede, 2001) traditionally emphasizes hierarchical relationships and deference to authority. However, the rapid pace of digital transformation in Chinese organizations, combined with the large proportion of Generation Z entering the workforce, creates tensions between traditional power structures and emerging technology-driven influence patterns. Understanding how AI literacy enables upward influence in this context can provide valuable insights for both theory and practice.
+The Chinese organizational context adds a distinctive theoretical tension. China is characterized by high power distance (Hofstede, 2001): deference to hierarchy is normative, and upward influence is, in a sense, counter-cultural. Yet China's aggressive push for digital transformation—symbolized by the national "AI+" strategy—is colliding with these traditional norms. When AI literacy becomes a strategic resource that organizations urgently need, will cultural constraints yield to technological empowerment? This tension makes China a compelling site for studying AI-driven workplace power dynamics.
 
 1.2 Research Objectives
 
-This study aims to achieve the following objectives:
+The central question of this study is: **How does AI literacy enable Generation Z employees to influence their supervisors?**
 
-(1) Explore how AI literacy enables Generation Z employees to engage in upward influence behavior in the workplace, identifying the specific mechanisms and processes involved.
+Four objectives flow from this question:
 
-(2) Investigate the role of perceived resource advantage as a psychological mechanism linking AI literacy to upward influence behavior, understanding how employees’ subjective perceptions mediate this relationship.
+**First**, to identify mechanisms. How does AI literacy translate into upward influence behavior? How do employees come to perceive their resource advantage? How does that perception motivate action? What forms does influence take—idea generation, idea promotion, idea implementation?
 
-(3) Examine how supervisor openness moderates the relationship between AI literacy and upward influence behavior, considering the boundary conditions of this phenomenon.
+**Second**, to understand boundary conditions. How does supervisor openness moderate the relationship between perceived resource advantage and upward influence? What makes some supervisors more receptive to AI-related input from below? How do employees gauge whether to speak up or stay silent?
 
-(4) Provide theoretical insights grounded in Resource Dependence Theory and practical recommendations for talent management and intergenerational collaboration in AI-driven organizations.
+**Third**, to advance theory. The study shifts Resource Dependence Theory's unit of analysis from inter-organizational relations to the supervisor-subordinate dyad, tests its explanatory power for a novel resource type (AI literacy), and places it in dialogue with Social Cognitive Theory and Leadership Construction Theory.
+
+**Fourth**, to distill practical insights. The study aims to offer evidence-based guidance on how organizations can unlock the AI-enabled potential of young employees and foster bidirectional intergenerational knowledge flows.
 
 1.3 Research Significance
 
 1.3.1 Theoretical Significance
 
-This study makes several theoretical contributions to the organizational behavior literature. First, it extends Resource Dependence Theory (Pfeffer & Salancik, 1978) to the employee-supervisor dyad by examining how AI literacy, as a form of firm-specific human capital, creates dependency relationships that enable upward influence. While RDT has traditionally been applied at the organizational level to explain inter-organizational power dynamics, recent work by Tripathi (2021) has demonstrated its applicability to within-organization relationships. This study builds on this foundation by examining AI literacy as a specific resource that shifts power dynamics.
+This study makes three contributions to the organizational behavior literature.
 
-Second, this study contributes to the emerging literature on AI literacy by exploring its organizational behavior outcomes beyond educational settings. While existing research on AI literacy has primarily focused on its conceptualization and measurement (Ng et al., 2023; Zhong et al., 2024), less attention has been paid to how AI literacy influences workplace dynamics such as power, influence, and leadership relationships.
+**First, it extends Resource Dependence Theory to the employee-supervisor level.** RDT has traditionally been applied to inter-organizational relations (supplier-firm, firm-government). Tripathi (2021) demonstrated its applicability within organizations, but empirical studies identifying *which specific resources* create employee-to-supervisor dependency remain rare. By focusing on AI literacy, this study tests how a contemporary, strategically important resource reshapes workplace power dynamics—offering the theory a new, operationalizable proving ground.
 
-Third, this study advances the literature on upward influence by identifying AI literacy as a novel antecedent of influence behavior, particularly in the context of generational dynamics and digital transformation.
+**Second, it shifts AI literacy research toward a behavioral lens.** The AI literacy literature has concentrated on conceptualization and measurement, primarily in educational settings (Ng et al., 2023; Zhong et al., 2024). Far less attention has been paid to workplace behavioral consequences—especially interpersonal influence. This study addresses that gap, examining how individual AI competence translates into organizational influence.
+
+**Third, it identifies AI literacy as a new antecedent of upward influence.** Existing research on upward influence highlights political skill and leader-member exchange quality as key predictors. In a context of technology-driven generational dynamics, AI literacy as a source of expert power has yet to be systematically examined. This study bridges digital transformation and workplace power research.
 
 1.3.2 Practical Significance
 
-The findings of this study will have important practical implications for organizations navigating digital transformation. For human resource managers, understanding how AI literacy translates into organizational influence can inform talent development strategies and succession planning. For organizational leaders, the findings can guide the creation of organizational cultures that leverage the AI competencies of younger employees while maintaining effective intergenerational collaboration.
+The findings will offer guidance for organizations navigating digital transformation.
 
-In the Chinese context, where organizations face the dual challenges of rapid technological change and evolving workforce demographics, this research can provide actionable insights for managing the transition to AI-driven work environments while respecting cultural norms around hierarchy and authority.
+For HR managers, understanding how AI literacy converts into organizational influence can inform talent development strategies: How should young employees' AI capabilities be cultivated and incentivized? How can their technical resources be integrated into organizational decision-making?
+
+For supervisors themselves, the study will illuminate the critical role that *openness* plays in surfacing subordinates' potential—prompting reflection on how receptive they are to input from below and to new technologies.
+
+In the Chinese context, organizations face the dual pressures of rapid technological change and traditional hierarchical culture. This study offers a framework for understanding that tension, helping managers create conditions for young employees' AI advantages to be realized while respecting cultural norms.
 
 CHAPTER II LITERATURE REVIEW
 

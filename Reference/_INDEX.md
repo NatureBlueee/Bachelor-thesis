@@ -192,6 +192,8 @@
 
 | 105 | New research reveals Gen Z is coaching older colle... | `New research reveals Gen Z is coaching older colleagues to use AI, boosting productivity and collabo.md` |
 
+| 106 | Will Employee–AI Collaboration Enhance Employees' ... | `Will Employee–AI Collaboration Enhance Employees' Proactive Behavior A Study Based on the Conservati.md` |
+
 ## 使用说明
 
 文献 Markdown 文件位于 `PDF-MD/output_api/` 目录。
