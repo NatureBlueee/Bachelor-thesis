@@ -194,6 +194,14 @@
 
 | 106 | Will Employee–AI Collaboration Enhance Employees' ... | `Will Employee–AI Collaboration Enhance Employees' Proactive Behavior A Study Based on the Conservati.md` |
 
+| 107 | Seeking Qualitative Rigor in Inductive Research: N... | `Seeking Qualitative Rigor in Inductive Research - Notes on the Gioia Methodology.md` |
+
+| 108 | Psychological factors influencing technology adopt... | `Psychological factors influencing technology adoption - A case study from the oil and gas industry.md` |
+
+| 109 | How Digital Technologies Modify The Work Character... | `How Digital Technologies Modify The Work Characteristics - A Preliminary Study.md` |
+
+| 110 | The mobile technological era: insights into the co... | `The mobile technological era - insights into the consequences of constant connectivity of personal d.md` |
+
 ## 使用说明
 
 文献 Markdown 文件位于 `PDF-MD/output_api/` 目录。

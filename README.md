@@ -5,6 +5,8 @@
 ![framework](image-1.png)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+**📐 [系统架构文档](ARCHITECTURE.md)** | **📋 [更新日志](#更新日志)**
+
 ---
 
 论文写作有个奇怪的悖论：我们用最现代的工具检索文献、统计数据，却用最古老的方式组织思想——从头写到尾，写完再改，改完再写。软件工程早就告别了这种线性开发，为什么学术写作还在坚持？
@@ -94,6 +96,48 @@ Graduate-thesis/
 ## License
 
 MIT. 随便用。
+
+---
+
+## 可用工作流
+
+| 命令 | 用途 | 说明 |
+|------|------|------|
+| `/start` | 新对话启动 | 加载项目上下文 |
+| `/create-pr` | 创建修改请求 | 任何论文修改都要先开 PR |
+| `/merge-pr` | 合并 PR | 执行修改并更新状态 |
+| `/add-paper` | 添加文献 | PDF → Markdown 转换 |
+| `/ask-academic-ai` | 向学术AI提问 | 使用四部分模板 |
+| `/analyze-answer` | 分析AI回答 | 标记文献优先级 |
+| `/deep-read` | 深度阅读 | 输出结构化笔记 |
+| `/sync` | 同步状态 | 更新 `_STATE.md`，解决信息孤岛 |
+| `/reflect` | 记忆提取 | 对话后提取值得记的内容 |
+
+> **设计原则**：`/sync` 和 `/reflect` 不是执行器，先评估"值不值得做"。"无需操作"是合理结论。
+
+---
+
+## 更新日志
+
+### v0.2.0 (2025-12-20)
+
+**新增**
+- `/sync` 工作流：系统状态同步，解决"部分遵循"和"信息孤岛"问题
+- `/reflect` 工作流：对话后智能记忆提取，借鉴 Mem0 的 prompt 设计
+- `_STATE.md`：系统状态快照文件，集中管理元信息
+- 评估优先原则：工作流先判断"值不值得做"
+
+**改进**
+- 工作流设计理念："无需操作"是合理结论
+
+### v0.1.0 (2025-12-14)
+
+**初始版本**
+- PR 驱动的论文修改管理
+- Consensus 结构化学术讨论
+- Reference 文献库 + PDF→Markdown
+- `.agent/rules/` 负面约束设计
+- 基础工作流：/start, /create-pr, /merge-pr, /add-paper, /ask-academic-ai
 
 ---
 
