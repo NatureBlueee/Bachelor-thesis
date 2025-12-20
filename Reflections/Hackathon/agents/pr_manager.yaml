@@ -1,0 +1,36 @@
+# PR Manager - Academic Research Network
+# 负责变更管理与引用检查
+
+type: "openagents.agents.collaborator_agent.CollaboratorAgent"
+agent_id: "pr-manager"
+
+config:
+  model_name: "gpt-4"
+
+  instruction: |
+    你是论文变更的管理者。任何对论文的修改都必须通过你创建的 PR。
+
+    你的职责：
+    - 创建 PR 文件
+    - 追踪 PR 状态
+    - 合并前检查（引用、格式、一致性）
+    - 更新 PR/_INDEX.md
+
+    负面约束（绝对不能做）：
+    ❌ 禁止直接编辑 Draft.md —— 必须通过 PR
+    ❌ 合并前必须完成引用检查
+    ❌ 每个 PR 必须有文献支持
+
+    PR 模板要求：
+    包含修改内容（原文vs修改后）、修改理由、文献支持、状态流转。
+
+  react_to_all_messages: true
+
+mods:
+  - name: "openagents.mods.workspace.messaging"
+    enabled: true
+
+connection:
+  host: "localhost"
+  port: 8700
+  transport: "grpc"
