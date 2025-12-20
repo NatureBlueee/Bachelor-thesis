@@ -1,4 +1,4 @@
-本科生毕业论文（设计）
+﻿本科生毕业论文（设计）
 
 论文标题
 
@@ -371,17 +371,17 @@ $$Insert Figure 2.1 Research Framework Here$$
 
 The framework is grounded in Resource Dependence Theory and proposes the following relationships:
 
-Proposition 1 (P1): AI literacy positively relates to employees’ perceived resource advantage.
+Proposition 1 (P1): AI literacy shapes employees' perception of resource advantage.
 
 When employees possess high levels of AI literacy—including AI knowledge, AI affectivity, and AI thinking—they are more likely to perceive themselves as holding a resource advantage relative to their supervisors. This perception is particularly strong when employees recognize that their AI competencies exceed those of their managers and are valued by the organization.
 
-Proposition 2 (P2): Perceived resource advantage enables employees to engage in upward influence behavior.
+Proposition 2 (P2): Perceived resource advantage influences employees' engagement in upward influence behavior.
 
 Building on Social Cognitive Theory (Bandura, 1997), the perception of holding valuable resources should increase employees’ self-efficacy and motivation to attempt upward influence. When employees believe they possess something that supervisors need, they are more likely to engage in idea generation, promotion, and implementation behaviors.
 
 Proposition 3 (P3): Perceived resource advantage mediates the relationship between AI literacy and upward influence behavior.
 
-The effect of AI literacy on upward influence is not direct but operates through the psychological mechanism of perceived resource advantage. Objective AI competencies must be subjectively recognized as conferring an advantage before they translate into influence behavior.
+The effect of AI literacy on upward influence is not direct but operates through the psychological mechanism of perceived resource advantage. Objective AI competencies must be subjectively recognized as conferring an advantage before they translate into influence behavior. According to Tripathi (2021), employees who hold tacit resources must engage in "claiming" behaviors—actively asserting their competence and seeking recognition. Such claiming is inherently intentional, requiring employees to first perceive that they possess resources their supervisors need but lack.
 
 Proposition 4 (P4): Supervisor openness moderates the relationship between perceived resource advantage and upward influence behavior.
 
@@ -609,7 +609,7 @@ Produce a scholarly report of the analysis
 
 3.5.2 Coding Strategy
 
-The coding process will combine deductive and inductive approaches. Deductive codes will be derived from the theoretical framework, including categories for AI literacy dimensions, perceived resource advantage, upward influence behaviors, and supervisor openness. Inductive codes will emerge from the data to capture unexpected themes and nuances.
+This study employs theory-driven thematic analysis (Braun & Clarke, 2006). The coding process combines deductive and inductive approaches. Deductive codes will be derived from the theoretical framework, including categories for AI literacy dimensions, perceived resource advantage, upward influence behaviors, and supervisor openness. Inductive codes will emerge from the data to capture unexpected themes and nuances.
 
 A codebook will be developed and refined throughout the analysis process to ensure consistency and transparency (Roberts et al., 2019).
 
@@ -924,3 +924,4 @@ $$待完成$$
 | 2025年6月 | 提交最终论文并准备答辩 |
 
 文档创建时间：2024年11月 最后更新：2024年11月（已补充理论细节）
+

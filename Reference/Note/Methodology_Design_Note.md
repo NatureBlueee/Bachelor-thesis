@@ -151,6 +151,60 @@ Gioia et al. (2013) 说：
 
 ---
 
+## 1.6 为什么"感知"是必要的中介？
+
+### 理论依据：Tripathi (2021) 的"Claiming"概念
+
+**核心问题**：一定要"感知到"优势才会行动吗？
+
+**答案**：是的。
+
+**原文证据**（Tripathi, 2021）：
+
+> "leadership...is constructed in interpersonal relationships when one member '**claims leader or follower identity**' and another member '**grants leader or follower identity**'" (引用 DeRue & Ashford, 2010)
+
+> "employees must engage in '**claiming behaviors**'—**actively asserting their competence** and seeking opportunities to contribute"
+
+> "employees **claim the leader identity**, and since these employees hold tacit resources, the manager is likely to **grant** them the leader identity, **acknowledging their competence and worthiness**"
+
+### 关键词解读
+
+| 概念 | 含义 | 对应我们的变量 |
+|------|------|----------------|
+| **Claim** (主张) | 主动声称自己有能力/领导身份 | 向上影响行为的发起 |
+| **Grant** (授予) | 他人承认你的主张 | 上级开放性 |
+| **Tacit resources** (隐性资源) | 员工持有的稀缺知识/技能 | AI素养 |
+
+### 为什么"客观能力"不能直接导致"行为"？
+
+**Tripathi的逻辑链**：
+```
+持有隐性资源（客观）
+    ↓
+意识到自己有优势（感知）
+    ↓
+采取"claiming"行动（行为）
+    ↓
+上级是否"grant"（结果）
+```
+
+**关键洞见**："Claiming"是一个**有意识的主动行为**——这意味着：
+- 员工必须先**意识到**自己持有他人需要的资源
+- 然后才会**主动去claim**
+
+**这证明了**：
+- "感知资源优势"作为中介变量是**理论上必要的**
+- 不是"有能力就自动产生影响"，而是"意识到有优势 → 主动行动 → 产生影响"
+
+### RDT原版 vs 个人层面应用
+
+| 层面 | RDT原版逻辑 | 个人层面逻辑 |
+|------|-------------|--------------|
+| 组织 | 控制资源 → 自动产生依赖 | - |
+| 个人 | 有能力 ≠ 会行动 | **感知优势 → claiming → 影响** |
+
+**区别**：组织层面的资源控制是结构性的，个人层面的行为需要**认知驱动**。
+
 # 第二部分：我们的研究设计
 
 ## 2.1 研究问题
