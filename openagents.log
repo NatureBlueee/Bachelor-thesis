@@ -132,3 +132,732 @@ Centralized topology shutdown
 Agent network 'DefaultNetwork' shutdown successfully
 Network shutdown complete
 Network launcher interrupted by user
+Using workspace directory: ./academic_network
+Auto-discovered network configuration: academic_network\network.yaml
+Loaded network configuration from academic_network\network.yaml
+Initializing WorkspaceManager at academic_network
+Workspace initialized successfully at academic_network
+AgentManager initialized for workspace: academic_network
+AgentIdentityManager initialized with session timeout=24h
+Loading 6 network mods from NetworkConfig...
+Initializing network mod openagents.mods.workspace.default
+Successfully loaded network mod: openagents.mods.workspace.default
+Initializing network mod openagents.mods.workspace.messaging
+Initializing Thread Messaging network mod
+Successfully loaded network mod: openagents.mods.workspace.messaging
+No workspace manager found, using temporary directory for storage: openagents.mods.workspace.forum
+This mod will not be able to persist data between restarts.
+No workspace manager found, using temporary directory for storage: openagents.mods.workspace.forum
+This mod will not be able to persist data between restarts.
+No workspace manager found, using temporary directory for storage: openagents.mods.workspace.forum
+This mod will not be able to persist data between restarts.
+No workspace manager found, using temporary directory for storage: openagents.mods.workspace.forum
+This mod will not be able to persist data between restarts.
+Initializing network mod openagents.mods.workspace.forum
+Initialized Forum Network Mod: openagents.mods.workspace.forum
+Forum mod initialization complete (storage-first mode)
+Successfully loaded network mod: openagents.mods.workspace.forum
+No workspace manager found, using temporary directory for storage: openagents.mods.workspace.wiki
+This mod will not be able to persist data between restarts.
+No workspace manager found, using temporary directory for storage: openagents.mods.workspace.wiki
+This mod will not be able to persist data between restarts.
+No workspace manager found, using temporary directory for storage: openagents.mods.workspace.wiki
+This mod will not be able to persist data between restarts.
+No workspace manager found, using temporary directory for storage: openagents.mods.workspace.wiki
+This mod will not be able to persist data between restarts.
+Initializing network mod openagents.mods.workspace.wiki
+Initializing Wiki network mod
+Wiki mod initialization complete (storage-first mode)
+Successfully loaded network mod: openagents.mods.workspace.wiki
+Initializing network mod openagents.mods.workspace.project
+Initializing Project network mod
+Loaded template: research_task
+Loaded template: comparison_research
+Loaded template: deep_dive
+Project mod initialized with 3 templates
+Successfully loaded network mod: openagents.mods.workspace.project
+Initializing network mod openagents.mods.games.agentworld
+AgentWorld NetworkMod initialized - Server: play.agentworld.io:7031, Client: 7032
+Successfully loaded network mod: openagents.mods.games.agentworld
+Mod openagents.mods.workspace.default bound to network default-network-1
+Registered network mod: openagents.mods.workspace.default
+Mod openagents.mods.workspace.messaging bound to network default-network-1
+Using file storage at academic_network\mods\openagents.mods.workspace.messaging\files
+Initialized channels: ['general', 'pitch-room', 'ideas', 'news-feed', 'discussion']
+Registered network mod: openagents.mods.workspace.messaging
+Mod openagents.mods.workspace.forum bound to network default-network-1
+Registered network mod: openagents.mods.workspace.forum
+Mod openagents.mods.workspace.wiki bound to network default-network-1
+Registered network mod: openagents.mods.workspace.wiki
+Mod openagents.mods.workspace.project bound to network default-network-1
+Registered network mod: openagents.mods.workspace.project
+Mod openagents.mods.games.agentworld bound to network default-network-1
+Registered network mod: openagents.mods.games.agentworld
+Successfully loaded 6 network mods
+Created network: DefaultNetwork
+Loaded 6 network mods: ['openagents.mods.workspace.default', 'openagents.mods.workspace.messaging', 'openagents.mods.workspace.forum', 'openagents.mods.workspace.wiki', 'openagents.mods.workspace.project', 'openagents.mods.games.agentworld']
+Workspace path: academic_network
+Workspace initialized with 2 mod directories
+HTTP transport: MCP protocol enabled at /mcp
+HTTP transport: Studio frontend enabled at /studio
+HTTP transport: Studio build directory found at C:\Users\Lenovo\AppData\Roaming\Python\Python313\site-packages\openagents\studio\build
+HTTP transport listening on 0.0.0.0:8700
+Started TransportType.HTTP transport on 0.0.0.0:8700
+gRPC transport initialized
+gRPC transport listening on 0.0.0.0:8600
+Started TransportType.GRPC transport on 0.0.0.0:8600
+Successfully loaded mod adapter: openagents.mods.workspace.default
+Successfully loaded mod adapter: openagents.mods.workspace.messaging
+Successfully loaded mod adapter: openagents.mods.workspace.forum
+Successfully loaded mod adapter: openagents.mods.workspace.wiki
+Successfully loaded mod adapter: openagents.mods.workspace.project
+Successfully loaded mod adapter: openagents.mods.games.agentworld
+AgentWorld adapter created
+Loaded 0 workspace tools from D:\Profolio\文章\Thesis\Graduate-thesis\academic_network\tools
+Loaded 0 event tools from D:\Profolio\文章\Thesis\Graduate-thesis\academic_network\events
+Collected 53 total tools
+MCP transport collected 53 tools: ['send_event', 'send_direct_message', 'send_channel_message', 'reply_channel_message', 'list_channels', 'retrieve_channel_messages', 'retrieve_direct_messages', 'react_to_message', 'create_forum_topic', 'edit_forum_topic', 'delete_forum_topic', 'post_forum_topic_comment', 'vote_on_forum_topic', 'vote_on_forum_comment', 'list_forum_topics', 'get_forum_topic', 'search_forum_topics', 'create_wiki_page', 'edit_wiki_page', 'get_wiki_page', 'search_wiki_pages', 'list_wiki_pages', 'propose_wiki_page_edit', 'list_wiki_edit_proposals', 'resolve_wiki_edit_proposal', 'get_wiki_page_history', 'revert_wiki_page_version', 'list_project_templates', 'start_project', 'stop_project', 'complete_project', 'get_project', 'send_project_message', 'set_project_global_state', 'get_project_global_state', 'list_project_global_state', 'delete_project_global_state', 'set_project_agent_state', 'get_project_agent_state', 'list_project_agent_state', 'delete_project_agent_state', 'set_project_artifact', 'get_project_artifact', 'list_project_artifacts', 'delete_project_artifact', 'agentworld_login', 'agentworld_observe', 'agentworld_move', 'agentworld_chat', 'agentworld_attack', 'agentworld_harvest', 'agentworld_craft', 'agentworld_transfer_items']
+MCP Streamable HTTP transport initialized (protocol 2025-03-26)
+TransportType.MCP transport initialized with port: null (standalone binding disabled)
+Successfully loaded mod adapter: openagents.mods.workspace.default
+Successfully loaded mod adapter: openagents.mods.workspace.messaging
+Successfully loaded mod adapter: openagents.mods.workspace.forum
+Successfully loaded mod adapter: openagents.mods.workspace.wiki
+Successfully loaded mod adapter: openagents.mods.workspace.project
+Successfully loaded mod adapter: openagents.mods.games.agentworld
+AgentWorld adapter created
+Loaded 0 workspace tools from D:\Profolio\文章\Thesis\Graduate-thesis\academic_network\tools
+Loaded 0 event tools from D:\Profolio\文章\Thesis\Graduate-thesis\academic_network\events
+Collected 53 total tools
+HTTP transport MCP: Collected 53 tools: ['send_event', 'send_direct_message', 'send_channel_message', 'reply_channel_message', 'list_channels', 'retrieve_channel_messages', 'retrieve_direct_messages', 'react_to_message', 'create_forum_topic', 'edit_forum_topic', 'delete_forum_topic', 'post_forum_topic_comment', 'vote_on_forum_topic', 'vote_on_forum_comment', 'list_forum_topics', 'get_forum_topic', 'search_forum_topics', 'create_wiki_page', 'edit_wiki_page', 'get_wiki_page', 'search_wiki_pages', 'list_wiki_pages', 'propose_wiki_page_edit', 'list_wiki_edit_proposals', 'resolve_wiki_edit_proposal', 'get_wiki_page_history', 'revert_wiki_page_version', 'list_project_templates', 'start_project', 'stop_project', 'complete_project', 'get_project', 'send_project_message', 'set_project_global_state', 'get_project_global_state', 'list_project_global_state', 'delete_project_global_state', 'set_project_agent_state', 'get_project_agent_state', 'list_project_agent_state', 'delete_project_agent_state', 'set_project_artifact', 'get_project_artifact', 'list_project_artifacts', 'delete_project_artifact', 'agentworld_login', 'agentworld_observe', 'agentworld_move', 'agentworld_chat', 'agentworld_attack', 'agentworld_harvest', 'agentworld_craft', 'agentworld_transfer_items']
+Centralized topology initialized with 3 transports
+Discovered 6 agents
+AgentManager started with 6 discovered agents
+Agent network 'DefaultNetwork' initialized successfully
+Network 'DefaultNetwork' started successfully
+Network mode: centralized
+Transport TransportType.HTTP: 0.0.0.0:8700
+Transport TransportType.GRPC: 0.0.0.0:8600
+Transport TransportType.MCP: 0.0.0.0:None
+Network statistics: {'network_id': 'default-network-1', 'network_uuid': '267373da-bd6d-4868-be06-fd375cf345a8', 'network_name': 'DefaultNetwork', 'is_running': True, 'uptime_seconds': 0.009282588958740234, 'agent_count': 0, 'agents': {}, 'groups': {}, 'group_config': [{'name': 'coordinators', 'description': 'Router agents that coordinate research tasks', 'agent_count': 0, 'metadata': {'permissions': ['create_projects', 'delegate_tasks', 'communicate_with_users']}, 'has_password': True}, {'name': 'researchers', 'description': 'Worker agents that execute research tasks', 'agent_count': 0, 'metadata': {'permissions': ['execute_tasks', 'report_results']}, 'has_password': True}, {'name': 'admin', 'description': 'Administrator agents with full permissions', 'agent_count': 0, 'metadata': {'permissions': ['all']}, 'has_password': True}, {'name': 'guest', 'description': 'Default group for agents without specific credentials', 'agent_count': 0, 'metadata': {}, 'has_password': False}], 'default_agent_group': 'guest', 'requires_password': False, 'mods': [{'name': 'openagents.mods.workspace.default', 'enabled': True, 'config': {'custom_events_enabled': True}}, {'name': 'openagents.mods.workspace.messaging', 'enabled': True, 'config': {'default_channels': [{'name': 'general', 'description': 'General chat channel'}, {'name': 'pitch-room', 'description': 'Main room for startup pitch discussions'}, {'name': 'ideas', 'description': 'Channel for sharing new startup ideas'}, {'name': 'news-feed', 'description': 'Live tech news stream from the web'}, {'name': 'discussion', 'description': 'Discussion and commentary on news'}], 'max_file_size': 10485760, 'allowed_file_types': ['txt', 'md', 'py', 'json', 'yaml', 'pdf', 'jpg', 'png', 'csv', 'xlsx'], 'file_storage_path': './community_files', 'file_retention_days': 90, 'max_message_history': 10000, 'message_retention_days': 180, 'max_thread_depth': 10, 'thread_collapse_threshold': 25}}, {'name': 'openagents.mods.workspace.forum', 'enabled': True, 'config': {'max_topics_per_agent': 100, 'max_comments_per_topic': 1000, 'max_comment_depth': 10, 'max_topic_title_length': 200, 'max_topic_content_length': 10000, 'max_comment_length': 5000, 'enable_voting': True, 'vote_weight': 1, 'enable_search': True, 'search_results_limit': 50}}, {'name': 'openagents.mods.workspace.wiki', 'enabled': True, 'config': {'max_pages_per_agent': 100, 'max_page_content_length': 50000, 'max_page_title_length': 200, 'max_page_path_length': 500, 'max_proposals_per_page': 50, 'proposal_retention_days': 30, 'max_rationale_length': 1000, 'max_version_history': 100, 'enable_version_comparison': True, 'enable_search': True, 'search_results_limit': 50, 'search_content_preview_length': 200}}, {'name': 'openagents.mods.workspace.project', 'enabled': True, 'config': {'max_concurrent_projects': 5, 'project_templates': {'research_task': {'name': 'Research Task', 'description': 'Structured research with web search and analysis', 'agent_groups': ['coordinators', 'researchers'], 'context': 'Research Task Workflow\n\nThis project coordinates research between specialized agents:\n- Router: Receives requests, delegates tasks, compiles results\n- Web-Searcher: Finds information from the web\n- Analyst: Analyzes and synthesizes findings\n\nWorkflow:\n1. Router receives research request\n2. Router delegates search tasks to web-searcher\n3. Web-searcher returns findings\n4. Router delegates analysis to analyst\n5. Analyst synthesizes and draws conclusions\n6. Router compiles final report for user\n'}, 'comparison_research': {'name': 'Comparison Research', 'description': 'Compare two or more topics/technologies', 'agent_groups': ['coordinators', 'researchers'], 'context': 'Comparison Research Workflow\n\nFor comparing topics (e.g., "Rust vs Go"):\n1. Router breaks into separate search tasks\n2. Web-searcher gathers info on each topic\n3. Analyst compares and contrasts findings\n4. Router presents balanced comparison\n'}, 'deep_dive': {'name': 'Deep Dive Research', 'description': 'In-depth research on a single topic', 'agent_groups': ['coordinators', 'researchers'], 'context': 'Deep Dive Research Workflow\n\nFor thorough topic investigation:\n1. Router identifies key aspects to research\n2. Web-searcher conducts multiple searches\n3. Analyst synthesizes comprehensive overview\n4. Router delivers detailed report\n'}}}}, {'name': 'openagents.mods.games.agentworld', 'enabled': True, 'config': {'game_server_host': 'play.agentworld.io', 'game_server_port': 7031, 'game_client_port': 7032, 'channel': 'team_alpha', 'spawn_position': '20,10'}}], 'dynamic_mods': {'loaded': [], 'count': 0, 'details': {}}, 'topology_mode': 'centralized', 'transports': [{'type': <TransportType.HTTP: 'http'>, 'config': {'port': 8700, 'serve_mcp': True, 'serve_studio': True}}, {'type': <TransportType.GRPC: 'grpc'>, 'config': {'port': 8600, 'max_message_size': 104857600, 'compression': 'gzip', 'keepalive_time': 60000, 'keepalive_timeout': 30000, 'keepalive_permit_without_calls': False, 'max_connection_idle': 300000, 'max_connection_age': 1800000, 'http2_max_pings_without_data': 0, 'http2_min_time_between_pings': 60000, 'http2_min_ping_interval_without_data': 300000}}, {'type': <TransportType.MCP: 'mcp'>, 'config': {'port': None}}], 'manifest_transport': 'http', 'recommended_transport': 'grpc', 'max_connections': 100, 'readme': '# Default Workspace\n\nA simple OpenAgents network to get you started.\n\n## Overview\n\nThis workspace contains everything you need to start your first OpenAgents network with example agents.\n\n## Agents\n\n| Agent | Type | Description |\n|-------|------|-------------|\n| `charlie` | YAML (LLM) | Replies to any message in a friendly manner |\n| `simple-worker` | Python | Basic agent that echoes responses |\n| `alex` | Python (LLM) | Uses `run_agent` for LLM-powered responses |\n\n## Quick Start\n\n### 1. Start the Network\n\n```bash\nopenagents network start .\n```\n\n### 2. Access Studio\n\nOpen your browser to:\n- **http://localhost:8700/studio/** - Studio web interface\n- **http://localhost:8700/mcp** - MCP protocol endpoint\n\n### 3. Launch an Agent\n\nChoose one of the agents:\n\n**YAML Agent (recommended for beginners):**\n```bash\nopenagents agent start agents/charlie.yaml\n```\n\n**Python Agent (basic):**\n```bash\npython agents/simple_agent.py\n```\n\n**Python Agent (with LLM):**\n```bash\n# Set your OpenAI API key first\nexport OPENAI_API_KEY=your-api-key\n\npython agents/llm_agent.py\n```\n\n> **Note:** LLM-powered agents (charlie.yaml and llm_agent.py) require an OpenAI API key.\n\n### 4. Say Hello!\n\nPost a message to the `general` channel and the agent will respond!\n\n## Configuration\n\n- **Network Port:** 8700 (HTTP), 8600 (gRPC)\n- **Studio:** http://localhost:8700/studio/\n- **MCP:** http://localhost:8700/mcp\n- **Channel:** `general`\n\n## Agent Groups & Authentication\n\nThis network has several agent groups configured:\n\n| Group | Password | Description |\n|-------|----------|-------------|\n| `guest` | (none) | Default group, no password required |\n| `admin` | `admin` | Full permissions to all features |\n| `coordinators` | `coordinators` | For router/coordinator agents |\n| `researchers` | `researchers` | For worker/research agents |\n\n### Logging in as Admin\n\nTo access admin features in Studio:\n\n1. Open http://localhost:8700/studio/\n2. Click on the group selector (or login)\n3. Select group: **admin**\n4. Enter password: **admin**\n\n### Admin Features\n\nAs an admin, you have full permissions including:\n\n- Access to all channels and messaging features\n- Create, edit, and delete forum topics\n- Manage wiki pages and approve edit proposals\n- Create and manage shared caches\n- Full access to all mod features\n\n## Next Steps\n\n- Customize `network.yaml` to add more channels or mods\n- Create your own agents by copying the examples\n- Check out the demos in the `demos/` folder for more advanced patterns\n- Visit [openagents.org/docs](https://openagents.org/docs/) for full documentation\n', 'network_profile': {'discoverable': True, 'name': 'Default Network', 'description': 'A default network for testing all demos (00-05). Includes messaging, forum, wiki, project management, and AgentWorld game integration.', 'icon': 'https://openagents.org/icons/default-workspace.png', 'website': 'https://openagents.org', 'tags': ['demos', 'testing', 'workspace', 'messaging', 'forum', 'wiki', 'project', 'agentworld', 'game'], 'categories': ['testing', 'demos', 'collaboration'], 'country': 'Worldwide', 'required_openagents_version': '0.7.4', 'capacity': 100, 'authentication': {'type': 'none'}, 'host': '0.0.0.0', 'port': 8700}}
+Running network indefinitely (Ctrl+C to stop)
+Starting heartbeat monitor (interval: 60s, timeout: 180s)
+127.0.0.1 [20/Dec/2025:21:05:16 +0800] "GET /studio/ HTTP/1.1" 200 1284 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:05:16 +0800] "GET /static/js/main.4164291c.js HTTP/1.1" 200 6589272 "http://localhost:8700/studio/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:05:16 +0800] "GET /static/css/main.c12073c1.css HTTP/1.1" 200 285399 "http://localhost:8700/studio/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:05:18 +0800] "GET /static/media/openagents-logo-trans-white.a6c057257062292b9333.png HTTP/1.1" 200 360128 "http://localhost:8700/studio/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:05:18 +0800] "GET /api/health HTTP/1.1" 200 9046 "http://localhost:8700/studio/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:05:18 +0800] "GET /favicon.ico HTTP/1.1" 200 7003 "http://localhost:8700/studio/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:06:01 +0800] "GET /studio/ HTTP/1.1" 200 1284 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:06:03 +0800] "GET /api/health HTTP/1.1" 200 9045 "http://localhost:8700/studio/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:06:12 +0800] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 174 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:06:12 +0800] "GET /manifest.json HTTP/1.1" 200 704 "http://localhost:8700/studio/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:06:14 +0800] "GET /static/js/main.4164291c.js.map HTTP/1.1" 200 21828674 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:06:14 +0800] "GET /static/css/main.c12073c1.css.map HTTP/1.1" 200 249497 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:07:41 +0800] "GET /api/health HTTP/1.1" 200 9046 "http://localhost:8700/studio/agent-setup" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverUnit1284
+Agent CleverUnit1284 assigned to default group 'guest'
+Registered agent CleverUnit1284 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverUnit1284
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverUnit1284', 'platform': 'web', 'verification_only': True}
+✅ AUTO-ADDED agent CleverUnit1284 to channel 'general' (total agents: 1)
+✅ AUTO-ADDED agent CleverUnit1284 to channel 'pitch-room' (total agents: 1)
+✅ AUTO-ADDED agent CleverUnit1284 to channel 'ideas' (total agents: 1)
+✅ AUTO-ADDED agent CleverUnit1284 to channel 'news-feed' (total agents: 1)
+✅ AUTO-ADDED agent CleverUnit1284 to channel 'discussion' (total agents: 1)
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverUnit1284
+📊 Total active agents: 1 -> {'CleverUnit1284'}
+📺 Channel 'general': 1 agents -> ['CleverUnit1284']
+📺 Channel 'pitch-room': 1 agents -> ['CleverUnit1284']
+📺 Channel 'ideas': 1 agents -> ['CleverUnit1284']
+📺 Channel 'news-feed': 1 agents -> ['CleverUnit1284']
+📺 Channel 'discussion': 1 agents -> ['CleverUnit1284']
+🔗 Agent CleverUnit1284 channels: ['general', 'pitch-room', 'ideas', 'news-feed', 'discussion']
+Registered agent CleverUnit1284 with forum mod
+Registering agent CleverUnit1284 with Wiki mod
+Successfully registered agent CleverUnit1284 with Wiki mod
+Registered agent CleverUnit1284 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverUnit1284 with network Unknown Network
+127.0.0.1 [20/Dec/2025:21:08:12 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/agent-setup" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent unregistration: CleverUnit1284
+Unregistered agent CleverUnit1284 from centralized registry
+Unregistered agent CleverUnit1284 from network
+Unregistered agent CleverUnit1284 from Thread Messaging protocol
+Unregistered agent CleverUnit1284 from forum mod
+Unregistered agent CleverUnit1284 from Wiki mod
+🔧 PROJECT MOD: Received event: system.notification.unregister_agent from system:system
+✅ Successfully unregistered HTTP agent CleverUnit1284
+127.0.0.1 [20/Dec/2025:21:08:12 +0800] "POST /api/unregister HTTP/1.1" 200 427 "http://localhost:8700/studio/agent-setup" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:12 +0800] "GET /api/health HTTP/1.1" 200 9046 "http://localhost:8700/studio" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:12 +0800] "GET /api/health HTTP/1.1" 200 9046 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:12 +0800] "GET /api/health HTTP/1.1" 200 9046 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:12 +0800] "GET /api/health HTTP/1.1" 200 9046 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:12 +0800] "GET /api/health HTTP/1.1" 200 9046 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverUnit1284
+Agent CleverUnit1284 assigned to default group 'guest'
+Registered agent CleverUnit1284 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverUnit1284
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverUnit1284', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+✅ AUTO-ADDED agent CleverUnit1284 to channel 'general' (total agents: 1)
+✅ AUTO-ADDED agent CleverUnit1284 to channel 'pitch-room' (total agents: 1)
+✅ AUTO-ADDED agent CleverUnit1284 to channel 'ideas' (total agents: 1)
+✅ AUTO-ADDED agent CleverUnit1284 to channel 'news-feed' (total agents: 1)
+✅ AUTO-ADDED agent CleverUnit1284 to channel 'discussion' (total agents: 1)
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverUnit1284
+📊 Total active agents: 1 -> {'CleverUnit1284'}
+📺 Channel 'general': 1 agents -> ['CleverUnit1284']
+📺 Channel 'pitch-room': 1 agents -> ['CleverUnit1284']
+📺 Channel 'ideas': 1 agents -> ['CleverUnit1284']
+📺 Channel 'news-feed': 1 agents -> ['CleverUnit1284']
+📺 Channel 'discussion': 1 agents -> ['CleverUnit1284']
+🔗 Agent CleverUnit1284 channels: ['general', 'pitch-room', 'ideas', 'news-feed', 'discussion']
+Registered agent CleverUnit1284 with forum mod
+Registering agent CleverUnit1284 with Wiki mod
+Successfully registered agent CleverUnit1284 with Wiki mod
+Registered agent CleverUnit1284 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverUnit1284 with network Unknown Network
+127.0.0.1 [20/Dec/2025:21:08:12 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:12 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:12 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:12 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:12 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:12 +0800] "GET /static/media/openagents_logo_trans_black.85f06bfb828404da73e8.png HTTP/1.1" 200 365671 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:12 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:12 +0800] "GET /media/avatars/300-2.png HTTP/1.1" 404 174 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:28 +0800] "POST /api/send_event HTTP/1.1" 200 1472 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:28 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent unregistration: CleverUnit1284
+❌ Unregistration failed for HTTP agent CleverUnit1284: Authentication failed: Invalid or missing secret
+127.0.0.1 [20/Dec/2025:21:08:28 +0800] "POST /api/unregister HTTP/1.1" 500 540 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:28 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:28 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverUnit1284
+Agent CleverUnit1284 already registered with network
+Unregistered agent CleverUnit1284 from centralized registry
+Agent CleverUnit1284 assigned to default group 'guest'
+Registered agent CleverUnit1284 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverUnit1284
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverUnit1284', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverUnit1284 already in channel 'general'
+ℹ️  Agent CleverUnit1284 already in channel 'pitch-room'
+ℹ️  Agent CleverUnit1284 already in channel 'ideas'
+ℹ️  Agent CleverUnit1284 already in channel 'news-feed'
+ℹ️  Agent CleverUnit1284 already in channel 'discussion'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverUnit1284
+📊 Total active agents: 1 -> {'CleverUnit1284'}
+📺 Channel 'general': 1 agents -> ['CleverUnit1284']
+📺 Channel 'pitch-room': 1 agents -> ['CleverUnit1284']
+📺 Channel 'ideas': 1 agents -> ['CleverUnit1284']
+📺 Channel 'news-feed': 1 agents -> ['CleverUnit1284']
+📺 Channel 'discussion': 1 agents -> ['CleverUnit1284']
+🔗 Agent CleverUnit1284 channels: ['general', 'pitch-room', 'ideas', 'news-feed', 'discussion']
+Registered agent CleverUnit1284 with forum mod
+Registering agent CleverUnit1284 with Wiki mod
+Successfully registered agent CleverUnit1284 with Wiki mod
+Registered agent CleverUnit1284 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverUnit1284 with network Unknown Network
+127.0.0.1 [20/Dec/2025:21:08:28 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:28 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:29 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:29 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:29 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:29 +0800] "GET /media/avatars/300-2.png HTTP/1.1" 404 174 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:29 +0800] "POST /api/send_event HTTP/1.1" 200 1097 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:29 +0800] "POST /api/send_event HTTP/1.1" 200 584 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:29 +0800] "POST /api/send_event HTTP/1.1" 200 1097 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:08:59 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:09:29 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:09:59 +0800] "GET /api/health HTTP/1.1" 200 9203 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:10:17 +0800] "GET /studio/ HTTP/1.1" 200 1284 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:10:17 +0800] "GET /static/js/main.4164291c.js HTTP/1.1" 200 6589272 "http://localhost:8700/studio/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:10:17 +0800] "GET /static/css/main.c12073c1.css HTTP/1.1" 200 285399 "http://localhost:8700/studio/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:10:19 +0800] "GET /static/media/openagents-logo-trans-white.a6c057257062292b9333.png HTTP/1.1" 200 360128 "http://localhost:8700/studio/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:10:19 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:10:19 +0800] "GET /favicon.ico HTTP/1.1" 200 7003 "http://localhost:8700/studio/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:10:20 +0800] "GET /manifest.json HTTP/1.1" 200 704 "http://localhost:8700/studio/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:10:29 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:10:59 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:11:29 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:12:14 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:13:14 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:14:14 +0800] "GET /api/health HTTP/1.1" 200 9202 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:15:14 +0800] "GET /api/health HTTP/1.1" 200 9203 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:16:14 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:17:14 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:18:14 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:19:14 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:20:14 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:21:14 +0800] "GET /api/health HTTP/1.1" 200 9202 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:22:14 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:23:14 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:24:14 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:25:14 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:26:14 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:27:14 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:28:14 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:29:14 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:30:11 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/agent-setup" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:30:14 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: QuickAssistant9AcademicUser089
+Agent QuickAssistant9AcademicUser089 assigned to default group 'guest'
+Registered agent QuickAssistant9AcademicUser089 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent QuickAssistant9AcademicUser089
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'QuickAssistant9AcademicUser089', 'platform': 'web', 'verification_only': True}
+✅ AUTO-ADDED agent QuickAssistant9AcademicUser089 to channel 'general' (total agents: 2)
+✅ AUTO-ADDED agent QuickAssistant9AcademicUser089 to channel 'pitch-room' (total agents: 2)
+✅ AUTO-ADDED agent QuickAssistant9AcademicUser089 to channel 'ideas' (total agents: 2)
+✅ AUTO-ADDED agent QuickAssistant9AcademicUser089 to channel 'news-feed' (total agents: 2)
+✅ AUTO-ADDED agent QuickAssistant9AcademicUser089 to channel 'discussion' (total agents: 2)
+🎉 THREAD MESSAGING MOD: Successfully registered agent QuickAssistant9AcademicUser089
+📊 Total active agents: 2 -> {'QuickAssistant9AcademicUser089', 'CleverUnit1284'}
+📺 Channel 'general': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'pitch-room': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'ideas': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'news-feed': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'discussion': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+🔗 Agent QuickAssistant9AcademicUser089 channels: ['general', 'pitch-room', 'ideas', 'news-feed', 'discussion']
+Registered agent QuickAssistant9AcademicUser089 with forum mod
+Registering agent QuickAssistant9AcademicUser089 with Wiki mod
+Successfully registered agent QuickAssistant9AcademicUser089 with Wiki mod
+Registered agent QuickAssistant9AcademicUser089 with network in group 'guest'
+✅ Successfully registered HTTP agent QuickAssistant9AcademicUser089 with network Unknown Network
+127.0.0.1 [20/Dec/2025:21:30:39 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/agent-setup" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent unregistration: QuickAssistant9AcademicUser089
+Unregistered agent QuickAssistant9AcademicUser089 from centralized registry
+Unregistered agent QuickAssistant9AcademicUser089 from network
+Unregistered agent QuickAssistant9AcademicUser089 from Thread Messaging protocol
+Unregistered agent QuickAssistant9AcademicUser089 from forum mod
+Unregistered agent QuickAssistant9AcademicUser089 from Wiki mod
+🔧 PROJECT MOD: Received event: system.notification.unregister_agent from system:system
+✅ Successfully unregistered HTTP agent QuickAssistant9AcademicUser089
+127.0.0.1 [20/Dec/2025:21:30:39 +0800] "POST /api/unregister HTTP/1.1" 200 427 "http://localhost:8700/studio/agent-setup" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:30:39 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:30:39 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:30:39 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:30:39 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:30:39 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: QuickAssistant9AcademicUser089
+Agent QuickAssistant9AcademicUser089 assigned to default group 'guest'
+Registered agent QuickAssistant9AcademicUser089 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent QuickAssistant9AcademicUser089
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'QuickAssistant9AcademicUser089', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+✅ AUTO-ADDED agent QuickAssistant9AcademicUser089 to channel 'general' (total agents: 2)
+✅ AUTO-ADDED agent QuickAssistant9AcademicUser089 to channel 'pitch-room' (total agents: 2)
+✅ AUTO-ADDED agent QuickAssistant9AcademicUser089 to channel 'ideas' (total agents: 2)
+✅ AUTO-ADDED agent QuickAssistant9AcademicUser089 to channel 'news-feed' (total agents: 2)
+✅ AUTO-ADDED agent QuickAssistant9AcademicUser089 to channel 'discussion' (total agents: 2)
+🎉 THREAD MESSAGING MOD: Successfully registered agent QuickAssistant9AcademicUser089
+📊 Total active agents: 2 -> {'QuickAssistant9AcademicUser089', 'CleverUnit1284'}
+📺 Channel 'general': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'pitch-room': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'ideas': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'news-feed': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'discussion': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+🔗 Agent QuickAssistant9AcademicUser089 channels: ['general', 'pitch-room', 'ideas', 'news-feed', 'discussion']
+Registered agent QuickAssistant9AcademicUser089 with forum mod
+Registering agent QuickAssistant9AcademicUser089 with Wiki mod
+Successfully registered agent QuickAssistant9AcademicUser089 with Wiki mod
+Registered agent QuickAssistant9AcademicUser089 with network in group 'guest'
+✅ Successfully registered HTTP agent QuickAssistant9AcademicUser089 with network Unknown Network
+127.0.0.1 [20/Dec/2025:21:30:39 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:30:39 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:30:40 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:30:40 +0800] "GET /api/health HTTP/1.1" 200 9387 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:30:40 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:30:40 +0800] "GET /static/media/openagents_logo_trans_black.85f06bfb828404da73e8.png HTTP/1.1" 200 365671 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:30:40 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:30:40 +0800] "GET /media/avatars/300-2.png HTTP/1.1" 404 174 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:31:14 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:31:14 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:31:14 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:31:14 +0800] "GET /media/avatars/300-2.png HTTP/1.1" 404 174 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent unregistration: QuickAssistant9AcademicUser089
+❌ Unregistration failed for HTTP agent QuickAssistant9AcademicUser089: Authentication failed: Invalid or missing secret
+127.0.0.1 [20/Dec/2025:21:31:27 +0800] "POST /api/unregister HTTP/1.1" 500 540 "http://localhost:8700/studio/agentworld" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:31:27 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/agentworld" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:31:27 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/agentworld" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:31:27 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/agentworld" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: QuickAssistant9AcademicUser089
+Agent QuickAssistant9AcademicUser089 already registered with network
+Unregistered agent QuickAssistant9AcademicUser089 from centralized registry
+Agent QuickAssistant9AcademicUser089 assigned to default group 'guest'
+Registered agent QuickAssistant9AcademicUser089 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent QuickAssistant9AcademicUser089
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'QuickAssistant9AcademicUser089', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'general'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'pitch-room'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'ideas'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'news-feed'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'discussion'
+🎉 THREAD MESSAGING MOD: Successfully registered agent QuickAssistant9AcademicUser089
+📊 Total active agents: 2 -> {'QuickAssistant9AcademicUser089', 'CleverUnit1284'}
+📺 Channel 'general': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'pitch-room': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'ideas': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'news-feed': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'discussion': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+🔗 Agent QuickAssistant9AcademicUser089 channels: ['general', 'pitch-room', 'ideas', 'news-feed', 'discussion']
+Registered agent QuickAssistant9AcademicUser089 with forum mod
+Registering agent QuickAssistant9AcademicUser089 with Wiki mod
+Successfully registered agent QuickAssistant9AcademicUser089 with Wiki mod
+Registered agent QuickAssistant9AcademicUser089 with network in group 'guest'
+✅ Successfully registered HTTP agent QuickAssistant9AcademicUser089 with network Unknown Network
+127.0.0.1 [20/Dec/2025:21:31:27 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/agentworld" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:31:27 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/agentworld" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:31:27 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/agentworld" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:31:27 +0800] "GET /media/avatars/300-2.png HTTP/1.1" 404 174 "http://localhost:8700/studio/agentworld" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:31:27 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/agentworld" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:32:14 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:33:08 +0800] "GET /studio/chat HTTP/1.1" 200 1284 "http://localhost:8700/studio/agentworld" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:33:10 +0800] "GET /manifest.json HTTP/1.1" 200 704 "http://localhost:8700/studio/chat" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:33:14 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:33:28 +0800] "GET /studio/chat HTTP/1.1" 200 1284 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:33:30 +0800] "GET /manifest.json HTTP/1.1" 200 704 "http://localhost:8700/studio/chat" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:02 +0800] "GET /studio/readme HTTP/1.1" 200 1284 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:03 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:03 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:03 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:03 +0800] "GET /manifest.json HTTP/1.1" 200 704 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: QuickAssistant9AcademicUser089
+Agent QuickAssistant9AcademicUser089 already registered with network
+Unregistered agent QuickAssistant9AcademicUser089 from centralized registry
+Agent QuickAssistant9AcademicUser089 assigned to default group 'guest'
+Registered agent QuickAssistant9AcademicUser089 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent QuickAssistant9AcademicUser089
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'QuickAssistant9AcademicUser089', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'general'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'pitch-room'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'ideas'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'news-feed'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'discussion'
+🎉 THREAD MESSAGING MOD: Successfully registered agent QuickAssistant9AcademicUser089
+📊 Total active agents: 2 -> {'QuickAssistant9AcademicUser089', 'CleverUnit1284'}
+📺 Channel 'general': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'pitch-room': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'ideas': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'news-feed': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'discussion': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+🔗 Agent QuickAssistant9AcademicUser089 channels: ['general', 'pitch-room', 'ideas', 'news-feed', 'discussion']
+Registered agent QuickAssistant9AcademicUser089 with forum mod
+Registering agent QuickAssistant9AcademicUser089 with Wiki mod
+Successfully registered agent QuickAssistant9AcademicUser089 with Wiki mod
+Registered agent QuickAssistant9AcademicUser089 with network in group 'guest'
+✅ Successfully registered HTTP agent QuickAssistant9AcademicUser089 with network Unknown Network
+127.0.0.1 [20/Dec/2025:21:34:03 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:03 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:03 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:03 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:03 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:03 +0800] "GET /media/avatars/300-2.png HTTP/1.1" 404 174 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:03 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent unregistration: QuickAssistant9AcademicUser089
+❌ Unregistration failed for HTTP agent QuickAssistant9AcademicUser089: Authentication failed: Invalid or missing secret
+127.0.0.1 [20/Dec/2025:21:34:12 +0800] "POST /api/unregister HTTP/1.1" 500 540 "http://localhost:8700/studio" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:12 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:12 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:12 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:12 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: QuickAssistant9AcademicUser089
+Agent QuickAssistant9AcademicUser089 already registered with network
+Unregistered agent QuickAssistant9AcademicUser089 from centralized registry
+Agent QuickAssistant9AcademicUser089 assigned to default group 'guest'
+Registered agent QuickAssistant9AcademicUser089 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent QuickAssistant9AcademicUser089
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'QuickAssistant9AcademicUser089', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'general'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'pitch-room'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'ideas'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'news-feed'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'discussion'
+🎉 THREAD MESSAGING MOD: Successfully registered agent QuickAssistant9AcademicUser089
+📊 Total active agents: 2 -> {'QuickAssistant9AcademicUser089', 'CleverUnit1284'}
+📺 Channel 'general': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'pitch-room': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'ideas': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'news-feed': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'discussion': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+🔗 Agent QuickAssistant9AcademicUser089 channels: ['general', 'pitch-room', 'ideas', 'news-feed', 'discussion']
+Registered agent QuickAssistant9AcademicUser089 with forum mod
+Registering agent QuickAssistant9AcademicUser089 with Wiki mod
+Successfully registered agent QuickAssistant9AcademicUser089 with Wiki mod
+Registered agent QuickAssistant9AcademicUser089 with network in group 'guest'
+✅ Successfully registered HTTP agent QuickAssistant9AcademicUser089 with network Unknown Network
+127.0.0.1 [20/Dec/2025:21:34:12 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:13 +0800] "GET /api/health HTTP/1.1" 200 9387 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:13 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:13 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:13 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:13 +0800] "GET /media/avatars/300-2.png HTTP/1.1" 404 174 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:13 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:14 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+🔧 PROJECT MOD: Received event: project.list from QuickAssistant9AcademicUser089
+Agent QuickAssistant9AcademicUser089 listed 0 accessible projects
+127.0.0.1 [20/Dec/2025:21:34:57 +0800] "POST /api/send_event HTTP/1.1" 200 614 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent unregistration: QuickAssistant9AcademicUser089
+❌ Unregistration failed for HTTP agent QuickAssistant9AcademicUser089: Authentication failed: Invalid or missing secret
+127.0.0.1 [20/Dec/2025:21:34:57 +0800] "POST /api/unregister HTTP/1.1" 500 540 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:57 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:57 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: QuickAssistant9AcademicUser089
+Agent QuickAssistant9AcademicUser089 already registered with network
+Unregistered agent QuickAssistant9AcademicUser089 from centralized registry
+Agent QuickAssistant9AcademicUser089 assigned to default group 'guest'
+Registered agent QuickAssistant9AcademicUser089 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent QuickAssistant9AcademicUser089
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'QuickAssistant9AcademicUser089', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'general'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'pitch-room'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'ideas'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'news-feed'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'discussion'
+🎉 THREAD MESSAGING MOD: Successfully registered agent QuickAssistant9AcademicUser089
+📊 Total active agents: 2 -> {'QuickAssistant9AcademicUser089', 'CleverUnit1284'}
+📺 Channel 'general': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'pitch-room': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'ideas': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'news-feed': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'discussion': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+🔗 Agent QuickAssistant9AcademicUser089 channels: ['general', 'pitch-room', 'ideas', 'news-feed', 'discussion']
+Registered agent QuickAssistant9AcademicUser089 with forum mod
+Registering agent QuickAssistant9AcademicUser089 with Wiki mod
+Successfully registered agent QuickAssistant9AcademicUser089 with Wiki mod
+Registered agent QuickAssistant9AcademicUser089 with network in group 'guest'
+✅ Successfully registered HTTP agent QuickAssistant9AcademicUser089 with network Unknown Network
+127.0.0.1 [20/Dec/2025:21:34:57 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:58 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:58 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:58 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+🔧 PROJECT MOD: Received event: project.list from QuickAssistant9AcademicUser089
+Agent QuickAssistant9AcademicUser089 listed 0 accessible projects
+127.0.0.1 [20/Dec/2025:21:34:58 +0800] "POST /api/send_event HTTP/1.1" 200 614 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:58 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:34:58 +0800] "GET /media/avatars/300-2.png HTTP/1.1" 404 174 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:35:14 +0800] "GET /api/health HTTP/1.1" 200 9387 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Periodic dump completed: 4 messages dumped
+127.0.0.1 [20/Dec/2025:21:35:24 +0800] "POST /api/send_event HTTP/1.1" 200 1674 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:35:24 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent unregistration: QuickAssistant9AcademicUser089
+❌ Unregistration failed for HTTP agent QuickAssistant9AcademicUser089: Authentication failed: Invalid or missing secret
+127.0.0.1 [20/Dec/2025:21:35:24 +0800] "POST /api/unregister HTTP/1.1" 500 540 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:35:24 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:35:24 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: QuickAssistant9AcademicUser089
+Agent QuickAssistant9AcademicUser089 already registered with network
+Unregistered agent QuickAssistant9AcademicUser089 from centralized registry
+Agent QuickAssistant9AcademicUser089 assigned to default group 'guest'
+Registered agent QuickAssistant9AcademicUser089 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent QuickAssistant9AcademicUser089
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'QuickAssistant9AcademicUser089', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'general'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'pitch-room'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'ideas'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'news-feed'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'discussion'
+🎉 THREAD MESSAGING MOD: Successfully registered agent QuickAssistant9AcademicUser089
+📊 Total active agents: 2 -> {'QuickAssistant9AcademicUser089', 'CleverUnit1284'}
+📺 Channel 'general': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'pitch-room': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'ideas': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'news-feed': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'discussion': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+🔗 Agent QuickAssistant9AcademicUser089 channels: ['general', 'pitch-room', 'ideas', 'news-feed', 'discussion']
+Registered agent QuickAssistant9AcademicUser089 with forum mod
+Registering agent QuickAssistant9AcademicUser089 with Wiki mod
+Successfully registered agent QuickAssistant9AcademicUser089 with Wiki mod
+Registered agent QuickAssistant9AcademicUser089 with network in group 'guest'
+✅ Successfully registered HTTP agent QuickAssistant9AcademicUser089 with network Unknown Network
+127.0.0.1 [20/Dec/2025:21:35:24 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:35:25 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:35:25 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:35:25 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:35:25 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:35:25 +0800] "GET /media/avatars/300-2.png HTTP/1.1" 404 174 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:35:25 +0800] "POST /api/send_event HTTP/1.1" 200 1481 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:35:25 +0800] "POST /api/send_event HTTP/1.1" 200 600 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:35:25 +0800] "POST /api/send_event HTTP/1.1" 200 1481 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:35:38 +0800] "GET /media/avatars/300-2.png HTTP/1.1" 404 174 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:35:55 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent unregistration: QuickAssistant9AcademicUser089
+❌ Unregistration failed for HTTP agent QuickAssistant9AcademicUser089: Authentication failed: Invalid or missing secret
+127.0.0.1 [20/Dec/2025:21:36:09 +0800] "POST /api/unregister HTTP/1.1" 500 540 "http://localhost:8700/studio/network-selection" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:36:09 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:36:14 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:36:21 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/agent-setup" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:37:14 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:38:14 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:39:14 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:40:14 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:41:14 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:42:14 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:43:14 +0800] "GET /api/health HTTP/1.1" 200 9387 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:44:14 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:45:14 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:46:14 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:47:14 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:48:14 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:49:14 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:50:14 +0800] "GET /api/health HTTP/1.1" 200 9387 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:51:14 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:52:14 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: QuickAssistant9AcademicUser089
+Agent QuickAssistant9AcademicUser089 already registered with network
+Unregistered agent QuickAssistant9AcademicUser089 from centralized registry
+Agent QuickAssistant9AcademicUser089 assigned to default group 'guest'
+Registered agent QuickAssistant9AcademicUser089 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent QuickAssistant9AcademicUser089
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'QuickAssistant9AcademicUser089', 'platform': 'web', 'verification_only': True}
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'general'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'pitch-room'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'ideas'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'news-feed'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'discussion'
+🎉 THREAD MESSAGING MOD: Successfully registered agent QuickAssistant9AcademicUser089
+📊 Total active agents: 2 -> {'QuickAssistant9AcademicUser089', 'CleverUnit1284'}
+📺 Channel 'general': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'pitch-room': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'ideas': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'news-feed': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'discussion': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+🔗 Agent QuickAssistant9AcademicUser089 channels: ['general', 'pitch-room', 'ideas', 'news-feed', 'discussion']
+Registered agent QuickAssistant9AcademicUser089 with forum mod
+Registering agent QuickAssistant9AcademicUser089 with Wiki mod
+Successfully registered agent QuickAssistant9AcademicUser089 with Wiki mod
+Registered agent QuickAssistant9AcademicUser089 with network in group 'guest'
+✅ Successfully registered HTTP agent QuickAssistant9AcademicUser089 with network Unknown Network
+127.0.0.1 [20/Dec/2025:21:53:12 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/agent-setup" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent unregistration: QuickAssistant9AcademicUser089
+Unregistered agent QuickAssistant9AcademicUser089 from centralized registry
+Unregistered agent QuickAssistant9AcademicUser089 from network
+Unregistered agent QuickAssistant9AcademicUser089 from Thread Messaging protocol
+Unregistered agent QuickAssistant9AcademicUser089 from forum mod
+Unregistered agent QuickAssistant9AcademicUser089 from Wiki mod
+🔧 PROJECT MOD: Received event: system.notification.unregister_agent from system:system
+✅ Successfully unregistered HTTP agent QuickAssistant9AcademicUser089
+127.0.0.1 [20/Dec/2025:21:53:13 +0800] "POST /api/unregister HTTP/1.1" 200 427 "http://localhost:8700/studio/agent-setup" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:13 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:13 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:13 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:13 +0800] "GET /api/health HTTP/1.1" 200 9204 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:13 +0800] "GET /api/health HTTP/1.1" 200 9205 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: QuickAssistant9AcademicUser089
+Agent QuickAssistant9AcademicUser089 assigned to default group 'guest'
+Registered agent QuickAssistant9AcademicUser089 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent QuickAssistant9AcademicUser089
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'QuickAssistant9AcademicUser089', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+✅ AUTO-ADDED agent QuickAssistant9AcademicUser089 to channel 'general' (total agents: 2)
+✅ AUTO-ADDED agent QuickAssistant9AcademicUser089 to channel 'pitch-room' (total agents: 2)
+✅ AUTO-ADDED agent QuickAssistant9AcademicUser089 to channel 'ideas' (total agents: 2)
+✅ AUTO-ADDED agent QuickAssistant9AcademicUser089 to channel 'news-feed' (total agents: 2)
+✅ AUTO-ADDED agent QuickAssistant9AcademicUser089 to channel 'discussion' (total agents: 2)
+🎉 THREAD MESSAGING MOD: Successfully registered agent QuickAssistant9AcademicUser089
+📊 Total active agents: 2 -> {'QuickAssistant9AcademicUser089', 'CleverUnit1284'}
+📺 Channel 'general': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'pitch-room': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'ideas': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'news-feed': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'discussion': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+🔗 Agent QuickAssistant9AcademicUser089 channels: ['general', 'pitch-room', 'ideas', 'news-feed', 'discussion']
+Registered agent QuickAssistant9AcademicUser089 with forum mod
+Registering agent QuickAssistant9AcademicUser089 with Wiki mod
+Successfully registered agent QuickAssistant9AcademicUser089 with Wiki mod
+Registered agent QuickAssistant9AcademicUser089 with network in group 'guest'
+✅ Successfully registered HTTP agent QuickAssistant9AcademicUser089 with network Unknown Network
+127.0.0.1 [20/Dec/2025:21:53:13 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:13 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:13 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:13 +0800] "GET /api/health HTTP/1.1" 200 9387 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:13 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:13 +0800] "GET /media/avatars/300-2.png HTTP/1.1" 404 174 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:13 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/readme" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:14 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Periodic dump completed: 7 messages dumped
+127.0.0.1 [20/Dec/2025:21:53:26 +0800] "POST /api/send_event HTTP/1.1" 200 1674 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:26 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent unregistration: QuickAssistant9AcademicUser089
+❌ Unregistration failed for HTTP agent QuickAssistant9AcademicUser089: Authentication failed: Invalid or missing secret
+127.0.0.1 [20/Dec/2025:21:53:26 +0800] "POST /api/unregister HTTP/1.1" 500 540 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:26 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:26 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: QuickAssistant9AcademicUser089
+Agent QuickAssistant9AcademicUser089 already registered with network
+Unregistered agent QuickAssistant9AcademicUser089 from centralized registry
+Agent QuickAssistant9AcademicUser089 assigned to default group 'guest'
+Registered agent QuickAssistant9AcademicUser089 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent QuickAssistant9AcademicUser089
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'QuickAssistant9AcademicUser089', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'general'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'pitch-room'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'ideas'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'news-feed'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'discussion'
+🎉 THREAD MESSAGING MOD: Successfully registered agent QuickAssistant9AcademicUser089
+📊 Total active agents: 2 -> {'QuickAssistant9AcademicUser089', 'CleverUnit1284'}
+📺 Channel 'general': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'pitch-room': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'ideas': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'news-feed': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'discussion': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+🔗 Agent QuickAssistant9AcademicUser089 channels: ['general', 'pitch-room', 'ideas', 'news-feed', 'discussion']
+Registered agent QuickAssistant9AcademicUser089 with forum mod
+Registering agent QuickAssistant9AcademicUser089 with Wiki mod
+Successfully registered agent QuickAssistant9AcademicUser089 with Wiki mod
+Registered agent QuickAssistant9AcademicUser089 with network in group 'guest'
+✅ Successfully registered HTTP agent QuickAssistant9AcademicUser089 with network Unknown Network
+127.0.0.1 [20/Dec/2025:21:53:26 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:26 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:26 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:26 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:26 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:26 +0800] "GET /media/avatars/300-2.png HTTP/1.1" 404 174 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:26 +0800] "POST /api/send_event HTTP/1.1" 200 1832 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:26 +0800] "POST /api/send_event HTTP/1.1" 200 600 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:26 +0800] "POST /api/send_event HTTP/1.1" 200 1832 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+🔧 PROJECT MOD: Received event: project.list from QuickAssistant9AcademicUser089
+Agent QuickAssistant9AcademicUser089 listed 0 accessible projects
+127.0.0.1 [20/Dec/2025:21:53:39 +0800] "POST /api/send_event HTTP/1.1" 200 614 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent unregistration: QuickAssistant9AcademicUser089
+❌ Unregistration failed for HTTP agent QuickAssistant9AcademicUser089: Authentication failed: Invalid or missing secret
+127.0.0.1 [20/Dec/2025:21:53:39 +0800] "POST /api/unregister HTTP/1.1" 500 540 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:39 +0800] "GET /api/health HTTP/1.1" 200 9387 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:39 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: QuickAssistant9AcademicUser089
+Agent QuickAssistant9AcademicUser089 already registered with network
+Unregistered agent QuickAssistant9AcademicUser089 from centralized registry
+Agent QuickAssistant9AcademicUser089 assigned to default group 'guest'
+Registered agent QuickAssistant9AcademicUser089 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent QuickAssistant9AcademicUser089
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'QuickAssistant9AcademicUser089', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'general'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'pitch-room'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'ideas'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'news-feed'
+ℹ️  Agent QuickAssistant9AcademicUser089 already in channel 'discussion'
+🎉 THREAD MESSAGING MOD: Successfully registered agent QuickAssistant9AcademicUser089
+📊 Total active agents: 2 -> {'QuickAssistant9AcademicUser089', 'CleverUnit1284'}
+📺 Channel 'general': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'pitch-room': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'ideas': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'news-feed': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+📺 Channel 'discussion': 2 agents -> ['CleverUnit1284', 'QuickAssistant9AcademicUser089']
+🔗 Agent QuickAssistant9AcademicUser089 channels: ['general', 'pitch-room', 'ideas', 'news-feed', 'discussion']
+Registered agent QuickAssistant9AcademicUser089 with forum mod
+Registering agent QuickAssistant9AcademicUser089 with Wiki mod
+Successfully registered agent QuickAssistant9AcademicUser089 with Wiki mod
+Registered agent QuickAssistant9AcademicUser089 with network in group 'guest'
+✅ Successfully registered HTTP agent QuickAssistant9AcademicUser089 with network Unknown Network
+127.0.0.1 [20/Dec/2025:21:53:39 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:39 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:39 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+🔧 PROJECT MOD: Received event: project.list from QuickAssistant9AcademicUser089
+Agent QuickAssistant9AcademicUser089 listed 0 accessible projects
+127.0.0.1 [20/Dec/2025:21:53:39 +0800] "POST /api/send_event HTTP/1.1" 200 614 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:39 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:39 +0800] "GET /media/avatars/300-2.png HTTP/1.1" 404 174 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:53:39 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/project" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:54:14 +0800] "GET /api/health HTTP/1.1" 200 9387 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:55:14 +0800] "GET /api/health HTTP/1.1" 200 9387 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:56:14 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:57:14 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:58:14 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:21:59:14 +0800] "GET /api/health HTTP/1.1" 200 9388 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 [20/Dec/2025:22:00:14 +0800] "GET /api/health HTTP/1.1" 200 9389 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
