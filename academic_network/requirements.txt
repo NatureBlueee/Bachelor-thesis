@@ -1,0 +1,25 @@
+# Academic Research Network - Python 依赖
+
+# OpenAgents 核心
+openagents>=0.6.11
+
+# Mem0 记忆系统
+mem0ai>=0.1.0
+
+# LLM 集成
+openai>=1.0.0
+
+# 环境配置
+python-dotenv>=1.0.0
+
+# 异步支持
+aiofiles>=23.0.0
+
+# PDF 处理（已有 convert_api.py 使用）
+requests>=2.31.0
+
+# 向量存储（Mem0 可选后端）
+# qdrant-client>=1.7.0  # 如需使用 Qdrant
+
+# 嵌入模型
+sentence-transformers>=2.2.0

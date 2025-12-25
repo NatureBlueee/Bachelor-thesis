@@ -1,101 +1,123 @@
-# Default Workspace
+# Academic Research Network
 
-A simple OpenAgents network to get you started.
+基于 OpenAgents 的学术研究多Agent协作系统。
 
-## Overview
+## 快速开始
 
-This workspace contains everything you need to start your first OpenAgents network with example agents.
+### 1. 安装依赖
 
-## Agents
-
-| Agent | Type | Description |
-|-------|------|-------------|
-| `charlie` | YAML (LLM) | Replies to any message in a friendly manner |
-| `simple-worker` | Python | Basic agent that echoes responses |
-| `alex` | Python (LLM) | Uses `run_agent` for LLM-powered responses |
-
-## Quick Start
-
-### 1. Start the Network
-
-```bash
-openagents network start .
+```powershell
+cd academic_network
+pip install -r requirements.txt
 ```
 
-### 2. Access Studio
+### 2. 设置环境变量
 
-Open your browser to:
-- **http://localhost:8700/studio/** - Studio web interface
-- **http://localhost:8700/mcp** - MCP protocol endpoint
-
-### 3. Launch an Agent
-
-Choose one of the agents:
-
-**YAML Agent (recommended for beginners):**
-```bash
-openagents agent start agents/charlie.yaml
+```powershell
+$env:OPENAI_API_KEY = "your-openai-api-key"
 ```
 
-**Python Agent (basic):**
-```bash
-python agents/simple_agent.py
+### 3. 启动网络
+
+```powershell
+# 一键启动
+.\start_academic_network.ps1
+
+# 或者手动启动
+cd academic_network
+python -m openagents network start network.yaml
 ```
 
-**Python Agent (with LLM):**
-```bash
-# Set your OpenAI API key first
-export OPENAI_API_KEY=your-api-key
+### 4. 访问 Studio
 
-python agents/llm_agent.py
+打开浏览器访问: http://localhost:8700/studio/
+
+## Agent 架构
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                   Academic Research Network                  │
+├─────────────────────────────────────────────────────────────┤
+│                                                              │
+│  ┌───────────┐  ┌───────────┐  ┌───────────┐  ┌───────────┐│
+│  │Facilitator│  │Literature │  │  Critical │  │    PR     ││
+│  │(协调者)   │  │  Agent    │  │  Thinker  │  │  Manager  ││
+│  │           │  │(文献专家) │  │ (批判者)  │  │(变更管理) ││
+│  └─────┬─────┘  └─────┬─────┘  └─────┬─────┘  └─────┬─────┘│
+│        │              │              │              │       │
+│        └──────────────┴──────────────┴──────────────┘       │
+│                          ↕                                   │
+│  ┌─────────────────────────────────────────────────────────┐│
+│  │                    Mem0 记忆系统                         ││
+│  │   • 自动捕捉偏好和洞见                                   ││
+│  │   • 冲突检测和确认                                       ││
+│  │   • 同步到 MEMORY.md                                     ││
+│  └─────────────────────────────────────────────────────────┘│
+│                                                              │
+└─────────────────────────────────────────────────────────────┘
 ```
 
-> **Note:** LLM-powered agents (charlie.yaml and llm_agent.py) require an OpenAI API key.
+## 核心特性
 
-### 4. Say Hello!
+### 1. 负面约束设计
+告诉 Agent "不能做什么" 比 "应该做什么" 更重要：
+- ❌ 不直接编辑 Draft.md（必须通过 PR）
+- ❌ 不凭空编造文献（必须来自 Reference/）
+- ❌ 不跳过批判性审查
 
-Post a message to the `general` channel and the agent will respond!
+### 2. PR 驱动变更
+所有论文修改通过 Pull Request：
+- 10 步验证流程
+- 强制引用检查
+- 完整历史记录
 
-## Configuration
+### 3. 智能记忆系统
+基于 Mem0 的记忆层：
+- 自动提取用户偏好和洞见
+- 检测偏好冲突并主动确认
+- 每次讨论产出可追溯的结果
 
-- **Network Port:** 8700 (HTTP), 8600 (gRPC)
-- **Studio:** http://localhost:8700/studio/
-- **MCP:** http://localhost:8700/mcp
-- **Channel:** `general`
+### 4. 文献工具链
+- PDF → Markdown 转换 (Datalab API)
+- 优先搜索未引用文献
+- 自动引用检查
 
-## Agent Groups & Authentication
+## 目录结构
 
-This network has several agent groups configured:
+```
+academic_network/
+├── network.yaml          # 网络配置
+├── requirements.txt      # Python 依赖
+├── agents/               # Agent 定义
+│   ├── facilitator.yaml
+│   ├── literature_agent.yaml
+│   ├── critical_thinker.yaml
+│   └── pr_manager.yaml
+├── mods/                 # 自定义模块
+│   └── memory_system.py
+└── tools/                # 工具集
+    └── document_tools.py
+```
 
-| Group | Password | Description |
-|-------|----------|-------------|
-| `guest` | (none) | Default group, no password required |
-| `admin` | `admin` | Full permissions to all features |
-| `coordinators` | `coordinators` | For router/coordinator agents |
-| `researchers` | `researchers` | For worker/research agents |
+## 工作流模板
 
-### Logging in as Admin
+| 模板 | 用途 |
+|------|------|
+| thesis_modification | 论文修改流程 |
+| deep_reading | 深度阅读文献 |
+| academic_discussion | 学术问题讨论 |
 
-To access admin features in Studio:
+## 与现有系统的集成
 
-1. Open http://localhost:8700/studio/
-2. Click on the group selector (or login)
-3. Select group: **admin**
-4. Enter password: **admin**
+本系统与现有的论文协作系统完全兼容：
+- 使用相同的 `Reference/` 文献库
+- 使用相同的 `PR/` 系统
+- 使用相同的 `MEMORY.md`
+- 支持现有的 9 个工作流
 
-### Admin Features
+## 下一步
 
-As an admin, you have full permissions including:
-
-- Access to all channels and messaging features
-- Create, edit, and delete forum topics
-- Manage wiki pages and approve edit proposals
-- Create and manage shared caches
-- Full access to all mod features
-
-## Next Steps
-
-- Customize `network.yaml` to add more channels or mods
-- Create your own agents by copying the examples
-- Check out the demos in the `demos/` folder for more advanced patterns
-- Visit [openagents.org/docs](https://openagents.org/docs/) for full documentation
+- [ ] 测试 Agent 基础协作
+- [ ] 验证 Mem0 记忆功能
+- [ ] 录制演示视频
+- [ ] 准备 Hackathon 提交
