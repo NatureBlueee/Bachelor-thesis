@@ -202,6 +202,48 @@
 
 | 110 | The mobile technological era: insights into the co... | `The mobile technological era - insights into the consequences of constant connectivity of personal d.md` |
 
+| 111 | A taxonomy framework and process model to explore ... | `A taxonomy framework and process model to explore AI-enabled workplace inclusion-.md` |
+
+| 112 | AIGC 技术赋能广告内容生产, 受众接受度的情感分析\* | `AIGC 技术赋能广告内容生产, 受众接受度的情感分析-.md` |
+
+| 113 | AI 赋能企业财务管理价值提升的思考 | `AI 赋能企业财务管理价值提升的思考.md` |
+
+| 114 | Artificial Intelligence, Organizational Justice an... | `Artificial Intelligence, Organizational Justice and Organizational Trust - Towards a Conceptual Fram.md` |
+
+| 115 | Generative Artificial Intelligence in Business: To... | `Generative Artificial Intelligence in Business - Towards a Strategic Human Resource Management Frame.md` |
+
+| 116 | Human-artificial intelligence collaboration in the... | `Human-artificial intelligence collaboration in the modern workplace - Maximizing productivity and tr.md` |
+
+| 117 | Fairness and Bias in Multimodal AI: A Survey | `Fairness and Bias in Multimodal AI - A Survey.md` |
+
+| 118 | Systematic Review | `Systematic Review.md` |
+
+| 119 | INVITED REVIEW | `INVITED REVIEW.md` |
+
+| 120 | L'intelligence artificielle au service de la gesti... | `L'intelligence artificielle au service de la gestion des connaissances dans l'entreprise  - vers de.md` |
+
+| 121 | Perceived Usefulness, Perceived Ease of Use, and U... | `Perceived Usefulness, Perceived Ease of Use, and User Acceptance of Information Technology.md` |
+
+| 122 | 人工智能在财会领域的应用及影响分析 | `人工智能在财会领域的应用及影响分析.md` |
+
+| 123 | 人工智能在高校教学与管理中的深度融合与实践探索 | `人工智能在高校教学与管理中的深度融合与实践探索.md` |
+
+| 124 | 人工智能对企业人力资源管理实践影响研究 | `人工智能对企业人力资源管理实践影响研究.md` |
+
+| 125 | 人工智能技术在抑郁症临床管理中的研究进展 | `人工智能技术在抑郁症临床管理中的研究进展.md` |
+
+| 126 | 人工智能技术对学生价值观形成的影响机制与教育对策 | `人工智能技术对学生价值观形成的影响机制与教育对策.md` |
+
+| 127 | 人工智能时代科技企业管理变革探究 | `人工智能时代科技企业管理变革探究.md` |
+
+| 128 | 基于生成式人工智能的经济管理学科 相关研究综述 | `基于生成式人工智能的经济管理学科 相关研究综述.md` |
+
+| 129 | 学校人工智能应用亟需有效的社会监督 | `学校人工智能应用亟需有效的社会监督.md` |
+
+| 130 | 生成式人工智能的偏见： 主要表现、发生机制与治理路径 | `生成式人工智能的偏见： 主要表现、发生机制与治理路径.md` |
+
+| 131 | 生成式人工智能赋能软件工程教育与学生能力提升 | `生成式人工智能赋能软件工程教育与学生能力提升.md` |
+
 ## 使用说明
 
 文献 Markdown 文件位于 `PDF-MD/output_api/` 目录。
