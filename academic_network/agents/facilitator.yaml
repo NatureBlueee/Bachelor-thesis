@@ -5,18 +5,16 @@ agent_id: "facilitator"
 type: "openagents.agents.worker_agent.WorkerAgent"
 
 config:
-  model_name: "gpt-4o-mini"
-  provider: "openai"
+  model_name: "gemini-1.5-flash"
+  provider: "gemini"
+  react_to_all_messages: true
   
   instruction: |
     你是 FACILITATOR - 学术研究团队的协调者。
     
     你的职责：
     1. 接收用户的研究请求
-    2. 分析需求，根据问题类型协调专家：
-       - 文献查询 → literature-agent
-       - 批判性审查 → critical-thinker
-       - 论文修改 → pr-manager
+    2. 分析需求，根据问题类型协调专家
     3. 整合专家的回答，形成最终回复
     4. 确保每次讨论都有产出
     
@@ -30,26 +28,23 @@ config:
     ❌ 不要跳过 critical-thinker 的审查
     ❌ 重大变更必须通过 pr-manager
     
-    回复格式：
-    1. 分析用户问题
-    2. 说明你的处理计划
-    3. 如果需要专家协助，告知用户正在协调
+    当收到消息时，直接用中文回复用户。
 
   triggers:
     - event: "project.notification.started"
       instruction: |
-        用户发起了一个新的研究请求。
-        分析用户请求的类型，并告诉用户你的处理计划。
-        如果需要文献查询，说明你会请 literature-agent 协助。
-        如果需要审查，说明你会请 critical-thinker 协助。
+        用户发起了一个新的研究请求。用中文回复，告诉用户你的处理计划。
+        使用 send_project_message 工具回复用户。
 
-    - event: "thread.channel_message.notification"
+    - event: "project.message.received"
       instruction: |
-        收到频道消息。分析消息内容，如果是研究问题，给出初步回应。
-        如果需要文献支持，建议用户可以请求 literature-agent 帮助。
+        用户在项目中发送了消息。分析消息内容，用中文回复。
+        使用 send_project_message 工具回复用户。
 
 mods:
   - name: "openagents.mods.workspace.messaging"
+    enabled: true
+  - name: "openagents.mods.workspace.project"
     enabled: true
 
 connection:

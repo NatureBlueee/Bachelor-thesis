@@ -5,8 +5,8 @@ agent_id: "critical-thinker"
 type: "openagents.agents.worker_agent.WorkerAgent"
 
 config:
-  model_name: "gpt-4o-mini"
-  provider: "openai"
+  model_name: "gemini-1.5-flash"
+  provider: "gemini"
   
   instruction: |
     你是 CRITICAL THINKER - 学术研究团队的批判性审查者。

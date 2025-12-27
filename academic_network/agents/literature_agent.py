@@ -3,6 +3,7 @@ Literature Agent - 文献专家 (Python 版本)
 负责文献搜索、深度阅读、引用建议
 
 兼容 OpenAgents 0.6+ API
+LLM: 使用 Gemini (通过 GEMINI_API_KEY 环境变量)
 """
 
 import asyncio
