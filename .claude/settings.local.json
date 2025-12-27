@@ -5,7 +5,16 @@
       "WebSearch",
       "WebFetch(domain:www.anthropic.com)",
       "WebFetch(domain:docs.claude.com)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(pip show:*)",
+      "Bash(python -c:*)",
+      "Bash(timeout 10 python:*)",
+      "Bash(python -m openagents.cli:*)",
+      "Bash(set PYTHONIOENCODING=utf-8:*)",
+      "Bash(chcp 65001)",
+      "Bash(PYTHONIOENCODING=utf-8 python:*)",
+      "Bash(PYTHONIOENCODING=utf-8 timeout 15 python:*)"
     ]
   }
 }

@@ -1717,3 +1717,72 @@ Registered agent CleverUnit1284 with network in group 'guest'
 ::1 [27/Dec/2025:15:12:03 +0800] "GET /api/health HTTP/1.1" 200 12378 "http://localhost:8700/studio/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
 ::1 [27/Dec/2025:15:12:33 +0800] "GET /api/health HTTP/1.1" 200 12380 "http://localhost:8700/studio/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
 ::1 [27/Dec/2025:15:13:03 +0800] "GET /api/health HTTP/1.1" 200 12380 "http://localhost:8700/studio/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [27/Dec/2025:15:13:33 +0800] "GET /api/health HTTP/1.1" 200 12380 "http://localhost:8700/studio/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [27/Dec/2025:15:14:03 +0800] "GET /api/health HTTP/1.1" 200 12379 "http://localhost:8700/studio/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [27/Dec/2025:15:14:33 +0800] "GET /api/health HTTP/1.1" 200 12379 "http://localhost:8700/studio/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [27/Dec/2025:15:15:52 +0800] "GET /api/health HTTP/1.1" 200 12380 "http://localhost:8700/studio/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [27/Dec/2025:15:16:52 +0800] "GET /api/health HTTP/1.1" 200 12379 "http://localhost:8700/studio/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [27/Dec/2025:15:17:52 +0800] "GET /api/health HTTP/1.1" 200 12379 "http://localhost:8700/studio/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [27/Dec/2025:15:18:52 +0800] "GET /api/health HTTP/1.1" 200 12379 "http://localhost:8700/studio/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [27/Dec/2025:15:19:52 +0800] "GET /api/health HTTP/1.1" 200 12379 "http://localhost:8700/studio/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [27/Dec/2025:15:20:52 +0800] "GET /api/health HTTP/1.1" 200 12379 "http://localhost:8700/studio/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [27/Dec/2025:15:21:52 +0800] "GET /api/health HTTP/1.1" 200 12380 "http://localhost:8700/studio/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [27/Dec/2025:15:22:52 +0800] "GET /api/health HTTP/1.1" 200 12380 "http://localhost:8700/studio/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [27/Dec/2025:15:23:52 +0800] "GET /api/health HTTP/1.1" 200 12379 "http://localhost:8700/studio/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [27/Dec/2025:15:24:52 +0800] "GET /api/health HTTP/1.1" 200 12377 "http://localhost:8700/studio/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [27/Dec/2025:15:25:52 +0800] "GET /api/health HTTP/1.1" 200 12380 "http://localhost:8700/studio/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Creating network with temporary workspace
+Configuration error: Error loading network configuration from network.yaml: 'gbk' codec can't decode byte 0x92 in position 118: illegal multibyte sequence
+::1 [27/Dec/2025:15:26:52 +0800] "GET /api/health HTTP/1.1" 200 12380 "http://localhost:8700/studio/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Creating network with temporary workspace
+Loaded network configuration from network.yaml
+Initializing WorkspaceManager at C:\Users\Lenovo\AppData\Local\Temp\openagents_workspace_bvr9vjio
+Workspace initialized successfully at C:\Users\Lenovo\AppData\Local\Temp\openagents_workspace_bvr9vjio
+Created temporary workspace at C:\Users\Lenovo\AppData\Local\Temp\openagents_workspace_bvr9vjio
+AgentManager initialized for workspace: C:\Users\Lenovo\AppData\Local\Temp\openagents_workspace_bvr9vjio
+AgentIdentityManager initialized with session timeout=24h
+Loading 4 network mods from NetworkConfig...
+Initializing network mod openagents.mods.workspace.default
+Successfully loaded network mod: openagents.mods.workspace.default
+Initializing network mod openagents.mods.workspace.messaging
+Initializing Thread Messaging network mod
+Successfully loaded network mod: openagents.mods.workspace.messaging
+Initializing network mod openagents.mods.workspace.project
+Initializing Project network mod
+Loaded template: thesis_modification
+Loaded template: deep_reading
+Loaded template: academic_discussion
+Project mod initialized with 3 templates
+Successfully loaded network mod: openagents.mods.workspace.project
+Initializing network mod openagents.mods.coordination.task_delegation
+Initializing Task Delegation network mod
+Successfully loaded network mod: openagents.mods.coordination.task_delegation
+Mod openagents.mods.workspace.default bound to network academic-hub-1
+Registered network mod: openagents.mods.workspace.default
+Mod openagents.mods.workspace.messaging bound to network academic-hub-1
+Using file storage at C:\Users\Lenovo\AppData\Local\Temp\openagents_workspace_bvr9vjio\mods\openagents.mods.workspace.messaging\files
+Initialized channels: ['general', 'development', 'support']
+Registered network mod: openagents.mods.workspace.messaging
+Mod openagents.mods.workspace.project bound to network academic-hub-1
+Registered network mod: openagents.mods.workspace.project
+Mod openagents.mods.coordination.task_delegation bound to network academic-hub-1
+Loaded 0 tasks from storage
+Registered network mod: openagents.mods.coordination.task_delegation
+Successfully loaded 4 network mods
+Created network: AcademicResearchNetwork
+Loaded 4 network mods: ['openagents.mods.workspace.default', 'openagents.mods.workspace.messaging', 'openagents.mods.workspace.project', 'openagents.mods.coordination.task_delegation']
+Workspace path: C:\Users\Lenovo\AppData\Local\Temp\openagents_workspace_bvr9vjio
+Workspace initialized with 3 mod directories
+HTTP transport: MCP protocol enabled at /mcp
+HTTP transport: Studio frontend enabled at /studio
+HTTP transport: Studio build directory found at D:\Profolio\文章\Thesis\Graduate-thesis\OpenAgents\studio\build
+Task delegation timeout checker started
+Failed to initialize centralized topology: [Errno 10048] error while attempting to bind on address ('::1', 8700, 0, 0): [winerror 10048] 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+Failed to initialize network topology
+Failed to initialize network
+Shutting down network...
+Centralized topology shutdown
+Agent network 'AcademicResearchNetwork' shutdown successfully
+Network shutdown complete
+Timeout checker task cancelled
+::1 [27/Dec/2025:15:27:52 +0800] "GET /api/health HTTP/1.1" 200 12379 "http://localhost:8700/studio/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"

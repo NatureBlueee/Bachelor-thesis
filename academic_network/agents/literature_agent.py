@@ -1,9 +1,14 @@
 """
 Literature Agent - 文献专家 (Python 版本)
-负责文献搜索、深度阅读、引用建议
+负责文献搜索、博士生式深度阅读、引用建议
 
 兼容 OpenAgents 0.6+ API
 LLM: 使用 Gemini (通过 GEMINI_API_KEY 环境变量)
+
+4-Agent 架构：
+- 只响应 task.notification.assigned 事件
+- 不直接与用户通信
+- 通过 Task Delegation Mod 与 Academic Partner 通信
 """
 
 import asyncio
@@ -36,29 +41,33 @@ except ImportError:
 class LiteratureAgent(WorkerAgent):
     """
     文献专家 Agent
-    
+
     核心能力：
     1. 搜索本地文献库 (Reference/Cited, Reference/Uncited)
-    2. 深度阅读文献，提取与研究相关的信息
+    2. 博士生式深度阅读，提取与研究相关的信息
     3. 建议可引用的文献（优先从 Uncited 中找）
     4. 生成结构化的阅读笔记
-    
+
+    博士生式阅读标准（用户原话）：
+    "当读一篇文献的时候，往下追踪这篇文献的 Reference List，
+     记录下来他参考到的这些文献里面，跟我们研究相关的部分"
+
     与 OpenAgents WorkerAgent 完全兼容
     """
-    
+
     # WorkerAgent 类属性
     default_agent_id = "literature-agent"
     ignore_own_messages = True
-    
+
     def __init__(self, project_root: str = None, **kwargs):
         """初始化文献专家"""
         # 调用父类初始化 - WorkerAgent 不需要 agent_config
         super().__init__(**kwargs)
-        
+
         # 初始化文档工具
         self.project_root = project_root or self._find_project_root()
         self.doc_tools = DocumentTools(self.project_root)
-        
+
         logger.info(f"📚 Literature Agent 初始化")
         logger.info(f"   项目根目录: {self.project_root}")
     
@@ -96,56 +105,101 @@ class LiteratureAgent(WorkerAgent):
         """Agent 关闭时调用（WorkerAgent hook）"""
         logger.info("📚 Literature Agent 正在关闭...")
     
-    @on_event("task.delegate")
-    async def handle_task(self, context: EventContext):
-        """处理来自 Facilitator 的任务"""
-        payload = context.incoming_event.payload
-        
-        task_id = payload.get("task_id", "unknown")
-        task_type = payload.get("task_type", "search")
-        content = payload.get("content", "")
-        
-        logger.info(f"📚 收到任务: {task_type} - {content[:50]}...")
-        
+    @on_event("task.notification.assigned")
+    async def handle_task_assigned(self, context: EventContext):
+        """
+        处理来自 Academic Partner 的任务委派通知
+
+        Task Delegation Mod 事件结构：
+        - task_id: 任务 ID
+        - delegator_id: 委派者 (academic-partner)
+        - description: 任务描述
+        - payload: 任务详情 (task_type, query, file_path 等)
+        - timeout_seconds: 超时时间
+        """
+        event_payload = context.incoming_event.payload
+
+        task_id = event_payload.get("task_id", "unknown")
+        delegator_id = event_payload.get("delegator_id", "unknown")
+        description = event_payload.get("description", "")
+        task_payload = event_payload.get("payload", {})
+
+        task_type = task_payload.get("task_type", "search")
+        query = task_payload.get("query", "")
+        file_path = task_payload.get("file_path", "")
+
+        logger.info(f"📚 收到任务委派: {task_id}")
+        logger.info(f"   委派者: {delegator_id}")
+        logger.info(f"   任务类型: {task_type}")
+        logger.info(f"   描述: {description[:50]}...")
+
         result = None
         status = "success"
         citations = []
-        
+        notes = ""
+
         try:
             if task_type == "search":
-                result = await self._handle_search(content)
+                result = await self._handle_search(query or description)
                 citations = result.get("files", [])
-                
+
             elif task_type == "deep_read":
-                file_path = payload.get("file_path", "")
-                result = await self._handle_deep_read(file_path, content)
-                
+                result = await self._handle_deep_read(file_path, query or description)
+                notes = result.get("notes", "")
+
             elif task_type == "suggest":
-                result = await self._handle_suggest(content)
+                result = await self._handle_suggest(query or description)
                 citations = result.get("suggestions", [])
-                
+
             else:
                 result = {"error": f"未知任务类型: {task_type}"}
                 status = "failed"
-                
+
         except Exception as e:
             result = {"error": str(e)}
             status = "failed"
             logger.error(f"❌ 任务执行失败: {e}")
-        
-        # 发送结果回 Facilitator - 使用 workspace agent API
+
+        # 使用 Task Delegation Mod 完成任务
         try:
             ws = self.workspace()
-            await ws.agent("facilitator").send({
-                "event_type": "task.complete",
-                "task_id": task_id,
-                "results": result,
-                "citations": citations,
-                "status": status
-            })
-            logger.info(f"📚 任务完成: {task_id} - {status}")
+            if status == "success":
+                # 使用 complete_task 工具
+                await ws.send_event(
+                    event_name="task.complete",
+                    payload={
+                        "task_id": task_id,
+                        "result": {
+                            "task_type": task_type,
+                            "results": result,
+                            "citations": citations,
+                            "notes": notes
+                        }
+                    }
+                )
+                logger.info(f"📚 任务完成: {task_id}")
+            else:
+                # 使用 fail_task 工具
+                await ws.send_event(
+                    event_name="task.fail",
+                    payload={
+                        "task_id": task_id,
+                        "error": result.get("error", "Unknown error")
+                    }
+                )
+                logger.info(f"📚 任务失败: {task_id}")
         except Exception as e:
-            logger.error(f"无法发送结果到 Facilitator: {e}")
+            logger.error(f"无法发送任务结果: {e}")
+
+    @on_event("task.delegate")
+    async def handle_task_legacy(self, context: EventContext):
+        """
+        兼容旧的 task.delegate 事件格式
+        重定向到新的 task.notification.assigned 处理器
+        """
+        logger.info("📚 收到旧格式的 task.delegate 事件，转换处理...")
+        # 转换为新格式并处理
+        await self.handle_task_assigned(context)
     
     async def on_channel_post(self, context: ChannelMessageContext):
         """处理频道消息（直接提问）- WorkerAgent hook"""
