@@ -3735,3 +3735,302 @@ HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1
 ::1 [28/Dec/2025:12:12:16 +0800] "GET /api/health HTTP/1.1" 200 13993 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
 ::1 [28/Dec/2025:12:13:16 +0800] "GET /api/health HTTP/1.1" 200 13993 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
 ::1 [28/Dec/2025:12:14:16 +0800] "GET /api/health HTTP/1.1" 200 13993 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:15:16 +0800] "GET /api/health HTTP/1.1" 200 13994 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:16:16 +0800] "GET /api/health HTTP/1.1" 200 13993 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:17:16 +0800] "GET /api/health HTTP/1.1" 200 13996 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:18:16 +0800] "GET /api/health HTTP/1.1" 200 13995 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:19:16 +0800] "GET /api/health HTTP/1.1" 200 13996 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:20:16 +0800] "GET /api/health HTTP/1.1" 200 13993 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:21:16 +0800] "GET /api/health HTTP/1.1" 200 13993 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:22:16 +0800] "GET /api/health HTTP/1.1" 200 13994 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:23:16 +0800] "GET /api/health HTTP/1.1" 200 13994 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:24:16 +0800] "GET /api/health HTTP/1.1" 200 13993 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:25:16 +0800] "GET /api/health HTTP/1.1" 200 13995 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:26:16 +0800] "GET /api/health HTTP/1.1" 200 13994 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:27:19 +0800] "GET /api/health HTTP/1.1" 200 13994 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:28:16 +0800] "GET /api/health HTTP/1.1" 200 13994 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:29:16 +0800] "GET /api/health HTTP/1.1" 200 13995 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:30:16 +0800] "GET /api/health HTTP/1.1" 200 13995 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:31:16 +0800] "GET /api/health HTTP/1.1" 200 13991 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:32:16 +0800] "GET /api/health HTTP/1.1" 200 13995 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:33:16 +0800] "GET /api/health HTTP/1.1" 200 13994 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:34:16 +0800] "GET /api/health HTTP/1.1" 200 13991 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:35:16 +0800] "GET /api/health HTTP/1.1" 200 13995 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:36:16 +0800] "GET /api/health HTTP/1.1" 200 13994 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:37:16 +0800] "GET /api/health HTTP/1.1" 200 13992 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:38:16 +0800] "GET /api/health HTTP/1.1" 200 13994 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:39:16 +0800] "GET /api/health HTTP/1.1" 200 13995 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:40:16 +0800] "GET /api/health HTTP/1.1" 200 13994 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:41:16 +0800] "GET /api/health HTTP/1.1" 200 13994 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [28/Dec/2025:12:42:16 +0800] "GET /api/health HTTP/1.1" 200 13992 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Shutting down network...
+Stopping AgentManager...
+AgentManager stopped successfully
+Heartbeat monitor cancelled
+Shutdown TransportType.HTTP transport
+gRPC server shutdown
+Shutdown TransportType.GRPC transport
+Centralized topology shutdown
+Agent network 'AcademicResearchNetwork' shutdown successfully
+Network shutdown complete
+Timeout checker task cancelled
+Network launcher interrupted by user
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Cleaning up MCP clients
+Failed to unregister agent: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.\r\n -- 10061)"}"
+>
+Agent academic-partner disconnected from gRPC network
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv6:%5B::1%5D:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv6:%5B::1%5D:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv6:%5B::1%5D:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv6:%5B::1%5D:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Tearing down WorkerAgent 'None'
+Cleaning up MCP clients
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Failed to unregister agent: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNAVAILABLE: ipv6:%5B::1%5D:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNAVAILABLE: ipv6:%5B::1%5D:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.\r\n -- 10061)", grpc_status:14}"
+>
+Agent literature-agent disconnected from gRPC network
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Tearing down WorkerAgent 'None'
+Cleaning up MCP clients
+Failed to unregister agent: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.\r\n -- 10061)"}"
+>
+Agent pr-manager disconnected from gRPC network
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Poll messages request failed: gRPC error UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+Tearing down WorkerAgent 'None'
+Cleaning up MCP clients
+Failed to unregister agent: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8600: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.\r\n -- 10061)"}"
+>
+Agent archivist disconnected from gRPC network

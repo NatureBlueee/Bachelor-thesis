@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Network - PDF Upload</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        #drop-zone {
+            border: 3px dashed #ddd;
+            border-radius: 15px;
+            padding: 60px 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            background: #f9f9f9;
+        }
+
+        #drop-zone:hover {
+            border-color: #667eea;
+            background: #f0f0ff;
+        }
+
+        #drop-zone.dragover {
+            background: #e8f4f8;
+            border-color: #2196F3;
+            transform: scale(1.02);
+        }
+
+        .icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .drop-text {
+            color: #666;
+            font-size: 16px;
+        }
+
+        #file-input {
+            display: none;
+        }
+
+        .status {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 14px;
+            display: none;
+        }
+
+        .status.show {
+            display: block;
+        }
+
+        .success {
+            background: #d4edda;
+            color: #155724;
+            border-left: 4px solid #28a745;
+        }
+
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            border-left: 4px solid #dc3545;
+        }
+
+        .loading {
+            background: #fff3cd;
+            color: #856404;
+            border-left: 4px solid #ffc107;
+        }
+
+        .file-list {
+            margin-top: 20px;
+        }
+
+        .file-item {
+            background: #f8f9fa;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .file-name {
+            font-weight: 500;
+            color: #333;
+        }
+
+        .file-status {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .info {
+            background: #e7f3ff;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 8px;
+            font-size: 13px;
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📄 PDF 文献上传</h1>
+        <p class="subtitle">上传PDF文件将自动转换为Markdown并添加到文献库</p>
+
+        <div id="drop-zone">
+            <div class="icon">📤</div>
+            <p class="drop-text">拖拽PDF文件到此处，或点击选择文件</p>
+            <input type="file" id="file-input" accept=".pdf" multiple>
+        </div>
+
+        <div id="status" class="status"></div>
+
+        <div id="file-list" class="file-list"></div>
+
+        <div class="info">
+            💡 提示：上传后系统将调用DataLab API进行转换，转换完成后文件会自动移至 Reference/Uncited/ 目录
+        </div>
+    </div>
+
+    <script>
+        const API_URL = 'http://localhost:8701/upload/pdf';
+
+        const dropZone = document.getElementById('drop-zone');
+        const fileInput = document.getElementById('file-input');
+        const status = document.getElementById('status');
+        const fileList = document.getElementById('file-list');
+
+        // 点击上传
+        dropZone.onclick = () => fileInput.click();
+
+        fileInput.onchange = (e) => {
+            const files = Array.from(e.target.files);
+            files.forEach(uploadFile);
+        };
+
+        // 拖拽上传
+        dropZone.ondragover = (e) => {
+            e.preventDefault();
+            dropZone.classList.add('dragover');
+        };
+
+        dropZone.ondragleave = () => {
+            dropZone.classList.remove('dragover');
+        };
+
+        dropZone.ondrop = (e) => {
+            e.preventDefault();
+            dropZone.classList.remove('dragover');
+            const files = Array.from(e.dataTransfer.files).filter(f => f.type === 'application/pdf');
+            files.forEach(uploadFile);
+        };
+
+        async function uploadFile(file) {
+            const formData = new FormData();
+            formData.append('file', file);
+
+            // 添加到文件列表
+            const fileItem = document.createElement('div');
+            fileItem.className = 'file-item';
+            fileItem.innerHTML = `
+                <span class="file-name">${file.name}</span>
+                <span class="file-status">上传中...</span>
+            `;
+            fileList.appendChild(fileItem);
+
+            try {
+                const response = await fetch(API_URL, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const result = await response.json();
+
+                if (response.ok) {
+                    fileItem.querySelector('.file-status').textContent = '✅ 转换中';
+                    fileItem.querySelector('.file-status').style.color = '#28a745';
+
+                    showStatus('success', `${file.name} 上传成功！正在调用DataLab API转换为Markdown...`);
+                } else {
+                    throw new Error(result.detail || '上传失败');
+                }
+            } catch (error) {
+                fileItem.querySelector('.file-status').textContent = '❌ 失败';
+                fileItem.querySelector('.file-status').style.color = '#dc3545';
+
+                showStatus('error', `${file.name} 上传失败: ${error.message}`);
+            }
+        }
+
+        function showStatus(type, message) {
+            status.className = `status ${type} show`;
+            status.textContent = message;
+
+            setTimeout(() => {
+                status.classList.remove('show');
+            }, 5000);
+        }
+    </script>
+</body>
+</html>

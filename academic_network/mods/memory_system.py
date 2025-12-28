@@ -65,10 +65,37 @@ class AcademicMemory:
         # 初始化 Mem0
         if self.enable_mem0:
             try:
-                self.mem0 = Memory()
-                print("✅ Mem0 记忆层已启用")
+                # 方案：通过LangChain集成智谱AI embeddings
+                from langchain_community.embeddings import ZhipuAIEmbeddings
+
+                # 创建智谱AI embeddings实例
+                zhipu_embeddings = ZhipuAIEmbeddings(
+                    model="embedding-3",  # 智谱AI的embedding模型
+                    api_key=os.getenv("ZHIPUAI_API_KEY", "f5d8c43c8f8c4b78a950606b5b178aac.8yr5KN2lhBPdeC6w")
+                )
+
+                # 配置Mem0使用LangChain provider
+                mem0_config = {
+                    "llm": {
+                        "provider": "openai",  # GLM兼容OpenAI接口
+                        "config": {
+                            "model": "glm-4-flash",
+                            "api_key": os.getenv("ZHIPU_API_KEY", "f5d8c43c8f8c4b78a950606b5b178aac.8yr5KN2lhBPdeC6w"),
+                            "base_url": "https://open.bigmodel.cn/api/paas/v4"
+                        }
+                    },
+                    "embedder": {
+                        "provider": "langchain",  # 关键：使用LangChain provider
+                        "config": {
+                            "model": zhipu_embeddings  # 传入LangChain embeddings实例
+                        }
+                    }
+                }
+
+                self.mem0 = Memory.from_config(mem0_config)
+                print("[OK] Mem0 memory layer enabled (Zhipu AI via LangChain)")
             except Exception as e:
-                print(f"⚠️ Mem0 初始化失败: {e}")
+                print(f"[WARNING] Mem0 initialization failed: {e}")
                 self.enable_mem0 = False
                 self.mem0 = None
         else:
@@ -262,14 +289,61 @@ class AcademicMemory:
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
             
             # 添加到 MEMORY.md
-            entry = f"\n- [{timestamp}] {category or 'auto'}: {content[:200]}..."
-            
-            # 这里只是示例，实际需要更精细的处理
-            # await self._append_to_memory_file(entry)
-            
+            category_name = self.CATEGORIES.get(category, category or "自动")
+            # 智能截断：保留完整句子
+            if len(content) > 200:
+                content = content[:197] + "..."
+
+            entry = f"- [{timestamp}] {category_name}: {content}"
+
+            # 启用同步到MEMORY.md
+            await self._append_to_memory_file(entry)
+
         except Exception as e:
-            print(f"⚠️ 同步到 MEMORY.md 失败: {e}")
-    
+            print(f"[WARNING] Tong bu dao MEMORY.md shi bai: {e}")
+
+    async def _append_to_memory_file(self, entry: str):
+        """追加记忆到MEMORY.md"""
+        try:
+            import aiofiles
+
+            memory_path = Path(self.memory_file)
+
+            # 如果文件不存在，创建基础结构
+            if not memory_path.exists():
+                initial_content = f"""# AI 讨论笔记
+
+> 最后更新: {datetime.now().strftime("%Y-%m-%d %H:%M")}
+
+---
+
+## 用户偏好
+
+## 关键洞见
+
+## 决策记录
+"""
+                async with aiofiles.open(memory_path, 'w', encoding='utf-8') as f:
+                    await f.write(initial_content)
+
+            # 读取现有内容
+            async with aiofiles.open(memory_path, 'r', encoding='utf-8') as f:
+                content = await f.read()
+
+            # 简单去重检查
+            entry_clean = entry.strip()
+            if entry_clean in content:
+                return  # 已存在，跳过
+
+            # 追加到文件末尾
+            async with aiofiles.open(memory_path, 'a', encoding='utf-8') as f:
+                await f.write(f"\n{entry}\n")
+
+            print(f"[OK] Yi tong bu dao MEMORY.md: {entry[:50]}...")
+
+        except Exception as e:
+            print(f"[WARNING] Tong bu dao MEMORY.md shi bai: {e}")
+
     async def _search_markdown(self, query: str) -> List[Dict]:
         """从 MEMORY.md 搜索（备份方案）"""
         results = []

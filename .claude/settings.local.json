@@ -14,7 +14,12 @@
       "Bash(set PYTHONIOENCODING=utf-8:*)",
       "Bash(chcp 65001)",
       "Bash(PYTHONIOENCODING=utf-8 python:*)",
-      "Bash(PYTHONIOENCODING=utf-8 timeout 15 python:*)"
+      "Bash(PYTHONIOENCODING=utf-8 timeout 15 python:*)",
+      "Bash(python:*)",
+      "Bash($env:PYTHONUTF8=\"1\")",
+      "mcp__plugin_context7_context7__resolve-library-id",
+      "mcp__plugin_context7_context7__get-library-docs",
+      "Bash(pip install:*)"
     ]
   }
 }
