@@ -44,13 +44,13 @@ async def test_mem0_initialization():
         category="preference"
     )
     assert result["added"], "添加记忆失败"
-    print(f"  ✅ 添加成功: {result}")
+    print(f"  [OK] Memory added successfully: {result}")
 
     # 测试3: 搜索记忆
     print("\n[测试3] 搜索记忆...")
     results = await memory.search("深度阅读", limit=5)
     assert len(results) > 0, "搜索失败"
-    print(f"  ✅ 找到 {len(results)} 条相关记忆")
+    print(f"  [OK] Found {len(results)} related memories")
     for r in results[:2]:
         print(f"    - {r.get('memory', '')[:80]}...")
 

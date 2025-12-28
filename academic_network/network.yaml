@@ -87,6 +87,13 @@ network:
     - name: "openagents.mods.workspace.messaging"
       enabled: true
 
+    # 记忆系统 - Mem0 + MEMORY.md 双层记忆
+    - name: "mods.memory_system"
+      enabled: true
+      config:
+        enable_mem0: true
+        project_id: "academic_research"
+
     # 项目管理 - 用于 PR Scope
     - name: "openagents.mods.workspace.project"
       enabled: true

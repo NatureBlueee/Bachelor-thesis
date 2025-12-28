@@ -330,3 +330,57 @@ PR/
 - [2025-12-28 13:04] 用户偏好: 测试备份模式：我希望所有引用都使用GB/T 7714格式
 
 - [2025-12-28 13:22] 用户偏好: 测试备份模式：我希望所有引用都使用GB/T 7714格式
+
+- [2025-12-28 15:43] 用户偏好: 测试备份模式：我希望所有引用都使用GB/T 7714格式
+
+- [2025-12-28 15:45] 用户偏好: 测试备份模式：我希望所有引用都使用GB/T 7714格式
+
+- [2025-12-28 15:46] 用户偏好: 测试备份模式：我希望所有引用都使用GB/T 7714格式
+
+- [2025-12-28 15:52] 用户偏好: 测试记忆：我喜欢深度阅读文献
+
+- [2025-12-28 15:53] 用户偏好: 测试记忆：我喜欢深度阅读文献
+
+- [2025-12-28 15:54] 用户偏好: 测试记忆：我喜欢深度阅读文献
+
+- [2025-12-28 15:57] 用户偏好: User prefers GB/T 7714-2015 citation format
+
+- [2025-12-28 15:58] 决策: Decided to use 4-agent architecture for thesis collaboration
+
+- [2025-12-28 15:58] 约束: All thesis modifications must go through PR workflow
+
+- [2025-12-28 15:58] 洞见: ZhipuAI embeddings work better than OpenAI for Chinese text
+
+- [2025-12-28 15:58] 用户偏好: User prefers dark mode for IDE
+
+- [2025-12-28 15:58] 决策: Decided to use Mem0 for memory management
+
+- [2025-12-28 15:58] 洞见: Vector search improves memory recall accuracy
+
+- [2025-12-28 15:58] 约束: Memory system must sync to MEMORY.md
+
+- [2025-12-28 15:59] 纠正: User corrected: use LangChain provider not direct OpenAI
+
+- [2025-12-28 15:59] 灵感: Could use graph memory for literature connections
+
+- [2025-12-28 16:03] 用户偏好: User prefers GB/T 7714-2015 citation format
+
+- [2025-12-28 16:03] 决策: Decided to use 4-agent architecture for thesis collaboration
+
+- [2025-12-28 16:03] 约束: All thesis modifications must go through PR workflow
+
+- [2025-12-28 16:03] 洞见: ZhipuAI embeddings work better than OpenAI for Chinese text
+
+- [2025-12-28 16:04] 用户偏好: User prefers dark mode for IDE
+
+- [2025-12-28 16:04] 决策: Decided to use Mem0 for memory management
+
+- [2025-12-28 16:04] 洞见: Vector search improves memory recall accuracy
+
+- [2025-12-28 16:04] 约束: Memory system must sync to MEMORY.md
+
+- [2025-12-28 16:04] 纠正: User corrected: use LangChain provider not direct OpenAI
+
+- [2025-12-28 16:04] 灵感: Could use graph memory for literature connections
+
+- [2025-12-28 18:12] 用户偏好: 测试记忆：我喜欢深度阅读文献

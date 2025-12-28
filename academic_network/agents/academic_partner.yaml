@@ -22,6 +22,15 @@ config:
     - delegate_task(destination_id, task_id, description, payload) - 委派任务
     - finish() - 完成时必须调用
 
+    ### 记忆系统工具
+
+    - add_memory_tool(content, category, metadata) - 添加记忆到系统
+      category: preference, decision, insight, constraint, correction, inspiration
+    - search_memory_tool(query, category, limit) - 搜索相关记忆
+    - check_conflict_tool(content, category) - 检查是否与已有记忆冲突
+    - get_all_preferences_tool() - 获取所有用户偏好
+    - get_project_context_tool() - 获取项目决策、约束、洞察
+
     **重要规则**: 收到消息后必须先调用 send_project_message 回复，最后调用 finish()。
 
     ## 你的身份
@@ -106,9 +115,25 @@ config:
       instruction: |
         用户在项目中发送了消息。分析消息内容：
 
+        **步骤1: 检查记忆系统**
+        - 使用 get_all_preferences_tool() 获取用户偏好
+        - 使用 get_project_context_tool() 获取项目上下文
+        - 在回复时考虑这些偏好和约束
+
+        **步骤2: 识别并记录重要信息**
+        - 如果用户表达偏好（"我喜欢...", "不要...", "确保..."），使用 add_memory_tool 记录为 preference
+        - 如果做出决策（"我们采用...", "选择..."），记录为 decision
+        - 如果用户纠正你的理解，记录为 correction
+        - 重要洞察，记录为 insight
+
+        **步骤3: 处理用户请求**
         1. 如果是简单问题，直接回答
         2. 如果需要文献支持，使用 delegate_task 委派给 literature-agent
         3. 如果需要修改论文，输出修改规格，然后委派给 pr-manager
+
+        **步骤4: 冲突检测**
+        - 在添加决策或约束前，使用 check_conflict_tool 检查是否与已有记忆冲突
+        - 如有冲突，先询问用户确认
 
         **重要**：你必须使用 send_project_message 工具回复用户！不要只调用 finish。
 
@@ -164,6 +189,12 @@ mods:
   # 任务委派 - Agent 间通信
   - name: "openagents.mods.coordination.task_delegation"
     enabled: true
+  # 记忆系统 - Mem0 + MEMORY.md
+  - name: "mods.memory_system"
+    enabled: true
+    config:
+      enable_mem0: true
+      project_id: "academic_research"
 
 connection:
   host: "localhost"

@@ -81,13 +81,21 @@ class AcademicMemory:
                         "config": {
                             "model": "glm-4-flash",
                             "api_key": os.getenv("ZHIPU_API_KEY", "f5d8c43c8f8c4b78a950606b5b178aac.8yr5KN2lhBPdeC6w"),
-                            "base_url": "https://open.bigmodel.cn/api/paas/v4"
+                            "openai_base_url": "https://open.bigmodel.cn/api/paas/v4"  # 正确参数名
                         }
                     },
                     "embedder": {
                         "provider": "langchain",  # 关键：使用LangChain provider
                         "config": {
                             "model": zhipu_embeddings  # 传入LangChain embeddings实例
+                        }
+                    },
+                    "vector_store": {
+                        "provider": "qdrant",
+                        "config": {
+                            "collection_name": "academic_memory_zhipu",  # 使用自定义collection名称
+                            "embedding_model_dims": 2048,  # ZhipuAI embedding-3的维度
+                            "path": "./qdrant_data"  # 本地存储路径
                         }
                     }
                 }
@@ -157,7 +165,7 @@ class AcademicMemory:
                         result["conflict_detected"] = True
                         
             except Exception as e:
-                print(f"⚠️ Mem0 添加失败: {e}")
+                print(f"[WARNING] Mem0 tian jia shi bai: {e}")
         
         # 2. 同步到 MEMORY.md 备份
         await self._sync_to_markdown(messages, category)
@@ -185,21 +193,23 @@ class AcademicMemory:
         
         if self.enable_mem0 and self.mem0:
             try:
-                filters = {"user_id": self.project_id}
+                # Mem0 requires user_id as a parameter, not in filters
+                filters = {}
                 if category:
-                    filters["metadata.category"] = category
-                
+                    filters["category"] = category
+
                 mem0_results = self.mem0.search(
                     query=query,
-                    filters=filters,
+                    user_id=self.project_id,  # user_id as separate parameter
+                    filters=filters if filters else None,
                     limit=limit
                 )
-                
+
                 if mem0_results and "results" in mem0_results:
                     results = mem0_results["results"]
-                    
+
             except Exception as e:
-                print(f"⚠️ Mem0 搜索失败: {e}")
+                print(f"[WARNING] Mem0 search failed: {e}")
         
         # 如果 Mem0 没有结果，从 MEMORY.md 搜索
         if not results:
