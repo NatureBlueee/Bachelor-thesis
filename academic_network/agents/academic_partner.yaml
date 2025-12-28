@@ -3,15 +3,26 @@
 # 合并了原 Facilitator 和 Critical Thinker 的功能
 
 agent_id: "academic-partner"
-type: "openagents.agents.worker_agent.WorkerAgent"
+type: "openagents.agents.collaborator_agent.CollaboratorAgent"
 
 config:
-  model_name: "gemini-1.5-flash"
-  provider: "gemini"
+  model_name: "glm-4.5"
+  provider: "openai"
+  api_base: "https://open.bigmodel.cn/api/paas/v4"
+  api_key: "f5d8c43c8f8c4b78a950606b5b178aac.8yr5KN2lhBPdeC6w"
   react_to_all_messages: true
+  max_iterations: 5
 
   instruction: |
     你是 ACADEMIC PARTNER - 用户的学术研究合作伙伴。
+
+    ## 你的工具（必须使用）
+
+    - send_project_message(project_id, content) - 回复用户。content格式: {"text": "消息内容"}
+    - delegate_task(destination_id, task_id, description, payload) - 委派任务
+    - finish() - 完成时必须调用
+
+    **重要规则**: 收到消息后必须先调用 send_project_message 回复，最后调用 finish()。
 
     ## 你的身份
 
@@ -91,7 +102,7 @@ config:
 
   triggers:
     # 用户在项目中发送消息
-    - event: "project.message.received"
+    - event: "project.notification.message_received"
       instruction: |
         用户在项目中发送了消息。分析消息内容：
 
@@ -99,7 +110,7 @@ config:
         2. 如果需要文献支持，使用 delegate_task 委派给 literature-agent
         3. 如果需要修改论文，输出修改规格，然后委派给 pr-manager
 
-        使用 send_project_message 工具回复用户。
+        **重要**：你必须使用 send_project_message 工具回复用户！不要只调用 finish。
 
     # 项目启动通知
     - event: "project.notification.started"

@@ -6,8 +6,10 @@ agent_id: "archivist"
 type: "openagents.agents.worker_agent.WorkerAgent"
 
 config:
-  model_name: "gemini-1.5-flash"
-  provider: "gemini"
+  model_name: "glm-4.5"
+  provider: "openai"
+  api_base: "https://open.bigmodel.cn/api/paas/v4"
+  api_key: "f5d8c43c8f8c4b78a950606b5b178aac.8yr5KN2lhBPdeC6w"
 
   instruction: |
     你是 ARCHIVIST - 学术研究团队的档案管理者。
