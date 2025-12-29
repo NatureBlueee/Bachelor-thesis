@@ -1,151 +1,77 @@
-# Thesis Proposal
-
-**Topic**: The Impact of AI Literacy on Upward Influence Behavior among Generation Z Employees: A Resource Dependence Perspective
-
-**Student**: ZHANG Chenxi  
-**College**: College of Overseas Chinese · Business Administration  
-**Expected Completion**: May 2026
-
----
-
-## I. Research Background and Significance
-
-### Ⅰ. Research Background
-
-ChatGPT was released less than two years ago. In that brief window, generative AI has morphed from a tech-insider talking point into workplace infrastructure. Yet what makes this wave unusual is not its speed—it is who holds the keys.
-
-Consider the previous technological revolutions: telephone, personal computer, internet. Senior employees might have adapted more slowly, but diffusion was invariably top-down. Managers led; the young followed. Generative AI flips this pattern—not because younger employees are inherently smarter, but because they happened to be the ones immersed in the technology as it matured.
-
-When a field changes as fast as AI has—GPQA scores doubling in two years, code agents jumping from 12% to 77% on research-level tasks—the workforce that grew up inside this acceleration carries a different relationship to it than those watching from outside. Generation Z employees are not merely "digital natives" in the passive sense of having seen screens since childhood. They are practitioners: 57% use generative AI daily, 70% invest weekly time in building AI skills, and 59% report coaching older colleagues on AI use (Deloitte, 2025; IWG, 2025). When organizations plan to increase AI investments—92% intend to do so (McKinsey, 2025)—these employees hold what the organization needs.
-
-AI literacy, then, represents a resource that inverts the usual experience-based hierarchy: the newcomers possess something the organization desperately needs. Resource Dependence Theory (Pfeffer et al., 1978) suggests that power flows toward those who control resources others need. Yet possessing a resource and wielding influence are not the same. DeRue et al. (2010) offer a mechanism: employees must *claim* expertise, and supervisors must *grant* recognition. Whether such claims succeed depends on the supervisor's openness to shared leadership.
-
-### Ⅱ. Research Objective
-
-This study aims to:
-
-(1) Explore how Generation Z employees perceive and develop their AI literacy in workplace contexts.
-
-(2) Analyze how AI literacy influences Generation Z employees' upward influence behaviors toward supervisors.
-
-(3) Examine the role of supervisor openness in facilitating or constraining AI-informed upward influence.
-
-(4) Provide practical insights for organizations seeking to leverage young employees' AI competencies.
-
-### Ⅲ. Research Significance
-
-**Theoretical contributions.** This study extends Resource Dependence Theory's analytical unit from inter-organizational relations to the supervisor-subordinate dyad, illuminating how AI competence reshapes workplace power dynamics. By integrating Leadership Identity Construction Theory (DeRue et al., 2010), it offers a mechanism—claiming and granting—that explains how resources translate (or fail to translate) into influence.
-
-**Practical implications.** For organizations navigating digital transformation, understanding how to unlock young employees' AI-enabled potential—rather than suppress or ignore it—becomes a strategic imperative. The findings will inform leadership development, intergenerational collaboration, and talent management.
-
-### Ⅳ. Research Review
-
-**AI Literacy Research.** AI literacy has been conceptualized as a multidimensional construct encompassing cognitive, affective, and behavioral dimensions (Ng et al., 2023; Zhong et al., 2024). However, most studies focus on educational contexts rather than workplace applications (Cetindamar et al., 2022).
-
-**Generation Z in the Workplace.** Gen Z (born 1995-2010) differs from predecessors in their psychological contract: "having ideas valued" is a baseline expectation, not a perk (Schroth, 2019). They prioritize autonomy, resist purely transactional employment relationships, and compensate for lack of tenure with technological agility (Zahra et al., 2025).
-
-**Upward Influence Behavior.** Prior research on upward influence has focused on tactics such as rationality, ingratiation, and coalition-building (Kipnis et al., 1980). However, the role of technological competence as a power resource remains underexplored.
-
-**Research Gap.** Most AI-related employee research adopts a threat-oriented lens, focusing on anxiety and job displacement fears. Studies published in 2023 tested models scoring 39% on GPQA Diamond and 12% on FrontierScience; by December 2025, scores reached 93% and 77%. Conclusions drawn from the GPT-4 era may not transfer to the GPT-5.2/Claude Opus 4.5 era. The intersection of AI literacy, Gen Z's psychological contract, and upward influence remains underexplored—particularly in high-power-distance contexts such as China (Hofstede, 2001; Chen et al., 2013).
-
-### Ⅴ. Reference
-
-Anthropic, 2025a. Introducing Claude Sonnet 4.5[EB/OL]. [2025-12-26]. https://www.anthropic.com/news/claude-sonnet-4-5.
-
-Anthropic, 2025b. Introducing Claude Opus 4.5[EB/OL]. [2025-12-26]. https://www.anthropic.com/news/claude-opus-4-5.
-
-BANDURA A, 1997. Self-efficacy: the exercise of control[M]. New York: W.H. Freeman.
-
-BRAUN V, CLARKE V, 2006. Using thematic analysis in psychology[J]. Qualitative Research in Psychology, 3(2): 77-101.
-
-CETINDAMAR D, KILITCIOGLU H, SEREN W, 2022. Explicating AI literacy of employees at digital workplaces[J]. IEEE Transactions on Engineering Management, 69(6): 3144-3158.
-
-CHEN W P, DUAN J Y, TIAN X M, 2013. 员工为什么不建言：基于中国文化视角的解析[J]. 心理科学进展, 21(5): 905-913.
-
-Deloitte, 2025. Digital media trends[R/OL]. [2025-12-20]. https://www.deloitte.com/insights/digital-media-trends-2025.
-
-DERUE D S, ASHFORD S J, 2010. Who will lead and who will follow? A social process of leadership identity construction in organizations[J]. Academy of Management Review, 35(4): 627-647.
-
-Google, 2025. Gemini 3: Introducing the latest Gemini AI model from Google[EB/OL]. [2025-12-26]. https://blog.google/products/gemini/gemini-3/.
-
-GUEST G, NAMEY E, CHEN M, 2020. A simple method to assess and report thematic saturation in qualitative research[J]. PLoS ONE, 15(5): e0232076.
-
-HOFSTEDE G, 2001. Culture's consequences: comparing values, behaviors, institutions and organizations across nations[M]. 2nd ed. Thousand Oaks: Sage.
-
-IWG, 2025. The changing workplace: 2025 annual survey[R/OL]. [2025-12-20]. https://www.iwgplc.com/insights/survey-2025.
-
-KIPNIS D, SCHMIDT S M, WILKINSON I, 1980. Intraorganizational influence tactics: explorations in getting one's way[J]. Journal of Applied Psychology, 65(4): 440-452.
-
-McKinsey & Company, 2025. The state of AI: global survey[R/OL]. [2025-12-20]. https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai.
-
-NG D T K, LEUNG J K L, CHU S K W, et al., 2023. Design and validation of the AI literacy questionnaire[J]. British Journal of Educational Technology, 55(3): 1082-1104.
-
-OpenAI, 2025a. Introducing GPT-5.2[EB/OL]. [2025-12-26]. https://openai.com/index/introducing-gpt-5-2/.
-
-OpenAI, 2025b. FrontierScience: Evaluating AI on scientific research tasks[EB/OL]. [2025-12-26]. https://openai.com/index/frontierscience/.
-
-PFEFFER J, SALANCIK G R, 1978. The external control of organizations: a resource dependence perspective[M]. New York: Harper & Row.
-
-REIN D, REES B, et al., 2023. GPQA: A graduate-level Google-proof Q&A benchmark[EB/OL]. [2025-12-26]. https://arxiv.org/abs/2311.12022.
-
-SCHROTH H, 2019. Are you ready for Gen Z in the workplace?[J]. California Management Review, 61(3): 5-18.
-
-TRIPATHI N, 2021. Reverse the lens, set focus on the followers[J]. Frontiers in Psychology, 12: 699340.
-
-ZAHRA Y, HANDOYO S, FAJRIANTIH F, 2025. A comprehensive overview of Generation Z in the workplace[J]. SA Journal of Industrial Psychology, 51(10): a2263.
-
-ZHONG B C, et al., 2024. 何谓人工智能素养：框架构建与理论阐释[J]. 华东师范大学学报（教育科学版）, (1): 71-84.
-
----
-
-## II. Research Content and Methods
-
-### Ⅰ. Research Framework
-
-**Thesis Outline:**
-
-1. Introduction
-2. Literature Review
-   - 2.1 AI Literacy: Concept and Dimensions
-   - 2.2 Generation Z in the Workplace
-   - 2.3 Upward Influence Behavior
-   - 2.4 Resource Dependence and Leadership Identity Construction
-3. Research Design
-   - 3.1 Research Paradigm and Approach
-   - 3.2 Sample and Data Collection
-   - 3.3 Data Analysis
-4. Findings
-   - 4.1 AI Literacy Perception and Development (RQ1)
-   - 4.2 AI Literacy and Upward Influence (RQ2)
-   - 4.3 Role of Supervisor Openness (RQ3)
-5. Discussion
-6. Conclusion and Implications
-
-### Ⅱ. Research Methodology
-
-This study adopts an **exploratory qualitative approach** using semi-structured in-depth interviews. Qualitative methods are appropriate because the intersection of AI literacy and upward influence is underexplored, requiring discovery of emergent themes rather than hypothesis testing.
-
-**Sample:** 15-20 Gen Z employees (born 1995-2010) with ≥6 months full-time work experience and regular AI tool use in knowledge work contexts.
-
-**Analysis:** Six-phase thematic analysis (Braun et al., 2006), allowing themes to emerge from data while informed by theoretical sensitizing concepts.
-
----
-
-## III. Research Timeline
-
-| Time | Tasks |
-|------|-------|
-| 2024.12 | Complete literature review; finalize interview guide |
-| 2025.01 | Pilot interview; refine questions |
-| 2025.02 | Complete data collection (15-20 interviews) |
-| 2025.03 | Complete data analysis; identify themes |
-| 2025.04 | Draft thesis |
-| 2025.05 | Revise and submit final version |
-
----
-
-**Supervisor Comments:**
-
-Signature: ________________
-
-Date: ______ / ______ / ______
+一、选题意义及国内外研究状况
+Ⅰ. Research Background 
+ChatGPT was released in November 2022. In less than two years, generative AI has evolved from a niche curiosity into workplace infrastructure—not because of hype, but because of measurable productivity gains. On graduate-level science questions (GPQA Diamond), accuracy rose from 39% (GPT-4, 2023) to 93% (GPT-5.2, 2025); on complex coding tasks (SWE-bench), from 50% to 80% (OpenAI, 2025; Rein et al., 2023). These are not incremental refinements but qualitative leaps. Organizations have responded accordingly: 92% plan to increase AI investment over the next three years (McKinsey, 2025).
+This explains why AI literacy has become a strategically valuable resource. When AI tools can dramatically accelerate knowledge work, employees who leverage them effectively become what Tripathi (2021) calls 'hosts of tacit resources'—individuals possessing capabilities that organizations depend on.
+Yet this capability is unevenly distributed. Generation Z employees use AI daily at 57%, with 70% actively investing time in skill development (Deloitte, 2025). The generational gap is stark: 41% of Gen Z workers in Germany regularly use AI tools, compared to 13% of Gen X (Nebgen & Kurz, 2024). Perhaps more telling, 59% of Gen Z report 'reverse mentoring' older colleagues on technology (IWG, 2025), while managers underestimate their teams' AI usage by a factor of 3.25 (McKinsey, 2025).
+This asymmetry raises a question: existing research has not adequately addressed: when younger employees possess competencies that organizations need, how does this resource advantage reshape their interactions with supervisors?
+Ⅱ. Research Objective
+(1) Explore the current state of AI literacy among Generation Z employees in workplace contexts.
+(2) Examine how AI literacy influences their upward influence behaviors toward supervisors.
+(3) Investigate the moderating role of supervisor openness in this process.
+Ⅲ. Research Significance
+Theoretical Significance. This study contributes in three ways. First, it extends resource dependence theory by 'reversing the lens' (Tripathi, 2021)—examining employees as resource holders rather than passive recipients of direction. Second, it addresses a gap in AI-and-work literature, which has predominantly adopted threat-focused perspectives; this study conceptualizes AI literacy as enabling rather than threatening. Third, it responds to temporal validity concerns: findings from GPT-4-era research may not generalize to current systems with severalfold capability improvements.
+Practical Significance. For organizations navigating generational AI gaps, this study offers insight into emerging influence dynamics. For managers, it informs responses to input from digitally fluent subordinates. For Gen Z employees, understanding conditions under which AI literacy translates into influence can help them navigate workplace relationships effectively.
+Ⅳ. Research Review
+AI Literacy: Conceptual Development. AI literacy as a construct has evolved through several phases. Early definitions emphasized technical skills—programming, data handling, algorithm understanding (Long & Magerko, 2020). Subsequent work broadened the scope: Ng et al. (2021) proposed the ABCE model, encompassing Affective (attitudes toward AI), Behavioral (learning engagement), Cognitive (knowledge hierarchies based on Bloom's taxonomy), and Ethical (responsibility, transparency) dimensions. However, the ABCE model was developed for K-12 education contexts with adolescent samples, limiting its applicability to workplace settings.
+This study adopts Zhong et al.'s (2024) three-dimensional framework—knowledge, affect, and thinking—for two reasons. First, it was developed in a Chinese context, offering better cultural fit. Second, it emphasizes dynamic transformation among dimensions (grounded in Piagetian genetic epistemology), rather than treating them as parallel factors. Crucially, as Zhong et al. note, 'knowing how to use AI is not the same as being AI literate'—the latter requires critical evaluation and adaptive engagement with evolving tools.
+Resource Dependence Theory and 'Hosts of Tacit Resources.' Resource dependence theory (Pfeffer & Salancik, 1978) holds that power flows toward those controlling needed resources. Tripathi (2021) extends this to employee-supervisor dynamics: 'a manager is dependent on an employee in proportion to the need for resources that the employee can provide, and in inverse proportion to the availability of alternatives.' Two conditions determine dependency: how much the manager needs the resource, and whether alternatives exist. When employees possess scarce, organizationally valued capabilities—like AI literacy—they become 'hosts of tacit resources,' gaining potential leverage.
+The Claiming-Granting Mechanism. How does resource advantage translate into influence? DeRue and Ashford (2010) offer a mechanism through leadership identity construction. Leadership emerges when individuals 'claim' expertise through their actions, and others 'grant' recognition. Claiming refers to 'actions people take to assert their identity'; granting refers to 'actions that bestow identity onto another person.' Gen Z employees' upward influence can be understood as claiming expertise in AI domains. Whether claims succeed depends on supervisors' willingness to grant recognition—connecting to supervisor openness.
+Supervisor Openness. Detert and Burris (2007) conceptualize supervisor openness as the extent to which leaders listen to, are interested in, and act on employee ideas. This serves as a boundary condition: supervisors with 'shared' leadership schemas (DeRue & Ashford, 2010)—viewing leadership as fluid rather than hierarchy-fixed—may be more willing to grant expertise-based claims from subordinates.
+Generation Z: Expectations and Dynamics. Gen Z brings distinctive workplace expectations. Schroth (2019) documents that having ideas valued ranks as their top desired benefit; 'disrespect to them is not listening to their ideas or being dismissive.' Zahra et al. (2025) find that Gen Z does not automatically grant respect based on position: 'trust should be earned through professionalisation rather than being automatically granted based on position.' This aligns with the claiming-granting logic—Gen Z may be more inclined to claim expertise when they perceive themselves as holding valued resources.
+The Chinese Context: High Power Distance as Theoretical Tension. China's high power distance culture (Hofstede, 2001) creates a theoretically interesting tension. Deference to hierarchy is normative; upward influence is, in a sense, counter-cultural. Research confirms that power distance suppresses voice behavior in Chinese organizations (Chen et al., 2013). Yet when AI becomes a strategic resource that younger employees disproportionately possess, does technological empowerment override cultural constraints? This tension makes China an ideal research site—testing whether resource dependence logic holds even in contexts where upward influence faces cultural barriers.
+Research Gaps. Three limitations characterize existing scholarship. First, attitudinal framing: the dominant perspective treats AI as threat, emphasizing anxiety and job insecurity (Tong et al., 2024). Sun et al. (2025) stand as a rare exception, finding that employee-AI collaboration enhances proactive behavior—but even they note that 'those with limited AI literacy may struggle to adapt, viewing AI as a threat.' This study adopts an enabling perspective.
+Second, sample limitations: prior studies often include participants with unclear AI familiarity. Tong et al. (2024) observe that 'for most studies it remained unclear how familiar people were regarding AI,' creating confounds between 'knowledge of AI, novelty effects, technological anxiety, and a variety of other constructs.' This study specifically targets high-AI-literacy employees.
+Third, temporal validity: research conducted during the GPT-4 era tested systems achieving 39% on graduate-level benchmarks; current systems exceed 93%. Conclusions based on 2023-era tools may not apply to 2025 capabilities.
+Ⅴ. Reference
+[1] BRAUN V, CLARKE V. Using thematic analysis in psychology[J]. Qualitative Research in Psychology, 2006, 3(2): 77-101.
+[2] 陈文平, 段锦云, 田晓明. 员工为什么不建言：基于中国文化视角的解析[J]. 心理科学进展, 2013, 21(5): 905-913.
+[3] Deloitte. 2025 Gen Z and Millennial Survey[R/OL]. (2025-01-15)[2025-12-26]. https://www.deloitte.com/genz-millennial-survey.
+[4] DERUE D S, ASHFORD S J. Who will lead and who will follow? A social process of leadership identity construction in organizations[J]. Academy of Management Review, 2010, 35(4): 627-647.
+[5] DETERT J R, BURRIS E R. Leadership behavior and employee voice: Is the door really open?[J]. Academy of Management Journal, 2007, 50(4): 869-884.
+[6] GUEST G, NAMEY E, CHEN M. A simple method to assess and report thematic saturation in qualitative research[J]. PLOS ONE, 2020, 15(5): e0232076.
+[7] HOFSTEDE G. Culture's consequences: Comparing values, behaviors, institutions and organizations across nations[M]. 2nd ed. Thousand Oaks: Sage, 2001.
+[8] IWG. Generation Z workplace trends report[R/OL]. (2025-02-01)[2025-12-26]. https://www.iwgplc.com/genz-report.
+[9] LONG D, MAGERKO B. What is AI literacy? Competencies and design considerations[C]//Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. New York: ACM, 2020: 1-16.
+[10] McKinsey & Company. The state of AI in early 2025[R/OL]. (2025-03-01)[2025-12-26]. https://www.mckinsey.com/state-of-ai-2025.
+[11] NEBGEN L, KURZ V. Generational differences in AI tool adoption in the workplace[J]. Computers in Human Behavior Reports, 2024, 14: 100412.
+[12] NG D T K, LEUNG J K L, CHU S K W, et al. Conceptualizing AI literacy: An exploratory review[J]. Computers and Education: Artificial Intelligence, 2021, 2: 100041.
+[13] NG D T K, LEUNG J K L, SU J, et al. Design and validation of the AI literacy questionnaire: The affective, behavioural, cognitive and ethical approach[J]. British Journal of Educational Technology, 2023, 54(5): 1276-1299.
+[14] OpenAI. GPT-5.2 system card[EB/OL]. (2025-12-01)[2025-12-26]. https://openai.com/gpt-5-system-card.
+[15] PFEFFER J, SALANCIK G R. The external control of organizations: A resource dependence perspective[M]. New York: Harper & Row, 1978.
+[16] REIN D, HOU B L, STICKLAND A C, et al. GPQA: A graduate-level Google-proof Q&A benchmark[EB/OL]. (2023-11-20)[2025-12-26]. https://arxiv.org/abs/2311.12022.
+[17] SCHROTH H. Are you ready for Gen Z in the workplace?[J]. California Management Review, 2019, 61(3): 5-18.
+[18] SUN Y, LI X, ZHANG W. Will employee-AI collaboration enhance employees' proactive behavior? A study based on the conservation of resources theory[J]. Behavioral Sciences, 2025, 15(5): 648.
+[19] TONG S, JIA N, LUO X, et al. The future of AI at work: A review and research agenda[J]. Journal of Business Research, 2024, 178: 114676.
+[20] TRIPATHI N. Hosts of tacit resources: Reverse the lens of resource dependence theory[C]//Academy of Management Proceedings. Briarcliff Manor: Academy of Management, 2021: 10570.
+[21] ZAHRA S, KHAN M A, AHMED R. A comprehensive overview of Generation Z in the workplace: Insights from a scoping review[J]. SA Journal of Industrial Psychology, 2025, 51: a2195.
+[22] 钟柏昌, 刘晓凡, 詹泽慧. 何谓人工智能素养: 一个整合性框架[J]. 中国电化教育, 2024, 40(6): 2617-2635.
+二、研究内容和方法
+Ⅰ. Research Framework 
+Chapter 1: Introduction
+•	1.1 Research Background
+•	1.2 Research Questions
+•	1.3 Research Significance
+Chapter 2: Literature Review
+•	2.1 AI Literacy: Conceptual Evolution and Framework Selection
+•	2.2 Resource Dependence Theory and Upward Influence
+•	2.3 Leadership Identity Construction: The Claiming-Granting Mechanism
+•	2.4 Generation Z in the Workplace
+•	2.5 Research Gaps and Theoretical Integration
+Chapter 3: Methodology
+•	3.1 Research Philosophy: Interpretivism
+•	3.2 Research Design: Parallel Exploratory Design
+•	3.3 Data Collection: Survey and Semi-structured Interviews
+•	3.4 Sampling Strategy and Participant Criteria
+•	3.5 Data Analysis: Thematic Analysis
+•	3.6 Quality Assurance
+Chapter 4: Findings
+•	4.1 RQ1: The Current State of AI Literacy among Gen Z Employees
+•	4.2 RQ2: AI Literacy and Upward Influence Behaviors
+•	4.3 RQ3: The Moderating Role of Supervisor Openness
+Chapter 5: Discussion and Conclusion
+Ⅱ. Research Methodology
+Research Design. This study adopts a parallel exploratory design combining survey and semi-structured interviews. The rationale is twofold. First, the research questions require both breadth (how widespread are AI-informed influence attempts?) and depth (through what processes do they unfold?). Neither method alone suffices. Second, the survey serves a practical function: identifying interview candidates with substantive experience rather than relying on convenience sampling.
+Implementation. The survey will be distributed through professional networks and social media platforms targeting Gen Z knowledge workers. It includes: (1) demographic and work context items; (2) AI usage frequency and self-assessed literacy; (3) Likert-scale items on perceived resource advantage and supervisor openness; (4) open-ended prompts asking respondents to describe influence attempts. Respondents indicating relevant experience and interview willingness will form the interview pool. Interviews (45-60 minutes, online or in-person) will follow a semi-structured protocol organized around the three RQs.
+Sampling. Target sample: 100+ survey responses; 15-20 interviews (until thematic saturation). Inclusion criteria: born 1995-2010, ≥6 months full-time employment, regular AI tool usage, knowledge-intensive work.
+Analysis. Survey: descriptive statistics for structured items; thematic coding for open-ended responses. Interviews: Braun and Clarke's (2006) six-phase thematic analysis. Cross-method comparison will identify convergence and divergence.
+Quality Assurance. Credibility: member checking, triangulation. Dependability: audit trail. Transferability: thick description. Confirmability: reflexive journaling.

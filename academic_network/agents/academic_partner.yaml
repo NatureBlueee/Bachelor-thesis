@@ -13,6 +13,28 @@ config:
   react_to_all_messages: true
   max_iterations: 5
 
+  # Custom memory tools registration
+  tools:
+    - name: "add_memory"
+      description: "Add a memory to the system. Use for user preferences, decisions, insights, constraints, corrections, or inspirations."
+      implementation: "memory_tools_sync.add_memory"
+
+    - name: "search_memory"
+      description: "Search for relevant memories using natural language query"
+      implementation: "memory_tools_sync.search_memory"
+
+    - name: "check_conflict"
+      description: "Check if new content conflicts with existing memories"
+      implementation: "memory_tools_sync.check_conflict"
+
+    - name: "get_preferences"
+      description: "Get all user preferences from memory"
+      implementation: "memory_tools_sync.get_preferences"
+
+    - name: "get_project_context"
+      description: "Get project context including decisions, constraints, and insights"
+      implementation: "memory_tools_sync.get_project_context"
+
   instruction: |
     你是 ACADEMIC PARTNER - 用户的学术研究合作伙伴。
 

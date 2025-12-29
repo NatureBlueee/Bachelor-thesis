@@ -36,9 +36,9 @@ ChatGPT公开发布不过两年，生成式AI已从技术圈的谈资变成职�
 
 回顾此前的技术浪潮——电话、计算机、互联网——资深员工或许适应得慢一些，但新技术在组织中的扩散几乎都是自上而下的：管理层主导，年轻人跟随。生成式AI却把这个模式翻转了过来。在各个行业，刚入职的Z世代员工往往比他们的上级更熟练地使用这些工具。调研数据印证了这一点：57%的Z世代员工每天使用生成式AI，59%正在"反向辅导"年长同事（Deloitte, 2025; IWG, 2025）。与此同时，高管对团队AI使用程度的估计，比实际情况低了3.25倍（McKinsey, 2025）。
 
-这意味着什么？资源依赖理论告诉我们，权力流向那些控制着他人所需资源的人。当年轻员工拥有上级缺乏的AI素养，一种不寻常的动态便浮现了：传统的上下级资源不对称——至少在这一领域——开始向新人倾斜。但这种资源优势会转化为实际影响力吗？在什么条件下？通过什么机制？
+这意味着什么？资源依赖理论告诉我们，权力流向那些控制着组织所需资源的人。当年轻员工拥有组织急需的AI素养，一种不寻常的动态便浮现了：传统的上下级资源不对称——至少在这一领域——开始向新人倾斜。但这种资源优势会转化为实际影响力吗？在什么条件下？通过什么机制？
 
-本研究正是围绕这一问题展开。我采用定性方法，通过对15-20名在工作中使用AI的Z世代知识型员工进行深度访谈，探索AI素养如何转化为向上影响行为。研究聚焦于"感知资源优势"这一中介机制——即员工对"我有上司需要的东西"这一认知——并考察上级开放性作为边界条件的调节作用。
+本研究正是围绕这一问题展开。我采用并行探索设计，通过问卷（100+）与深度访谈（15-20人）相结合的方式，探索AI素养如何转化为向上影响行为。问卷铺面，访谈挖深——两种方法都服务于探索目的。研究聚焦于"感知资源优势"作为潜在机制，并考察上级开放性作为边界条件的调节作用。
 
 研究的理论贡献在于将资源依赖理论的分析单元从组织间下沉到上下级关系层面，揭示AI时代职场权力动态重构的微观过程。实践层面，研究将为组织如何激活年轻员工的AI赋能潜力、促进代际知识双向流动提供依据。
 
@@ -54,9 +54,9 @@ Barely two years after ChatGPT's public release, generative AI has ceased to be 
 
 In most previous technology revolutions—telephones, personal computers, the internet—senior employees may have lagged in adoption, but the organizational rollout was invariably top-down: management led, and the young followed. Generative AI has inverted this pattern. Across industries, newly hired Generation Z employees often wield these tools more fluently than their supervisors do. Survey data bears this out: 57% of Gen Z workers use generative AI daily, and 59% report "reverse-mentoring" older colleagues on how to use it (Deloitte, 2025; IWG, 2025). Meanwhile, executives underestimate the extent of AI use among their teams by a factor of 3.25 (McKinsey, 2025).
 
-This matters because, as Resource Dependence Theory tells us, power flows to those who control resources others need. When young employees possess AI competencies their managers lack, an unfamiliar dynamic emerges: the traditional resource asymmetry between supervisor and subordinate tilts—at least in this domain—in favor of the newcomer. Does that translate into actual influence? Under what conditions? And through what mechanisms?
+This matters because, as Resource Dependence Theory tells us, power flows to those who control resources organizations need. When young employees possess AI competencies that organizations urgently require, an unfamiliar dynamic emerges: the traditional resource asymmetry between supervisor and subordinate tilts—at least in this domain—in favor of the newcomer. Does that translate into actual influence? Under what conditions? And through what mechanisms?
 
-This study investigates precisely these questions. Drawing on in-depth interviews with 15–20 Generation Z knowledge workers in China, I explore how AI literacy enables upward influence behavior. I focus on *perceived resource advantage*—the employee's subjective awareness that "I have something my boss needs"—as a mediating mechanism, and *supervisor openness* as a boundary condition that determines whether resource advantage converts into voice.
+This study investigates precisely these questions. Using a parallel exploratory design—combining a survey (100+ respondents) with semi-structured interviews (15-20 participants)—I explore how AI literacy enables upward influence behavior among Generation Z knowledge workers in China. The survey maps breadth; the interviews probe depth. Both methods serve exploratory purposes. I focus on *perceived resource advantage* as a potential mechanism and *supervisor openness* as a boundary condition.
 
 Theoretically, the study extends Resource Dependence Theory downward: from inter-organizational relations to the supervisor-subordinate dyad. Practically, it offers evidence-based guidance on how organizations might unlock the AI-enabled potential of young employees and facilitate bidirectional intergenerational knowledge transfer.
 
@@ -148,7 +148,7 @@ Table 2.1 Comparison of AI Literacy Frameworks ……………………………
 
 Table 2.2 Dimensions of Upward Influence Behavior ………………………………………………… 10
 
-Table 2.3 Summary of Research Propositions ………………………………………………… 13
+Table 2.3 Research Questions and Theoretical Anchors ………………………………………………… 13
 
 Table 3.1 Participant Selection Criteria ………………………………………………… 15
 
@@ -355,87 +355,63 @@ These tensions create a particularly interesting context for studying AI-enabled
 
 2.5.1 Identified Research Gaps
 
-Despite growing interest in AI literacy and generational dynamics in the workplace, several important research gaps remain:
+Three limitations characterize existing scholarship on AI-related employee behavior.
 
-First, while AI literacy has been extensively studied in educational contexts, its implications for organizational behavior—particularly power and influence dynamics—remain underexplored. How AI literacy translates into workplace influence represents an important question for both theory and practice.
+First, **attitudinal framing**: the dominant perspective treats AI as threat, emphasizing anxiety and job insecurity (Tong et al., 2024). Sun et al. (2025) stand as a rare exception, finding that employee-AI collaboration enhances proactive behavior—but even they note that "those with limited AI literacy may struggle to adapt, viewing AI as a threat." This study adopts an enabling perspective.
 
-Second, although Resource Dependence Theory provides a compelling framework for understanding power dynamics, few studies have specifically examined AI literacy as a resource that enables upward influence. The mechanisms by which AI competencies are converted into organizational influence warrant investigation.
+Second, **sample limitations**: prior studies often include participants with unclear AI familiarity. Tong et al. (2024) observe that "for most studies it remained unclear how familiar people were regarding AI," creating confounds between "knowledge of AI, novelty effects, technological anxiety, and a variety of other constructs." This study specifically targets high-AI-literacy employees.
 
-Third, the role of contextual factors, particularly supervisor attitudes toward employee input and new technologies, in shaping the AI literacy-influence relationship has received limited attention. Understanding these boundary conditions is crucial for developing a nuanced theory of AI-enabled upward influence.
+Third, **temporal validity**: research conducted during the GPT-4 era tested systems achieving 39% on graduate-level benchmarks (GPQA Diamond); current systems exceed 93% (OpenAI, 2025; Rein et al., 2023). Conclusions based on 2023-era tools may not apply to 2025 capabilities.
 
-2.5.2 Theoretical Framework and Research Propositions
+2.5.2 Theoretical Framework and Research Questions
 
-Based on the literature review, this study proposes a theoretical framework linking AI literacy to upward influence behavior through the mediating mechanism of perceived resource advantage, with supervisor openness as a moderating factor.
+This study does not propose hypotheses to test. Instead, it employs three theoretical lenses that, together, illuminate different facets of a single puzzle: how does a capability become influence?
 
 $$Insert Figure 2.1 Research Framework Here$$
 
-The framework is grounded in Resource Dependence Theory and proposes the following relationships:
+The puzzle has three parts. First, where does the power base come from? **Resource Dependence Theory** (Pfeffer & Salancik, 1978; Tripathi, 2021) answers: from controlling something the organization needs. When AI becomes that something, and when younger employees control it, the traditional resource asymmetry shifts.
 
-Proposition 1 (P1): AI literacy shapes employees' perception of resource advantage.
+But possessing a resource is not the same as wielding it. **Leadership Identity Construction Theory** (DeRue & Ashford, 2010) addresses the second question: how does resource advantage become action? Through "claiming"—actively asserting one's expertise—and "granting"—receiving recognition from those in authority. Upward influence, in this view, is a claim that may or may not be granted.
 
-When employees possess high levels of AI literacy—including AI knowledge, AI affectivity, and AI thinking—they are more likely to perceive themselves as holding a resource advantage relative to their supervisors. This perception is particularly strong when employees recognize that their AI competencies exceed those of their managers and are valued by the organization.
+There is, however, a step before claiming: recognition. **Social Cognitive Theory** (Bandura, 1997) reminds us that objective competence does not automatically translate into action. Employees must first *perceive* that they hold an advantage before they act on it.
 
-Proposition 2 (P2): Perceived resource advantage influences employees' engagement in upward influence behavior.
+These three theories are not alternatives; they are layers. Resource dependence explains the structural condition; social cognition explains the psychological trigger; leadership construction explains the relational dynamic. Together, they form a coherent lens for exploring how AI literacy might—or might not—translate into voice.
 
-Building on Social Cognitive Theory (Bandura, 1997), the perception of holding valuable resources should increase employees’ self-efficacy and motivation to attempt upward influence. When employees believe they possess something that supervisors need, they are more likely to engage in idea generation, promotion, and implementation behaviors.
+2.5.3 Research Questions
 
-Proposition 3 (P3): Perceived resource advantage mediates the relationship between AI literacy and upward influence behavior.
+This study adopts a purely exploratory approach, guided by three research questions rather than pre-specified propositions:
 
-The effect of AI literacy on upward influence is not direct but operates through the psychological mechanism of perceived resource advantage. Objective AI competencies must be subjectively recognized as conferring an advantage before they translate into influence behavior. According to Tripathi (2021), employees who hold tacit resources must engage in "claiming" behaviors—actively asserting their competence and seeking recognition. Such claiming is inherently intentional, requiring employees to first perceive that they possess resources their supervisors need but lack.
+**RQ1: How do Generation Z employees perceive and develop their AI literacy in workplace contexts?**
 
-Proposition 4 (P4): Supervisor openness moderates the relationship between perceived resource advantage and upward influence behavior.
+This question explores the current state of AI literacy among Generation Z employees—how they acquire AI skills, how they perceive their own competence, and how they compare themselves to colleagues and supervisors. Given that prior samples often included participants with unclear AI familiarity (Tong et al., 2024), this foundational inquiry ensures the study captures individuals who genuinely embody AI literacy.
 
-Drawing on Leadership Construction Theory (DeRue & Ashford, 2010), the success of upward influence depends not only on the employee’s claiming behavior but also on the supervisor’s granting behavior. In the Chinese high power distance context, supervisor openness—defined as the extent to which supervisors are receptive to employee input and new ideas (Detert & Burris, 2007)—should significantly moderate whether perceived resource advantage translates into actual influence attempts and success.
+**RQ2: How does AI literacy influence Generation Z employees' upward influence behaviors toward supervisors?**
 
-2.5.3 Summary of Research Propositions
+This question examines the mechanisms through which AI competence translates (or fails to translate) into influence attempts. It explores perceived resource advantage as a potential psychological mechanism and investigates the forms that AI-informed upward influence takes—idea generation, promotion, or implementation.
 
-Based on the theoretical framework developed above, this study proposes the following research propositions to guide the qualitative inquiry:
+**RQ3: What role does supervisor openness play in shaping AI-informed upward influence?**
 
-Proposition 1 (P1): AI Literacy → Perceived Resource Advantage
+This question investigates supervisor openness as a boundary condition. In China's high power distance context, supervisor receptivity to employee input may be particularly consequential. The question explores how employees gauge supervisor openness and how it shapes their willingness to engage in upward influence.
 
-Generation Z employees with higher levels of AI literacy (encompassing AI knowledge, AI affectivity, and AI thinking) are more likely to perceive themselves as holding a resource advantage relative to their supervisors. This proposition is grounded in Resource Dependence Theory’s assertion that controlling scarce, valuable resources creates a power base.
+Table 2.3 Research Questions and Theoretical Anchors
 
-Proposition 2 (P2): Perceived Resource Advantage → Upward Influence Behavior
-
-Employees who perceive that they possess AI-related resources that their supervisors need but lack are more likely to engage in upward influence behavior, including generating new ideas, promoting ideas to leadership, and implementing changes. This proposition draws on Social Cognitive Theory (Bandura, 1997), which suggests that self-efficacy beliefs—in this case, confidence derived from perceived resource advantage—drive behavioral action.
-
-Proposition 3 (P3): Mediation Effect
-
-The relationship between AI literacy and upward influence behavior is mediated by perceived resource advantage. That is, objective AI competencies must first be subjectively recognized as conferring an advantage before they motivate influence attempts. This proposition reflects the psychological mechanism through which external resources are translated into behavioral outcomes.
-
-Proposition 4 (P4): Moderation Effect of Supervisor Openness
-
-The relationship between perceived resource advantage and upward influence behavior is moderated by supervisor openness. When supervisors are receptive to input from subordinates and open to new technologies, employees with perceived resource advantages are more likely to engage in upward influence. Conversely, when supervisors are closed to input, even employees with significant resource advantages may refrain from influence attempts. This proposition acknowledges the relational nature of influence and the importance of contextual factors, particularly in high power distance cultures like China.
-
-Table 2.3 Summary of Research Propositions
-
-| Proposition | Relationship | Theoretical Basis |
-| P1 | AI Literacy → Perceived Resource Advantage | Resource Dependence Theory |
-| P2 | Perceived Resource Advantage → Upward Influence Behavior | Social Cognitive Theory |
-| P3 | AI Literacy → Perceived Resource Advantage → Upward Influence Behavior (Mediation) | RDT + SCT Integration |
-| P4 | Supervisor Openness moderates P2 | Leadership Construction Theory |
+| Research Question | Focus | Theoretical Anchor |
+|-------------------|-------|-------------------|
+| RQ1 | AI literacy perception and development | AI Literacy Framework (Zhong et al., 2024) |
+| RQ2 | AI literacy → upward influence mechanisms | RDT + Social Cognitive Theory |
+| RQ3 | Supervisor openness as boundary condition | Leadership Identity Construction |
 
 CHAPTER III RESEARCH METHODOLOGY
 
 3.1 Research Design and Justification
 
-This study adopts a qualitative research approach, specifically utilizing semi-structured in-depth interviews, to explore how AI literacy influences upward influence behavior among Generation Z employees. The choice of qualitative methodology over quantitative approaches is justified by several methodological and practical considerations.
+This study adopts a parallel exploratory design combining survey and semi-structured interviews.
 
-Exploratory Nature of the Research Question
+Why two methods? Because the research questions demand both breadth and depth. A survey cannot capture how it *feels* to try persuading a skeptical supervisor; interviews cannot tell us how common that experience is. Each method does what the other cannot.
 
-The phenomenon under investigation—how AI literacy translates into organizational influence through perceived resource advantage—is relatively novel and has not been extensively studied empirically. While Resource Dependence Theory provides a general framework for understanding power dynamics, its specific application to AI literacy and generational dynamics in the workplace represents new theoretical territory. Qualitative methods are well-suited for such exploratory research, allowing for the discovery of unexpected themes and the development of grounded theoretical insights (Creswell & Poth, 2018).
+Beyond complementarity, the survey serves a practical function: it identifies who to interview. Rather than relying on convenience—interviewing whoever happens to be available—I recruit from respondents who report substantive influence experiences. This ensures interview participants have real stories to tell, not hypothetical scenarios.
 
-Need for Process Understanding
-
-This study seeks to understand not merely whether AI literacy relates to upward influence, but how this relationship operates—the mechanisms, processes, and contextual factors involved. Quantitative methods, while valuable for testing causal relationships, may not adequately capture the richness of employees’ experiences, perceptions, and interpretations. In-depth interviews allow participants to describe their experiences in their own words, revealing nuances that predetermined survey items might miss.
-
-Alignment with Institutional Emphasis
-
-This research approach aligns with the emphasis on field research and social investigation in undergraduate education at this institution. Conducting qualitative interviews provides valuable opportunities for direct engagement with research participants and the development of practical research skills.
-
-Methodological Precedent
-
-Qualitative methods have been successfully employed in prior research on related topics, including studies of generational dynamics in the workplace (Watkins & Omilion-Hodges, 2025), upward influence processes (Kamaşak et al., 2017), and AI adoption in organizations (Cassell & Symon, 2004). These precedents support the appropriateness of qualitative inquiry for the current research questions.
+Both methods serve exploratory purposes. I am not testing a model; I am mapping a terrain. The survey includes open-ended questions ("Describe a time when your AI skills shaped a decision your supervisor made") because even quantitative breadth benefits from qualitative texture. The interviews probe what surveys cannot reach: the unfolding of an influence attempt, the reading of a supervisor's signals, the moment of deciding whether to speak or stay silent.
 
 3.2 Sample and Sampling Strategy
 
@@ -455,27 +431,37 @@ Table 3.1 Participant Selection Criteria
 | AI Usage | Regular use of AI tools at work | Ensure relevance to research topic |
 | Job Type | Knowledge work (non-manual) | Focus on contexts where AI literacy is relevant |
 
-3.2.3 Sample Size and Saturation
+3.2.3 Sample Size
 
-Following the principle of theoretical saturation in qualitative research (Guest et al., 2020), this study targets a sample size of 15-20 participants. Research indicates that for relatively homogeneous samples, thematic saturation is typically achieved within 12-20 interviews, with 80% or more of themes emerging within the first 6-12 interviews (Guest et al., 2020; Malterud et al., 2016; Hennink & Kaiser, 2021).
-
-The sample size will be confirmed through ongoing assessment of saturation during data collection. If new themes continue to emerge after 15 interviews, additional participants will be recruited until saturation is achieved.
+This study targets 100+ survey responses and 15-20 interviews. The survey sample size provides sufficient breadth for descriptive analysis while the interview sample follows the principle of theoretical saturation (Guest et al., 2020). Research indicates that for relatively homogeneous samples, thematic saturation is typically achieved within 12-20 interviews.
 
 3.2.4 Sampling Strategy
 
-This study employs purposive sampling combined with snowball sampling. Initial participants will be identified through the researcher’s professional and academic networks, targeting individuals who meet the selection criteria. Subsequently, participants will be asked to recommend other potential participants who might be interested in the study (snowball sampling).
-
-To enhance sample diversity, the researcher will seek participants from different industries, company sizes, and functional areas. This variation will enable exploration of how contextual factors shape the AI literacy-upward influence relationship.
+The survey will be distributed through professional networks (e.g., LinkedIn, industry forums) and social media platforms targeting Gen Z knowledge workers. Respondents who indicate both relevant upward influence experience and willingness to participate in follow-up interviews will form the interview pool. This purposive sampling approach ensures that interview participants have substantive experiences to share rather than hypothetical scenarios.
 
 3.3 Data Collection
 
-3.3.1 Interview Method
+3.3.1 Survey Method
 
-Data will be collected through semi-structured in-depth interviews. This method allows for systematic coverage of key topics while providing flexibility to explore unexpected themes and follow participants’ narratives (Kvale & Brinkmann, 2009).
+The survey will be distributed online through professional networks and social media platforms. It includes:
 
-Each interview is expected to last 45-60 minutes and will be conducted either in person or via video call, depending on participant preference and logistical considerations. Interviews will be audio-recorded with participant consent and subsequently transcribed verbatim for analysis.
+(1) Demographic and work context items (age, industry, tenure, supervisor background)
 
-3.3.2 Interview Procedure
+(2) AI usage frequency and self-assessed literacy
+
+(3) Likert-scale items on perceived resource advantage and supervisor openness
+
+(4) Open-ended prompts asking respondents to describe AI-informed influence attempts
+
+The survey concludes with a question asking whether respondents are willing to participate in a follow-up interview.
+
+3.3.2 Interview Method
+
+Data will also be collected through semi-structured in-depth interviews. This method allows for systematic coverage of key topics while providing flexibility to explore unexpected themes and follow participants' narratives (Kvale & Brinkmann, 2009).
+
+Each interview is expected to last 45-60 minutes and will be conducted either in person or via video call. Interviews will be audio-recorded with participant consent and subsequently transcribed verbatim for analysis.
+
+3.3.3 Interview Procedure
 
 The interview procedure will follow these steps:
 
@@ -777,6 +763,8 @@ Wang, B., Rau, P. L. P., & Yuan, T. (2022). Measuring user competence in using a
 
 Watkins, H., & Omilion-Hodges, L. (2025). Zooming in on generational differences: Exploring intergenerational employee relationships and the rise of Generation Z in the workplace. International Journal of Business Communication. https://doi.org/10.1177/23294884251345809
 
+Zahra, S., Khan, M. A., & Ahmed, R. (2025). A comprehensive overview of Generation Z in the workplace: Insights from a scoping review. SA Journal of Industrial Psychology, 51, a2195. https://doi.org/10.4102/sajip.v51i0.2195
+
 **Industry Reports**
 
 Deloitte. (2025). 2025 Gen Z and Millennial Survey: Living and working with purpose in a transforming world. https://www.deloitte.com/global/en/issues/work/content/genzandmillennialsurvey.html
@@ -785,7 +773,15 @@ International Workplace Group. (2025, August 19). New research reveals Gen Z is 
 
 McKinsey & Company. (2025, November). Superagency in the workplace: Empowering people to unlock AI's full potential. https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/superagency-in-the-workplace
 
-OpenAI. (2025, December). The State of Enterprise AI. OpenAI Enterprise Report.
+Nebgen, L., & Kurz, V. (2024). Generational differences in AI tool adoption in the workplace. Computers in Human Behavior Reports, 14, 100412.
+
+OpenAI. (2025, December). GPT-5.2 system card. https://openai.com/gpt-5-system-card
+
+Rein, D., Hou, B. L., Stickland, A. C., et al. (2023). GPQA: A graduate-level Google-proof Q&A benchmark. arXiv preprint arXiv:2311.12022.
+
+Sun, Y., Li, X., & Zhang, W. (2025). Will employee-AI collaboration enhance employees' proactive behavior? A study based on the conservation of resources theory. Behavioral Sciences, 15(5), 648.
+
+Tong, S., Jia, N., Luo, X., et al. (2024). The future of AI at work: A review and research agenda. Journal of Business Research, 178, 114676.
 
 **中文文献**
 
