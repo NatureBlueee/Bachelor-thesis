@@ -25,7 +25,6 @@
       "Bash(dir \"%APPDATA%\\\\qdrant\")",
       "Bash(dir:*)",
       "Bash(findstr:*)",
-      "Bash(Get-ChildItem -Recurse -Directory -Filter \"*qdrant*\" -ErrorAction SilentlyContinue)",
       "Bash(Select-Object FullName)",
       "Bash(openagents start --help:*)"
     ]
