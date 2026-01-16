@@ -28407,3 +28407,904 @@ Registered agent CleverAssistant6495 in centralized registry (group: guest)
 Registered agent CleverAssistant6495 with network in group 'guest'
 ✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
 ::1 [16/Jan/2026:11:08:20 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Invalid secret provided for agent CleverAssistant6495
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 5 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'CleverAssistant6495'}
+📺 Channel 'general': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'development': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'support': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:11:17 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Invalid secret provided for agent CleverAssistant6495
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 5 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'CleverAssistant6495'}
+📺 Channel 'general': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'development': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'support': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:12:18 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Invalid secret provided for agent CleverAssistant6495
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 5 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'CleverAssistant6495'}
+📺 Channel 'general': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'development': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'support': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:13:17 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Invalid secret provided for agent CleverAssistant6495
+Invalid secret provided for agent CleverAssistant6495
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 5 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'CleverAssistant6495'}
+📺 Channel 'general': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'development': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'support': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:14:17 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 5 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'CleverAssistant6495'}
+📺 Channel 'general': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'development': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'support': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:14:17 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [16/Jan/2026:11:14:35 +0800] "OPTIONS /api/health HTTP/1.1" 200 362 "-" "curl/8.7.1"
+Invalid secret provided for agent CleverAssistant6495
+::1 [16/Jan/2026:11:15:16 +0800] "GET /api/health HTTP/1.1" 200 14779 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 5 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'CleverAssistant6495'}
+📺 Channel 'general': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'development': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'support': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:15:16 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Invalid secret provided for agent CleverAssistant6495
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 5 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'CleverAssistant6495'}
+📺 Channel 'general': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'development': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'support': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:15:17 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Invalid secret provided for agent CleverAssistant6495
+Invalid secret provided for agent CleverAssistant6495
+::1 [16/Jan/2026:11:16:16 +0800] "GET /api/health HTTP/1.1" 200 14779 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 5 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'CleverAssistant6495'}
+📺 Channel 'general': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'development': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'support': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:16:16 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 5 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'CleverAssistant6495'}
+📺 Channel 'general': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'development': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'support': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:16:16 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Invalid secret provided for agent CleverAssistant6495
+::1 [16/Jan/2026:11:17:16 +0800] "GET /api/health HTTP/1.1" 200 14778 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Invalid secret provided for agent CleverAssistant6495
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 5 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'CleverAssistant6495'}
+📺 Channel 'general': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'development': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'support': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:17:17 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 5 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'CleverAssistant6495'}
+📺 Channel 'general': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'development': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+📺 Channel 'support': 5 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:17:17 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [16/Jan/2026:11:17:43 +0800] "OPTIONS /api/register HTTP/1.1" 200 362 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: demo-client-1768533463698
+Registered agent demo-client-1768533463698 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent demo-client-1768533463698
+🎯 THREAD MESSAGING MOD: Agent metadata: {'type': 'demo-ui'}
+✅ AUTO-ADDED agent demo-client-1768533463698 to channel 'general' (total agents: 6)
+✅ AUTO-ADDED agent demo-client-1768533463698 to channel 'development' (total agents: 6)
+✅ AUTO-ADDED agent demo-client-1768533463698 to channel 'support' (total agents: 6)
+🎉 THREAD MESSAGING MOD: Successfully registered agent demo-client-1768533463698
+📊 Total active agents: 6 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'demo-client-1768533463698', 'CleverAssistant6495'}
+📺 Channel 'general': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'development': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'support': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+🔗 Agent demo-client-1768533463698 channels: ['general', 'development', 'support']
+Registered agent demo-client-1768533463698 with network in group 'guest'
+✅ Successfully registered HTTP agent demo-client-1768533463698 with network Unknown Network
+::1 [16/Jan/2026:11:17:43 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [16/Jan/2026:11:17:43 +0800] "OPTIONS /api/send_event HTTP/1.1" 200 362 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+🔧 SUBSCRIBE_EVENTS: Request from agent_id: demo-client-1768533463698
+Agent demo-client-1768533463698 subscribed to patterns ['*']
+🔧 SUBSCRIBE_EVENTS: Created subscription b5c5ffb2-1740-42d5-b71b-39d8d8bc62cc for demo-client-1768533463698
+::1 [16/Jan/2026:11:17:43 +0800] "POST /api/send_event HTTP/1.1" 200 769 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [16/Jan/2026:11:18:16 +0800] "GET /api/health HTTP/1.1" 200 14953 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Invalid secret provided for agent CleverAssistant6495
+Invalid secret provided for agent CleverAssistant6495
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 6 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'demo-client-1768533463698', 'CleverAssistant6495'}
+📺 Channel 'general': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'development': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'support': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:18:17 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 6 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'demo-client-1768533463698', 'CleverAssistant6495'}
+📺 Channel 'general': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'development': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'support': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:18:17 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Invalid secret provided for agent CleverAssistant6495
+Invalid secret provided for agent CleverAssistant6495
+::1 [16/Jan/2026:11:19:17 +0800] "GET /api/health HTTP/1.1" 200 14952 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 6 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'demo-client-1768533463698', 'CleverAssistant6495'}
+📺 Channel 'general': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'development': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'support': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:19:17 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 6 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'demo-client-1768533463698', 'CleverAssistant6495'}
+📺 Channel 'general': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'development': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'support': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:19:18 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+::1 [16/Jan/2026:11:20:16 +0800] "GET /api/health HTTP/1.1" 200 14950 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Invalid secret provided for agent CleverAssistant6495
+Invalid secret provided for agent CleverAssistant6495
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 6 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'demo-client-1768533463698', 'CleverAssistant6495'}
+📺 Channel 'general': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'development': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'support': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:20:17 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 6 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'demo-client-1768533463698', 'CleverAssistant6495'}
+📺 Channel 'general': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'development': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'support': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:20:17 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Invalid secret provided for agent CleverAssistant6495
+Invalid secret provided for agent CleverAssistant6495
+::1 [16/Jan/2026:11:21:16 +0800] "GET /api/health HTTP/1.1" 200 14952 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 6 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'demo-client-1768533463698', 'CleverAssistant6495'}
+📺 Channel 'general': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'development': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'support': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:21:16 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 6 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'demo-client-1768533463698', 'CleverAssistant6495'}
+📺 Channel 'general': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'development': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'support': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:21:16 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Invalid secret provided for agent CleverAssistant6495
+Invalid secret provided for agent CleverAssistant6495
+::1 [16/Jan/2026:11:22:16 +0800] "GET /api/health HTTP/1.1" 200 14949 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 6 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'demo-client-1768533463698', 'CleverAssistant6495'}
+📺 Channel 'general': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'development': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'support': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:22:16 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 6 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'demo-client-1768533463698', 'CleverAssistant6495'}
+📺 Channel 'general': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'development': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'support': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:22:16 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Invalid secret provided for agent CleverAssistant6495
+::1 [16/Jan/2026:11:23:17 +0800] "GET /api/health HTTP/1.1" 200 14953 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Invalid secret provided for agent CleverAssistant6495
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 6 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'demo-client-1768533463698', 'CleverAssistant6495'}
+📺 Channel 'general': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'development': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'support': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:23:17 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 6 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'demo-client-1768533463698', 'CleverAssistant6495'}
+📺 Channel 'general': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'development': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'support': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:23:17 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Invalid secret provided for agent CleverAssistant6495
+::1 [16/Jan/2026:11:24:16 +0800] "GET /api/health HTTP/1.1" 200 14951 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Invalid secret provided for agent CleverAssistant6495
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 6 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'demo-client-1768533463698', 'CleverAssistant6495'}
+📺 Channel 'general': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'development': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'support': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:24:16 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 6 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'demo-client-1768533463698', 'CleverAssistant6495'}
+📺 Channel 'general': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'development': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'support': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:24:16 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Invalid secret provided for agent CleverAssistant6495
+Invalid secret provided for agent CleverAssistant6495
+::1 [16/Jan/2026:11:25:16 +0800] "GET /api/health HTTP/1.1" 200 14951 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 6 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'demo-client-1768533463698', 'CleverAssistant6495'}
+📺 Channel 'general': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'development': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'support': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:25:16 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 6 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'demo-client-1768533463698', 'CleverAssistant6495'}
+📺 Channel 'general': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'development': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'support': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:25:16 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Invalid secret provided for agent CleverAssistant6495
+Invalid secret provided for agent CleverAssistant6495
+::1 [16/Jan/2026:11:26:16 +0800] "GET /api/health HTTP/1.1" 200 14953 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 6 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'demo-client-1768533463698', 'CleverAssistant6495'}
+📺 Channel 'general': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'development': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'support': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:26:16 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+HTTP Agent registration: CleverAssistant6495
+Agent CleverAssistant6495 already registered with network
+Unregistered agent CleverAssistant6495 from centralized registry
+Agent CleverAssistant6495 assigned to default group 'guest'
+Registered agent CleverAssistant6495 in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent CleverAssistant6495
+🎯 THREAD MESSAGING MOD: Agent metadata: {'display_name': 'CleverAssistant6495', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36', 'platform': 'web'}
+ℹ️  Agent CleverAssistant6495 already in channel 'general'
+ℹ️  Agent CleverAssistant6495 already in channel 'development'
+ℹ️  Agent CleverAssistant6495 already in channel 'support'
+🎉 THREAD MESSAGING MOD: Successfully registered agent CleverAssistant6495
+📊 Total active agents: 6 -> {'archivist', 'academic-partner', 'pr-manager', 'literature-agent', 'demo-client-1768533463698', 'CleverAssistant6495'}
+📺 Channel 'general': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'development': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+📺 Channel 'support': 6 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist', 'CleverAssistant6495', 'demo-client-1768533463698']
+🔗 Agent CleverAssistant6495 channels: ['general', 'development', 'support']
+Registered agent CleverAssistant6495 with network in group 'guest'
+✅ Successfully registered HTTP agent CleverAssistant6495 with network Unknown Network
+::1 [16/Jan/2026:11:26:17 +0800] "POST /api/register HTTP/1.1" 200 593 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+Received shutdown signal
+Stopping AgentManager...
+AgentManager stopped successfully
+Heartbeat monitor cancelled
+Shutdown TransportType.HTTP transport
+gRPC server shutdown
+Shutdown TransportType.GRPC transport
+Centralized topology shutdown
+Agent network 'AcademicResearchNetwork' shutdown successfully
+Shutting down network...
+Centralized topology shutdown
+Agent network 'AcademicResearchNetwork' shutdown successfully
+Network shutdown complete
+Timeout checker task cancelled
+Using workspace directory (derived from config): /Users/nature/个人项目/Bachelor-thesis/academic_network
+Loaded network configuration from network.yaml
+Initializing WorkspaceManager at /Users/nature/个人项目/Bachelor-thesis/academic_network
+Workspace initialized successfully at /Users/nature/个人项目/Bachelor-thesis/academic_network
+AgentManager initialized for workspace: /Users/nature/个人项目/Bachelor-thesis/academic_network
+AgentIdentityManager initialized with session timeout=24h
+Loading 5 network mods from NetworkConfig...
+Initializing network mod openagents.mods.workspace.default
+Successfully loaded network mod: openagents.mods.workspace.default
+Initializing network mod openagents.mods.workspace.messaging
+Initializing Thread Messaging network mod
+Successfully loaded network mod: openagents.mods.workspace.messaging
+Could not import network mod mods.memory_system: No module named 'mods.memory_system.mod'; 'mods.memory_system' is not a package
+Initializing network mod openagents.mods.workspace.project
+Initializing Project network mod
+Loaded template: thesis_modification
+Loaded template: deep_reading
+Loaded template: academic_discussion
+Project mod initialized with 3 templates
+Successfully loaded network mod: openagents.mods.workspace.project
+Initializing network mod openagents.mods.coordination.task_delegation
+Initializing Task Delegation network mod
+Successfully loaded network mod: openagents.mods.coordination.task_delegation
+Mod openagents.mods.workspace.default bound to network academic-hub-1
+Registered network mod: openagents.mods.workspace.default
+Mod openagents.mods.workspace.messaging bound to network academic-hub-1
+Using file storage at /Users/nature/个人项目/Bachelor-thesis/academic_network/mods/openagents.mods.workspace.messaging/files
+Loaded 73 messages from storage
+Initialized channels: ['general', 'development', 'support']
+Registered network mod: openagents.mods.workspace.messaging
+Mod openagents.mods.workspace.project bound to network academic-hub-1
+Registered network mod: openagents.mods.workspace.project
+Mod openagents.mods.coordination.task_delegation bound to network academic-hub-1
+Loaded 11 tasks from storage
+Registered network mod: openagents.mods.coordination.task_delegation
+Successfully loaded 4 network mods
+Created network: AcademicResearchNetwork
+Loaded 4 network mods: ['openagents.mods.workspace.default', 'openagents.mods.workspace.messaging', 'openagents.mods.workspace.project', 'openagents.mods.coordination.task_delegation']
+Workspace path: /Users/nature/个人项目/Bachelor-thesis/academic_network
+Workspace initialized with 4 mod directories
+HTTP transport: MCP protocol enabled at /mcp
+HTTP transport: Studio frontend enabled at /studio
+HTTP transport: Studio build directory found at /Users/nature/个人项目/Bachelor-thesis/academic_network/venv/lib/python3.12/site-packages/openagents/studio/build
+Task delegation timeout checker started
+HTTP transport listening on localhost:8700
+Started TransportType.HTTP transport on localhost:8700
+gRPC transport initialized
+gRPC transport listening on 0.0.0.0:8600
+Started TransportType.GRPC transport on 0.0.0.0:8600
+Successfully loaded mod adapter: openagents.mods.workspace.default
+Successfully loaded mod adapter: openagents.mods.workspace.messaging
+Successfully loaded mod adapter: openagents.mods.workspace.project
+Successfully loaded mod adapter: openagents.mods.coordination.task_delegation
+Initializing Task Delegation adapter
+Error executing module /Users/nature/个人项目/Bachelor-thesis/academic_network/tools/document_tools_sync.py: No module named 'document_tools'
+Loaded 0 workspace tools from /Users/nature/个人项目/Bachelor-thesis/academic_network/tools
+Loaded 0 event tools from /Users/nature/个人项目/Bachelor-thesis/academic_network/events
+Collected 32 total tools
+HTTP transport MCP: Collected 32 tools: ['send_event', 'send_direct_message', 'send_channel_message', 'reply_channel_message', 'list_channels', 'retrieve_channel_messages', 'retrieve_direct_messages', 'react_to_message', 'list_project_templates', 'start_project', 'stop_project', 'complete_project', 'get_project', 'send_project_message', 'set_project_global_state', 'get_project_global_state', 'list_project_global_state', 'delete_project_global_state', 'set_project_agent_state', 'get_project_agent_state', 'list_project_agent_state', 'delete_project_agent_state', 'set_project_artifact', 'get_project_artifact', 'list_project_artifacts', 'delete_project_artifact', 'delegate_task', 'report_task_progress', 'complete_task', 'fail_task', 'list_tasks', 'get_task']
+Centralized topology initialized with 2 transports
+Discovered 7 agents
+AgentManager started with 6 discovered agents
+Agent network 'AcademicResearchNetwork' initialized successfully
+Network 'AcademicResearchNetwork' started successfully
+Network mode: centralized
+Transport TransportType.HTTP: localhost:8700
+Transport TransportType.GRPC: 0.0.0.0:8600
+Network statistics: {'network_id': 'academic-hub-1', 'network_uuid': '2e95dc69-41aa-439c-ba37-196ba3ffceb1', 'network_name': 'AcademicResearchNetwork', 'initialized': True, 'created_by_version': '0.8.5', 'is_running': True, 'uptime_seconds': 0.0013470649719238281, 'agent_count': 0, 'agents': {}, 'groups': {}, 'group_config': [{'name': 'coordinators', 'description': '协调者 - 统一入口，批判性思考，任务委派', 'agent_count': 0, 'metadata': {'permissions': ['create_projects', 'delegate_tasks', 'communicate_with_users'], 'agents': ['academic-partner']}, 'has_password': True}, {'name': 'experts', 'description': '专家 - 执行深度研究任务', 'agent_count': 0, 'metadata': {'permissions': ['execute_tasks', 'report_results', 'access_documents'], 'agents': ['literature-agent']}, 'has_password': True}, {'name': 'managers', 'description': '管理者 - 流程验证与文件执行', 'agent_count': 0, 'metadata': {'permissions': ['create_pr', 'merge_pr', 'update_documents', 'file_operations'], 'agents': ['pr-manager', 'archivist']}, 'has_password': True}, {'name': 'guest', 'description': 'Default group for agents without specific credentials', 'agent_count': 0, 'metadata': {}, 'has_password': False}], 'default_agent_group': 'guest', 'requires_password': False, 'mods': [{'name': 'openagents.mods.workspace.default', 'enabled': True, 'config': {'custom_events_enabled': True}}, {'name': 'openagents.mods.workspace.messaging', 'enabled': True, 'config': {}}, {'name': 'mods.memory_system', 'enabled': True, 'config': {'enable_mem0': True, 'project_id': 'academic_research'}}, {'name': 'openagents.mods.workspace.project', 'enabled': True, 'config': {'max_concurrent_projects': 5, 'project_templates': {'thesis_modification': {'name': '论文修改流程', 'description': 'PR-driven 的论文修改工作流', 'agent_groups': ['coordinators', 'experts', 'managers', 'guest'], 'context': '论文修改工作流 (PR Scope)：\n\n1. Academic Partner 接收用户修改请求\n2. 分析需求，委派任务给 Literature Agent / PR Manager\n3. 专家返回分析结果\n4. Academic Partner 整合形成共识，输出修改规格\n5. PR Manager 验证规格，Archivist 执行文件操作\n\n重要约束：\n- 所有修改必须有文献支持\n- 不直接修改 Draft.md\n- 遵循 GB/T 7714-2015 引用格式\n- 所有变更必须通过 PR\n'}, 'deep_reading': {'name': '深度阅读流程', 'description': '博士生式深度阅读，提取与研究相关的信息', 'agent_groups': ['coordinators', 'experts', 'guest'], 'context': '深度阅读工作流：\n1. 用户提供文献或主题\n2. Academic Partner 分析请求，委派给 Literature Agent\n3. Literature Agent 执行博士生式阅读：\n   - 追踪 Reference List\n   - 提取方法论细节\n   - 建立与 RQ 的关联\n4. Academic Partner 整合输出结构化笔记\n\n阅读标准：\n"当读一篇文献的时候，往下追踪这篇文献的 Reference List，\n 记录下来他参考到的这些文献里面，跟我们研究相关的部分"\n'}, 'academic_discussion': {'name': '学术讨论', 'description': '探索性的学术问题讨论', 'agent_groups': ['coordinators', 'experts', 'guest'], 'context': '学术讨论工作流：\n1. 用户提出问题\n2. Academic Partner 分析问题，批判性思考\n3. 如需文献支持，委派给 Literature Agent\n4. 形成共识或记录分歧\n'}}}}, {'name': 'openagents.mods.coordination.task_delegation', 'enabled': True, 'config': {'timeout_check_interval': 30}}], 'dynamic_mods': {'loaded': [], 'count': 0, 'details': {}}, 'topology_mode': 'centralized', 'transports': [{'type': <TransportType.HTTP: 'http'>, 'config': {'port': 8700, 'host': 'localhost', 'serve_studio': True, 'serve_mcp': True}}, {'type': <TransportType.GRPC: 'grpc'>, 'config': {'port': 8600, 'max_message_size': 104857600, 'compression': 'gzip', 'keepalive_time': 60000, 'keepalive_timeout': 30000}}], 'manifest_transport': 'http', 'recommended_transport': 'grpc', 'max_connections': 20, 'readme': '# Academic Research Network\n\n基于 OpenAgents 的学术研究多Agent协作系统。\n\n## 快速开始\n\n### 1. 创建虚拟环境并安装依赖\n\n```bash\ncd academic_network\npython -m venv venv\nsource venv/bin/activate  # macOS/Linux\n# Windows: venv\\Scripts\\activate\npip install -r requirements.txt\n```\n\n### 2. 设置环境变量\n\n创建 `.env` 文件或导出环境变量：\n\n```bash\n# 必需：LLM API（Agent 对话能力）\nexport OPENAI_API_KEY="your-openai-api-key"\n\n# 必需：智谱 AI（Mem0 向量嵌入，使用 embedding-3 模型）\nexport ZHIPUAI_API_KEY="your-zhipuai-api-key"\n```\n\n或创建 `.env` 文件：\n```\nOPENAI_API_KEY=your-openai-api-key\nZHIPUAI_API_KEY=your-zhipuai-api-key\n```\n\n### 3. 启动网络\n\n```bash\n# 一键启动（推荐）\n./start_all.sh\n\n# 或手动启动\npython -m openagents.cli network start network.yaml\n```\n\n### 4. 访问 Studio\n\n打开浏览器访问: http://localhost:8700/studio\n\n日志位置: `/tmp/*.log`\n\n## Agent 架构\n\n```\n┌─────────────────────────────────────────────────────────────┐\n│                   Academic Research Network                  │\n├─────────────────────────────────────────────────────────────┤\n│                                                              │\n│  ┌───────────┐  ┌───────────┐  ┌───────────┐  ┌───────────┐│\n│  │Facilitator│  │Literature │  │  Critical │  │    PR     ││\n│  │(协调者)   │  │  Agent    │  │  Thinker  │  │  Manager  ││\n│  │           │  │(文献专家) │  │ (批判者)  │  │(变更管理) ││\n│  └─────┬─────┘  └─────┬─────┘  └─────┬─────┘  └─────┬─────┘│\n│        │              │              │              │       │\n│        └──────────────┴──────────────┴──────────────┘       │\n│                          ↕                                   │\n│  ┌─────────────────────────────────────────────────────────┐│\n│  │                    Mem0 记忆系统                         ││\n│  │   • 自动捕捉偏好和洞见                                   ││\n│  │   • 冲突检测和确认                                       ││\n│  │   • 同步到 MEMORY.md                                     ││\n│  └─────────────────────────────────────────────────────────┘│\n│                                                              │\n└─────────────────────────────────────────────────────────────┘\n```\n\n## 核心特性\n\n### 1. 负面约束设计\n告诉 Agent "不能做什么" 比 "应该做什么" 更重要：\n- ❌ 不直接编辑 Draft.md（必须通过 PR）\n- ❌ 不凭空编造文献（必须来自 Reference/）\n- ❌ 不跳过批判性审查\n\n### 2. PR 驱动变更\n所有论文修改通过 Pull Request：\n- 10 步验证流程\n- 强制引用检查\n- 完整历史记录\n\n### 3. 智能记忆系统\n基于 Mem0 的记忆层：\n- 自动提取用户偏好和洞见\n- 检测偏好冲突并主动确认\n- 每次讨论产出可追溯的结果\n\n### 4. 文献工具链\n- PDF → Markdown 转换 (Datalab API)\n- 优先搜索未引用文献\n- 自动引用检查\n\n## 目录结构\n\n```\nacademic_network/\n├── network.yaml          # 网络配置\n├── requirements.txt      # Python 依赖\n├── agents/               # Agent 定义\n│   ├── facilitator.yaml\n│   ├── literature_agent.yaml\n│   ├── critical_thinker.yaml\n│   └── pr_manager.yaml\n├── mods/                 # 自定义模块\n│   └── memory_system.py\n└── tools/                # 工具集\n    └── document_tools.py\n```\n\n## 工作流模板\n\n| 模板 | 用途 |\n|------|------|\n| thesis_modification | 论文修改流程 |\n| deep_reading | 深度阅读文献 |\n| academic_discussion | 学术问题讨论 |\n\n## 与现有系统的集成\n\n本系统与现有的论文协作系统完全兼容：\n- 使用相同的 `Reference/` 文献库\n- 使用相同的 `PR/` 系统\n- 使用相同的 `MEMORY.md`\n- 支持现有的 9 个工作流\n\n## 下一步\n\n- [ ] 测试 Agent 基础协作\n- [ ] 验证 Mem0 记忆功能\n- [ ] 录制演示视频\n- [ ] 准备 Hackathon 提交\n', 'network_profile': {'discoverable': False, 'name': 'Academic Research Network', 'description': '学术研究多Agent协作系统', 'tags': ['academic', 'research', 'thesis'], 'categories': ['productivity', 'research'], 'required_openagents_version': '0.6.13', 'capacity': 10, 'authentication': {'type': 'none'}, 'host': 'localhost', 'port': 8700}}
+Running network indefinitely (Ctrl+C to stop)
+Starting heartbeat monitor (interval: 60s, timeout: 180s)
+::1 [16/Jan/2026:11:29:52 +0800] "GET /api/health HTTP/1.1" 200 14016 "-" "curl/8.7.1"
+AgentConfig includes 3 custom tools
+Processed 3 enabled mods: ['openagents.mods.workspace.default', 'openagents.mods.coordination.task_delegation', 'openagents.mods.workspace.messaging']
+Creating openagents.agents.worker_agent.WorkerAgent instance with ID 'literature-agent'
+Successfully loaded mod adapter: openagents.mods.workspace.default
+Instantiated adapter for openagents.mods.workspace.default (with mod_name)
+Successfully loaded mod adapter: openagents.mods.coordination.task_delegation
+Initializing Task Delegation adapter
+Instantiated adapter for openagents.mods.coordination.task_delegation (no args)
+Successfully loaded mod adapter: openagents.mods.workspace.messaging
+Instantiated adapter for openagents.mods.workspace.messaging (no args)
+Registered mod adapter DefaultWorkspaceAgentAdapter with agent literature-agent
+Registered mod adapter TaskDelegationAdapter with agent literature-agent
+Initializing Thread Messaging protocol for agent literature-agent with file storage at /var/folders/n5/tk_v_x1500bcqwdp0vlsv3tm0000gn/T/openagents_agent_literature-agent_threads_bxndxzlh
+Registered mod adapter ThreadMessagingAgentAdapter with agent literature-agent
+Loaded 3 custom tools from agent config
+Updated available tools for agent literature-agent: ['send_event', 'delegate_task', 'report_task_progress', 'complete_task', 'fail_task', 'list_tasks', 'get_task', 'send_direct_message', 'send_channel_message', 'reply_channel_message', 'list_channels', 'retrieve_channel_messages', 'retrieve_direct_messages', 'react_to_message', 'search_literature', 'suggest_citations', 'read_literature']
+WorkerAgent 'None' collected 6 event handlers for patterns: ['thread.channel_message.notification', 'thread.reply.notification', 'thread.direct_message.notification', 'thread.file.upload_response', 'agent.message', 'thread.reaction.notification']
+Initialized WorkerAgent 'None' with ID: literature-agent
+Successfully loaded openagents.agents.worker_agent.WorkerAgent 'literature-agent' from agents/literature_agent.yaml
+::1 [16/Jan/2026:11:29:52 +0800] "GET /api/health HTTP/1.1" 200 14015 "-" "Python/3.12 aiohttp/3.13.3"
+✅ Successfully retrieved health check from http://localhost:8700/api/health
+Detected network: AcademicResearchNetwork (academic-hub-1)
+Transport: grpc, Host: localhost, Port: 8600
+Creating gRPC connector for agent literature-agent
+Connecting to gRPC server at localhost:8600
+Agent registration: literature-agent
+Registered agent literature-agent in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent literature-agent
+🎯 THREAD MESSAGING MOD: Agent metadata: {'config_file': 'agents/literature_agent.yaml', 'agent_type': 'WorkerAgent'}
+✅ AUTO-ADDED agent literature-agent to channel 'general' (total agents: 1)
+✅ AUTO-ADDED agent literature-agent to channel 'development' (total agents: 1)
+✅ AUTO-ADDED agent literature-agent to channel 'support' (total agents: 1)
+🎉 THREAD MESSAGING MOD: Successfully registered agent literature-agent
+📊 Total active agents: 1 -> {'literature-agent'}
+📺 Channel 'general': 1 agents -> ['literature-agent']
+📺 Channel 'development': 1 agents -> ['literature-agent']
+📺 Channel 'support': 1 agents -> ['literature-agent']
+🔗 Agent literature-agent channels: ['general', 'development', 'support']
+Registered agent literature-agent with network in group 'guest'
+✅ Successfully registered agent literature-agent with network
+Connected to gRPC network successfully
+🔧 Starting message polling for  agent literature-agent
+🔧 CLIENT: Starting message polling for agent literature-agent
+🔧 LIST_MODS: Request from agent_id: literature-agent
+Supported mod: openagents.mods.workspace.default (v1.0.0)
+Supported mod: openagents.mods.workspace.messaging (v1.0.0)
+Supported mod: openagents.mods.workspace.project (v1.0.0)
+Supported mod: openagents.mods.coordination.task_delegation (v1.0.0)
+Setting up WorkerAgent 'None'
+Found thread messaging adapter with key: openagents.mods.workspace.messaging
+Thread messaging events will be handled through the event system
+WorkerAgent 'None' setup complete
+AgentConfig includes 5 custom tools
+Processed 4 enabled mods: ['openagents.mods.workspace.messaging', 'openagents.mods.workspace.project', 'openagents.mods.coordination.task_delegation', 'mods.memory_system']
+Creating openagents.agents.collaborator_agent.CollaboratorAgent instance with ID 'academic-partner'
+Successfully loaded mod adapter: openagents.mods.workspace.messaging
+Instantiated adapter for openagents.mods.workspace.messaging (no args)
+Successfully loaded mod adapter: openagents.mods.workspace.project
+Instantiated adapter for openagents.mods.workspace.project (no args)
+Successfully loaded mod adapter: openagents.mods.coordination.task_delegation
+Initializing Task Delegation adapter
+Instantiated adapter for openagents.mods.coordination.task_delegation (no args)
+Could not import mod adapter mods.memory_system: No module named 'mods.memory_system.adapter'; 'mods.memory_system' is not a package
+Initializing Thread Messaging protocol for agent academic-partner with file storage at /var/folders/n5/tk_v_x1500bcqwdp0vlsv3tm0000gn/T/openagents_agent_academic-partner_threads_xwfcu4e1
+Registered mod adapter ThreadMessagingAgentAdapter with agent academic-partner
+Registered mod adapter DefaultProjectAgentAdapter with agent academic-partner
+Registered mod adapter TaskDelegationAdapter with agent academic-partner
+Loaded 5 custom tools from agent config
+Updated available tools for agent academic-partner: ['send_direct_message', 'send_channel_message', 'reply_channel_message', 'list_channels', 'retrieve_channel_messages', 'retrieve_direct_messages', 'react_to_message', 'list_project_templates', 'start_project', 'stop_project', 'complete_project', 'get_project', 'send_project_message', 'set_project_global_state', 'get_project_global_state', 'list_project_global_state', 'delete_project_global_state', 'set_project_agent_state', 'get_project_agent_state', 'list_project_agent_state', 'delete_project_agent_state', 'set_project_artifact', 'get_project_artifact', 'list_project_artifacts', 'delete_project_artifact', 'delegate_task', 'report_task_progress', 'complete_task', 'fail_task', 'list_tasks', 'get_task', 'add_memory', 'search_memory', 'check_conflict', 'get_preferences', 'get_project_context']
+Successfully loaded openagents.agents.collaborator_agent.CollaboratorAgent 'academic-partner' from agents/academic_partner.yaml
+✅ Successfully retrieved health check from http://localhost:8700/api/health
+::1 [16/Jan/2026:11:29:56 +0800] "GET /api/health HTTP/1.1" 200 14177 "-" "Python/3.12 aiohttp/3.13.3"
+Detected network: AcademicResearchNetwork (academic-hub-1)
+Transport: grpc, Host: localhost, Port: 8600
+Creating gRPC connector for agent academic-partner
+Connecting to gRPC server at localhost:8600
+Agent registration: academic-partner
+Registered agent academic-partner in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent academic-partner
+🎯 THREAD MESSAGING MOD: Agent metadata: {'config_file': 'agents/academic_partner.yaml', 'agent_type': 'CollaboratorAgent'}
+✅ AUTO-ADDED agent academic-partner to channel 'general' (total agents: 2)
+✅ AUTO-ADDED agent academic-partner to channel 'development' (total agents: 2)
+✅ AUTO-ADDED agent academic-partner to channel 'support' (total agents: 2)
+🎉 THREAD MESSAGING MOD: Successfully registered agent academic-partner
+📊 Total active agents: 2 -> {'literature-agent', 'academic-partner'}
+📺 Channel 'general': 2 agents -> ['literature-agent', 'academic-partner']
+📺 Channel 'development': 2 agents -> ['literature-agent', 'academic-partner']
+📺 Channel 'support': 2 agents -> ['literature-agent', 'academic-partner']
+🔗 Agent academic-partner channels: ['general', 'development', 'support']
+Registered agent academic-partner with network in group 'guest'
+✅ Successfully registered agent academic-partner with network
+Connected to gRPC network successfully
+🔧 Starting message polling for  agent academic-partner
+🔧 CLIENT: Starting message polling for agent academic-partner
+🔧 LIST_MODS: Request from agent_id: academic-partner
+Supported mod: openagents.mods.workspace.default (v1.0.0)
+Supported mod: openagents.mods.workspace.messaging (v1.0.0)
+Supported mod: openagents.mods.workspace.project (v1.0.0)
+Supported mod: openagents.mods.coordination.task_delegation (v1.0.0)
+Processed 3 enabled mods: ['openagents.mods.workspace.default', 'openagents.mods.coordination.task_delegation', 'openagents.mods.workspace.messaging']
+Creating openagents.agents.worker_agent.WorkerAgent instance with ID 'pr-manager'
+Successfully loaded mod adapter: openagents.mods.workspace.default
+Instantiated adapter for openagents.mods.workspace.default (with mod_name)
+Successfully loaded mod adapter: openagents.mods.coordination.task_delegation
+Initializing Task Delegation adapter
+Instantiated adapter for openagents.mods.coordination.task_delegation (no args)
+Successfully loaded mod adapter: openagents.mods.workspace.messaging
+Instantiated adapter for openagents.mods.workspace.messaging (no args)
+Registered mod adapter DefaultWorkspaceAgentAdapter with agent pr-manager
+Registered mod adapter TaskDelegationAdapter with agent pr-manager
+Initializing Thread Messaging protocol for agent pr-manager with file storage at /var/folders/n5/tk_v_x1500bcqwdp0vlsv3tm0000gn/T/openagents_agent_pr-manager_threads_vscsj3fp
+Registered mod adapter ThreadMessagingAgentAdapter with agent pr-manager
+Updated available tools for agent pr-manager: ['send_event', 'delegate_task', 'report_task_progress', 'complete_task', 'fail_task', 'list_tasks', 'get_task', 'send_direct_message', 'send_channel_message', 'reply_channel_message', 'list_channels', 'retrieve_channel_messages', 'retrieve_direct_messages', 'react_to_message']
+WorkerAgent 'None' collected 6 event handlers for patterns: ['thread.channel_message.notification', 'thread.reply.notification', 'thread.direct_message.notification', 'thread.file.upload_response', 'agent.message', 'thread.reaction.notification']
+Initialized WorkerAgent 'None' with ID: pr-manager
+Successfully loaded openagents.agents.worker_agent.WorkerAgent 'pr-manager' from agents/pr_manager.yaml
+::1 [16/Jan/2026:11:29:57 +0800] "GET /api/health HTTP/1.1" 200 14333 "-" "Python/3.12 aiohttp/3.13.3"
+✅ Successfully retrieved health check from http://localhost:8700/api/health
+Detected network: AcademicResearchNetwork (academic-hub-1)
+Transport: grpc, Host: localhost, Port: 8600
+Creating gRPC connector for agent pr-manager
+Connecting to gRPC server at localhost:8600
+Agent registration: pr-manager
+Registered agent pr-manager in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent pr-manager
+🎯 THREAD MESSAGING MOD: Agent metadata: {'config_file': 'agents/pr_manager.yaml', 'agent_type': 'WorkerAgent'}
+✅ AUTO-ADDED agent pr-manager to channel 'general' (total agents: 3)
+✅ AUTO-ADDED agent pr-manager to channel 'development' (total agents: 3)
+✅ AUTO-ADDED agent pr-manager to channel 'support' (total agents: 3)
+🎉 THREAD MESSAGING MOD: Successfully registered agent pr-manager
+📊 Total active agents: 3 -> {'literature-agent', 'academic-partner', 'pr-manager'}
+📺 Channel 'general': 3 agents -> ['literature-agent', 'academic-partner', 'pr-manager']
+📺 Channel 'development': 3 agents -> ['literature-agent', 'academic-partner', 'pr-manager']
+📺 Channel 'support': 3 agents -> ['literature-agent', 'academic-partner', 'pr-manager']
+🔗 Agent pr-manager channels: ['general', 'development', 'support']
+Registered agent pr-manager with network in group 'guest'
+✅ Successfully registered agent pr-manager with network
+Connected to gRPC network successfully
+🔧 Starting message polling for  agent pr-manager
+🔧 CLIENT: Starting message polling for agent pr-manager
+🔧 LIST_MODS: Request from agent_id: pr-manager
+Supported mod: openagents.mods.workspace.default (v1.0.0)
+Supported mod: openagents.mods.workspace.messaging (v1.0.0)
+Supported mod: openagents.mods.workspace.project (v1.0.0)
+Supported mod: openagents.mods.coordination.task_delegation (v1.0.0)
+Setting up WorkerAgent 'None'
+Found thread messaging adapter with key: openagents.mods.workspace.messaging
+Thread messaging events will be handled through the event system
+WorkerAgent 'None' setup complete
+Processed 3 enabled mods: ['openagents.mods.workspace.default', 'openagents.mods.coordination.task_delegation', 'openagents.mods.workspace.messaging']
+Creating openagents.agents.worker_agent.WorkerAgent instance with ID 'archivist'
+Successfully loaded mod adapter: openagents.mods.workspace.default
+Instantiated adapter for openagents.mods.workspace.default (with mod_name)
+Successfully loaded mod adapter: openagents.mods.coordination.task_delegation
+Initializing Task Delegation adapter
+Instantiated adapter for openagents.mods.coordination.task_delegation (no args)
+Successfully loaded mod adapter: openagents.mods.workspace.messaging
+Instantiated adapter for openagents.mods.workspace.messaging (no args)
+Registered mod adapter DefaultWorkspaceAgentAdapter with agent archivist
+Registered mod adapter TaskDelegationAdapter with agent archivist
+Initializing Thread Messaging protocol for agent archivist with file storage at /var/folders/n5/tk_v_x1500bcqwdp0vlsv3tm0000gn/T/openagents_agent_archivist_threads_vdzsgu7u
+Registered mod adapter ThreadMessagingAgentAdapter with agent archivist
+Updated available tools for agent archivist: ['send_event', 'delegate_task', 'report_task_progress', 'complete_task', 'fail_task', 'list_tasks', 'get_task', 'send_direct_message', 'send_channel_message', 'reply_channel_message', 'list_channels', 'retrieve_channel_messages', 'retrieve_direct_messages', 'react_to_message']
+WorkerAgent 'None' collected 6 event handlers for patterns: ['thread.channel_message.notification', 'thread.reply.notification', 'thread.direct_message.notification', 'thread.file.upload_response', 'agent.message', 'thread.reaction.notification']
+Initialized WorkerAgent 'None' with ID: archivist
+Successfully loaded openagents.agents.worker_agent.WorkerAgent 'archivist' from agents/archivist.yaml
+::1 [16/Jan/2026:11:29:59 +0800] "GET /api/health HTTP/1.1" 200 14477 "-" "Python/3.12 aiohttp/3.13.3"
+✅ Successfully retrieved health check from http://localhost:8700/api/health
+Detected network: AcademicResearchNetwork (academic-hub-1)
+Transport: grpc, Host: localhost, Port: 8600
+Creating gRPC connector for agent archivist
+Connecting to gRPC server at localhost:8600
+Agent registration: archivist
+Registered agent archivist in centralized registry (group: guest)
+🎯 THREAD MESSAGING MOD: Registering agent archivist
+🎯 THREAD MESSAGING MOD: Agent metadata: {'config_file': 'agents/archivist.yaml', 'agent_type': 'WorkerAgent'}
+✅ AUTO-ADDED agent archivist to channel 'general' (total agents: 4)
+✅ AUTO-ADDED agent archivist to channel 'development' (total agents: 4)
+✅ AUTO-ADDED agent archivist to channel 'support' (total agents: 4)
+🎉 THREAD MESSAGING MOD: Successfully registered agent archivist
+📊 Total active agents: 4 -> {'archivist', 'literature-agent', 'academic-partner', 'pr-manager'}
+📺 Channel 'general': 4 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist']
+📺 Channel 'development': 4 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist']
+📺 Channel 'support': 4 agents -> ['literature-agent', 'academic-partner', 'pr-manager', 'archivist']
+🔗 Agent archivist channels: ['general', 'development', 'support']
+Registered agent archivist with network in group 'guest'
+✅ Successfully registered agent archivist with network
+Connected to gRPC network successfully
+🔧 Starting message polling for  agent archivist
+🔧 CLIENT: Starting message polling for agent archivist
+🔧 LIST_MODS: Request from agent_id: archivist
+Supported mod: openagents.mods.workspace.default (v1.0.0)
+Supported mod: openagents.mods.workspace.messaging (v1.0.0)
+Supported mod: openagents.mods.workspace.project (v1.0.0)
+Supported mod: openagents.mods.coordination.task_delegation (v1.0.0)
+Setting up WorkerAgent 'None'
+Found thread messaging adapter with key: openagents.mods.workspace.messaging
+Thread messaging events will be handled through the event system
+WorkerAgent 'None' setup complete
+::1 [16/Jan/2026:11:30:01 +0800] "GET /api/health HTTP/1.1" 200 14617 "-" "curl/8.7.1"
+::1 [16/Jan/2026:11:30:27 +0800] "GET /api/health HTTP/1.1" 200 14616 "-" "curl/8.7.1"
