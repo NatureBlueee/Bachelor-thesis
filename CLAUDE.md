@@ -8,6 +8,8 @@ This is a **software-engineered thesis collaboration system** for an undergradua
 
 The core idea: apply version control, code review, and CI/CD practices to academic writing. Every thesis modification goes through a Pull Request.
 
+**Research methodology**: Pure exploratory qualitative research. No preset propositions (P1-P4 are interpretive lenses, not hypotheses to test). Insights emerge from interview data via thematic analysis.
+
 ## Key Directories
 
 | Directory | Purpose |
@@ -15,8 +17,8 @@ The core idea: apply version control, code review, and CI/CD practices to academ
 | `Target/` | Thesis output (`Draft.md`) |
 | `Reference/` | Literature library with PDF→Markdown conversions |
 | `Consensus/` | Q&A records with academic AI (Consensus) |
-| `PR/` | Modification requests (Pull Requests) |
-| `.agent/rules/` | AI behavior constraints (thesis-project.md, consensus.md, writing.md) |
+| `PR/` | Modification requests; complex PRs have `PR-XXXX-Tasks/` subfolders |
+| `.agent/rules/` | AI behavior constraints |
 | `.agent/workflows/` | Operation workflows (one .md per slash command) |
 | `academic_network/` | Multi-agent collaboration system (OpenAgents + Mem0) |
 | `MEMORY.md` | AI notes (user preferences, insights) |
@@ -43,6 +45,7 @@ The core idea: apply version control, code review, and CI/CD practices to academ
 3. **Citation format**: GB/T 7714-2015 (Author-Year system), e.g., `(Qin et al., 2018)`
 4. **Language convention**: English for thesis text, Chinese for discussions/notes/PR descriptions
 5. **PR merge rule**: Never overwrite detailed PR content; only update status and checkboxes
+6. **Contribution-oriented citations**: Frame as "what this contributes to our argument", not "Author X said..."
 
 ## PDF to Markdown Conversion
 
@@ -91,6 +94,26 @@ When working on this project, Claude should act as a **critical academic partner
 - Literature is truth - arguments must stand on citations
 - Prefer asking probing questions before writing for the user
 - Distinguish between generic content (AI can write) and personalized content (requires user input)
+- Amplify user's thinking (放大效益) - understand the logic behind requests and extend it
+
+## User Writing Preferences
+
+**Format**:
+- ❌ Avoid over-structured Markdown (too many levels, too many bullet points)
+- ✅ Prefer paragraph-style continuous prose
+- ✅ Tables/diagrams are OK as supplements
+
+**Style** (张晨曦 writing style):
+- Use "puzzle framing" for theory - not flat introductions, but "what question does this theory answer?"
+- Show attitude in methodology - "I am not testing a model; I am mapping a terrain"
+- Avoid "textbook feel" - less "this study employs", more conversational logic
+- Avoid redundancy - don't repeat the same concept explanation
+
+**Literature reading purpose**:
+- ❌ Not for finding "research gaps" or checking "did they mention X"
+- ✅ Extract usable data, insights, frameworks, expressions
+- ✅ Dig into full text, not just abstracts
+- ✅ Ask: "How does this enrich our argument?"
 
 ## Memory Behavior
 
@@ -100,6 +123,30 @@ Update `MEMORY.md` when:
 - Important insights emerge
 - User says "remember this"
 
+**Information fidelity**: Always record user's original words (verbatim) + AI's interpretation. Prevents hallucination accumulation in long chains.
+
+## Complex Task Management
+
+For complex PRs, use task subfolders:
+```
+PR/
+├── PR-0010.md           # Master planning doc (user guidance + AI thinking)
+└── PR-0010-Tasks/       # Task folder
+    ├── Task-0001.md
+    ├── Task-0002.md
+    └── ...
+```
+
+**Principle**: Append, don't overwrite. Each task doc accumulates context → harvest at the end.
+
+## Key Argumentation Principles
+
+**Demand logic (correct)** vs **Comparison logic (wrong)**:
+- ✅ "Organizations need AI capabilities" (fact-based)
+- ❌ "Gen Z has higher AI literacy than supervisors" (fragile premise)
+
+If the theoretical framework is about "demand", the argument should also be about "demand".
+
 ## Context Loading (at conversation start)
 
 Execute `/start` or manually:
@@ -107,3 +154,50 @@ Execute `/start` or manually:
 2. Check `PR/` for active PRs (status: pending/doing)
 3. Read `MEMORY.md` (preferences, insights)
 4. Read `Target/Draft.md` key sections (Abstract lines 1-60, Research objectives lines 178-205, Propositions lines 340-400)
+
+## OpenAgents Development Guide
+
+### Quick Start
+
+```bash
+cd academic_network
+./start_all.sh  # 一键启动所有 Agent
+# Studio UI: http://localhost:8700/studio
+```
+
+### 开发新功能需要编辑的文件
+
+| 场景 | 需要编辑 |
+|------|---------|
+| 新建 Agent | `agents/xxx.yaml` + `start_all.sh` |
+| 添加工具 | `tools/xxx.py` + Agent yaml 的 `tools` 段 |
+| 改人设 | Agent yaml 的 `instruction` 段 |
+| 新建网络 | `xxx_network.yaml` |
+
+### YAML Agent 添加自定义工具
+
+```yaml
+# agents/my_agent.yaml
+config:
+  tools:
+    - name: "my_tool"
+      description: "工具描述"
+      implementation: "my_module.my_function"  # 必须是同步函数
+```
+
+工具实现（必须同步，用 asyncio.run 包装异步）：
+```python
+# tools/my_tools.py
+import asyncio
+
+def my_sync_function(param: str) -> dict:
+    # 如果底层是异步的，用 asyncio.run 包装
+    return asyncio.run(async_impl(param))
+```
+
+### 踩坑经验
+
+1. **YAML Agent 只能调用同步函数** - 异步函数需要用 `asyncio.run()` 包装
+2. **没配置工具时 LLM 会编造结果** - 必须给 Agent 配置真实的工具
+3. **日志是救命稻草** - 所有日志在 `/tmp/*.log`
+4. **先跑通最小示例** - 别一开始就搞复杂架构

@@ -1,0 +1,320 @@
+{
+  "FastMind4537_1768025586014_25cqgxk18": {
+    "event_name": "thread.channels.list",
+    "source_id": "FastMind4537",
+    "event_id": "FastMind4537_1768025586014_25cqgxk18",
+    "timestamp": 1768025586,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "EzWr0IFWHGyHkDiMl34K9vMpWBYSJaU6mZGBnvmNjgeL7bxQWiZEvTHiBm8ZhEwQ",
+    "source_agent_group": "guest"
+  },
+  "FastMind4537_1768025586057_8xkdwwvz6": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "FastMind4537",
+    "event_id": "FastMind4537_1768025586057_8xkdwwvz6",
+    "timestamp": 1768025586,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "EzWr0IFWHGyHkDiMl34K9vMpWBYSJaU6mZGBnvmNjgeL7bxQWiZEvTHiBm8ZhEwQ",
+    "source_agent_group": "guest"
+  },
+  "FastMind4537_1768028012756_9j2w39lmw": {
+    "event_name": "thread.channels.list",
+    "source_id": "FastMind4537",
+    "event_id": "FastMind4537_1768028012756_9j2w39lmw",
+    "timestamp": 1768028012,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "xyby8zA6OyeFwwYKlTk460PM024gCwGxV5dWvdlzDa7V1XENWzWoo3I8208xJUTo",
+    "source_agent_group": "guest"
+  },
+  "FastMind4537_1768028012808_qos253gdx": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "FastMind4537",
+    "event_id": "FastMind4537_1768028012808_qos253gdx",
+    "timestamp": 1768028012,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "xyby8zA6OyeFwwYKlTk460PM024gCwGxV5dWvdlzDa7V1XENWzWoo3I8208xJUTo",
+    "source_agent_group": "guest"
+  },
+  "FastMind4537_1768028015446_e7vkn29yu": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "FastMind4537",
+    "event_id": "FastMind4537_1768028015446_e7vkn29yu",
+    "timestamp": 1768028015,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u4f60\u597d"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "xyby8zA6OyeFwwYKlTk460PM024gCwGxV5dWvdlzDa7V1XENWzWoo3I8208xJUTo",
+    "source_agent_group": "guest"
+  },
+  "FastMind4537_1768029597605_n3an1vg7z": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "FastMind4537",
+    "event_id": "FastMind4537_1768029597605_n3an1vg7z",
+    "timestamp": 1768029597,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u4f60\u597d"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "xyby8zA6OyeFwwYKlTk460PM024gCwGxV5dWvdlzDa7V1XENWzWoo3I8208xJUTo",
+    "source_agent_group": "guest"
+  },
+  "FastMind4537_1768030987540_4s45wstmv": {
+    "event_name": "thread.channels.list",
+    "source_id": "FastMind4537",
+    "event_id": "FastMind4537_1768030987540_4s45wstmv",
+    "timestamp": 1768030987,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "FoPWYUfWE4G323tjxZ8AKlnHmjXxnoFqFUDteaOwsCq77vSih3wsXXGyYfq7ZaPP",
+    "source_agent_group": "guest"
+  },
+  "FastMind4537_1768030987755_3zwxhnb5x": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "FastMind4537",
+    "event_id": "FastMind4537_1768030987755_3zwxhnb5x",
+    "timestamp": 1768030987,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "FoPWYUfWE4G323tjxZ8AKlnHmjXxnoFqFUDteaOwsCq77vSih3wsXXGyYfq7ZaPP",
+    "source_agent_group": "guest"
+  },
+  "FastMind4537_1768031184182_53u6ipp1z": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "FastMind4537",
+    "event_id": "FastMind4537_1768031184182_53u6ipp1z",
+    "timestamp": 1768031184,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u4f60\u597d"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MChbTwXQlCaQUYJXJijm9yuCgezkWth7wtZquaJs2l1EYrvCOGYeh54D0SMsafjw",
+    "source_agent_group": "guest"
+  },
+  "72a00c23-fc4d-45bc-826d-0703275a3ff0": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "demo-assistant",
+    "event_id": "72a00c23-fc4d-45bc-826d-0703275a3ff0",
+    "timestamp": 1768031196,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "message_type": "channel_message",
+      "channel": "general",
+      "content": {
+        "text": "\u4f60\u597d\uff01\u5f88\u9ad8\u5174\u89c1\u5230\u4f60\uff01\u6709\u4ec0\u4e48\u6211\u53ef\u4ee5\u5e2e\u52a9\u4f60\u7684\u5417\uff1f"
+      },
+      "source_id": "demo-assistant",
+      "relevant_agent_id": "demo-assistant",
+      "quoted_message_id": "91a08b18-2ff3-4882-9ec1-6c00c6cee874",
+      "quoted_text": "[Quoted message 91a08b18-2ff3-4882-9ec1-6c00c6cee874]"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "b6MGWo2mtOEZnJdTccDhqDVOkNgBKxGJiim0QIFbM3e6o3TYn1Edi8efwIno64Jd",
+    "source_agent_group": "guest"
+  },
+  "FastMind4537_1768031318561_tw9qqbs4s": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "FastMind4537",
+    "event_id": "FastMind4537_1768031318561_tw9qqbs4s",
+    "timestamp": 1768031318,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u6211\u521a\u521a\u548c\u4f60\u8bf4\u4e86\u4ec0\u4e48"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "csQpmrMFddp3kaFxgXsyBNTwvFn0qUpl5ZZ1U8GxBJpbclsetzJKch6CbogADLxq",
+    "source_agent_group": "guest"
+  },
+  "b5222e2a-fc71-4cc5-9bf4-e18dfb58709f": {
+    "event_name": "thread.reply.post",
+    "source_id": "demo-assistant",
+    "event_id": "b5222e2a-fc71-4cc5-9bf4-e18dfb58709f",
+    "timestamp": 1768031328,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "reply_to_id": "c57d4f70-d437-4ad5-adbd-58bb1d6a6728",
+      "content": {
+        "text": "\u4f60\u521a\u521a\u8bf4\u4e86\"\u4f60\u597d\"\u3002"
+      },
+      "message_type": "reply_message",
+      "sender_id": "demo-assistant",
+      "channel": "general"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "b6MGWo2mtOEZnJdTccDhqDVOkNgBKxGJiim0QIFbM3e6o3TYn1Edi8efwIno64Jd",
+    "source_agent_group": "guest"
+  },
+  "cli-user_1768031861207_pebtun": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "cli-user",
+    "event_id": "cli-user_1768031861207_pebtun",
+    "timestamp": 1768031861,
+    "source_type": "agent",
+    "destination_id": "agent:demo-assistant",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "demo-assistant",
+      "message_type": "direct_message",
+      "content": {
+        "text": "\u4f60\u597d"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "4QxQ2nxI8pgmzUpkeUCWK0TJEM2qWtnEHB9pN4adqFTnA2TQyrHdBek82gUqbeRx",
+    "source_agent_group": "guest",
+    "quoted_message_id": null,
+    "quoted_text": null
+  }
+}

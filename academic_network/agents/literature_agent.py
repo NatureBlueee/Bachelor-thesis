@@ -162,30 +162,29 @@ class LiteratureAgent(WorkerAgent):
 
         # 使用 Task Delegation Mod 完成任务
         try:
-            ws = self.workspace()
+            # 获取 TaskDelegationAdapter
+            task_adapter = self.client.mod_adapters.get(
+                "openagents.mods.coordination.task_delegation"
+            )
+            if task_adapter is None:
+                logger.error("TaskDelegationAdapter 未找到")
+                return
+
             if status == "success":
-                # 使用 complete_task 工具
-                await ws.send_event(
-                    event_name="task.complete",
-                    payload={
-                        "task_id": task_id,
-                        "result": {
-                            "task_type": task_type,
-                            "results": result,
-                            "citations": citations,
-                            "notes": notes
-                        }
+                await task_adapter.complete_task(
+                    task_id=task_id,
+                    result={
+                        "task_type": task_type,
+                        "results": result,
+                        "citations": citations,
+                        "notes": notes
                     }
                 )
                 logger.info(f"📚 任务完成: {task_id}")
             else:
-                # 使用 fail_task 工具
-                await ws.send_event(
-                    event_name="task.fail",
-                    payload={
-                        "task_id": task_id,
-                        "error": result.get("error", "Unknown error")
-                    }
+                await task_adapter.fail_task(
+                    task_id=task_id,
+                    error=result.get("error", "Unknown error")
                 )
                 logger.info(f"📚 任务失败: {task_id}")
         except Exception as e:
@@ -353,14 +352,13 @@ def main():
     try:
         agent.start(
             network_host="localhost",
-            network_port=8700,
-            transport="grpc"
+            network_port=8700
         )
-        
+
         print("✅ Literature Agent 正在运行")
         print("   按 Ctrl+C 停止")
         print()
-        
+
         # 等待停止信号
         agent.wait_for_stop()
         

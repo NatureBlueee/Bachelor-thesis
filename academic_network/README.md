@@ -4,33 +4,49 @@
 
 ## 快速开始
 
-### 1. 安装依赖
+### 1. 创建虚拟环境并安装依赖
 
-```powershell
+```bash
 cd academic_network
+python -m venv venv
+source venv/bin/activate  # macOS/Linux
+# Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
 ### 2. 设置环境变量
 
-```powershell
-$env:OPENAI_API_KEY = "your-openai-api-key"
+创建 `.env` 文件或导出环境变量：
+
+```bash
+# 必需：LLM API（Agent 对话能力）
+export OPENAI_API_KEY="your-openai-api-key"
+
+# 必需：智谱 AI（Mem0 向量嵌入，使用 embedding-3 模型）
+export ZHIPUAI_API_KEY="your-zhipuai-api-key"
+```
+
+或创建 `.env` 文件：
+```
+OPENAI_API_KEY=your-openai-api-key
+ZHIPUAI_API_KEY=your-zhipuai-api-key
 ```
 
 ### 3. 启动网络
 
-```powershell
-# 一键启动
-.\start_academic_network.ps1
+```bash
+# 一键启动（推荐）
+./start_all.sh
 
-# 或者手动启动
-cd academic_network
-python -m openagents network start network.yaml
+# 或手动启动
+python -m openagents.cli network start network.yaml
 ```
 
 ### 4. 访问 Studio
 
-打开浏览器访问: http://localhost:8700/studio/
+打开浏览器访问: http://localhost:8700/studio
+
+日志位置: `/tmp/*.log`
 
 ## Agent 架构
 

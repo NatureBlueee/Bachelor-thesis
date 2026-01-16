@@ -183,15 +183,75 @@ async def get_project_context_tool() -> Dict[str, Any]:
         "insights": insights
     }
 
-# Synchronous wrappers for non-async contexts
-def add_memory_sync(content: str, category: str = "auto", metadata: Optional[Dict] = None) -> Dict[str, Any]:
-    """Synchronous wrapper for add_memory_tool"""
-    return asyncio.run(add_memory_tool(content, category, metadata))
+# Robust async runner for nested event loops (YAML Agent compatible)
+def _run_async(coro):
+    """Run an async coroutine, handling nested event loops."""
+    try:
+        loop = asyncio.get_running_loop()
+        import nest_asyncio
+        nest_asyncio.apply()
+        return loop.run_until_complete(coro)
+    except RuntimeError:
+        return asyncio.run(coro)
+    except ImportError:
+        try:
+            loop = asyncio.get_event_loop()
+            if loop.is_running():
+                import concurrent.futures
+                with concurrent.futures.ThreadPoolExecutor() as executor:
+                    future = executor.submit(asyncio.run, coro)
+                    return future.result(timeout=30)
+            else:
+                return loop.run_until_complete(coro)
+        except Exception as e:
+            return {"error": str(e), "added": False}
 
-def search_memory_sync(query: str, category: Optional[str] = None, limit: int = 5) -> List[Dict[str, Any]]:
-    """Synchronous wrapper for search_memory_tool"""
-    return asyncio.run(search_memory_tool(query, category, limit))
+# Synchronous wrappers for YAML Agent (implementation: "memory_tools.add_memory")
+def add_memory(content: str, category: str = "auto") -> Dict[str, Any]:
+    """Add a memory (sync, for YAML Agent)."""
+    try:
+        memory = _get_memory()
+        messages = [{"role": "user", "content": content}]
+        result = _run_async(memory.add(messages=messages, category=category))
+        return {
+            "added": result.get("added", False) if isinstance(result, dict) else False,
+            "conflict_detected": result.get("conflict_detected", False) if isinstance(result, dict) else False,
+            "message": f"Memory added: {content[:50]}..."
+        }
+    except Exception as e:
+        return {"added": False, "error": str(e)}
 
-def check_conflict_sync(content: str, category: Optional[str] = None) -> Dict[str, Any]:
-    """Synchronous wrapper for check_conflict_tool"""
-    return asyncio.run(check_conflict_tool(content, category))
+def search_memory(query: str, category: str = "", limit: int = 5) -> List[Dict[str, Any]]:
+    """Search memories (sync, for YAML Agent)."""
+    try:
+        memory = _get_memory()
+        results = _run_async(memory.search(query=query, category=category if category else None, limit=limit))
+        return results if isinstance(results, list) else []
+    except Exception as e:
+        return [{"error": str(e)}]
+
+def check_conflict(content: str, category: str = "preference") -> Dict[str, Any]:
+    """Check memory conflict (sync, for YAML Agent)."""
+    try:
+        memory = _get_memory()
+        result = _run_async(memory.check_conflict(new_preference=content, category=category))
+        return result if isinstance(result, dict) else {"has_conflict": False}
+    except Exception as e:
+        return {"has_conflict": False, "error": str(e)}
+
+def get_preferences() -> List[Dict[str, Any]]:
+    """Get all preferences (sync, for YAML Agent)."""
+    return search_memory(query="user preference", category="preference", limit=20)
+
+def get_project_context() -> Dict[str, Any]:
+    """Get project context (sync, for YAML Agent)."""
+    return {
+        "decisions": search_memory(query="decision", category="decision", limit=10),
+        "constraints": search_memory(query="constraint rule", category="constraint", limit=10),
+        "insights": search_memory(query="insight finding", category="insight", limit=10)
+    }
+
+# Legacy aliases
+add_memory_sync = add_memory
+search_memory_sync = search_memory
+check_conflict_sync = check_conflict

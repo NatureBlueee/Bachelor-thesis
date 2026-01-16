@@ -1,0 +1,25 @@
+{
+  "task_id": "f07b67be-c2e5-4221-9cc0-494598661f1a",
+  "delegator_id": "academic-partner",
+  "assignee_id": "literature-agent",
+  "description": "Search for academic literature related to AI literacy",
+  "payload": {
+    "task_type": "search",
+    "context": "User requested search for AI literacy related literature",
+    "query": "AI literacy",
+    "limit": 10.0
+  },
+  "status": "failed",
+  "timeout_seconds": 300.0,
+  "created_at": 1768474618.514101,
+  "completed_at": 1768474637.5590599,
+  "progress_reports": [
+    {
+      "timestamp": 1768474637.497827,
+      "message": "\u5f00\u59cb\u641c\u7d22 AI literacy \u76f8\u5173\u6587\u732e\uff0c\u6b63\u5728\u67e5\u8be2 Uncited \u76ee\u5f55...",
+      "data": null
+    }
+  ],
+  "result": null,
+  "error": "\u65e0\u6cd5\u5b8c\u6210\u6587\u732e\u641c\u7d22\u4efb\u52a1\u3002\u5f53\u524d\u73af\u5883\u7f3a\u5c11\u5fc5\u8981\u7684\u5de5\u5177\u6765\u8bbf\u95ee\u6587\u732e\u6570\u636e\u5e93\u6216\u6587\u4ef6\u7cfb\u7edf\u3002\u9700\u8981\u4ee5\u4e0b\u529f\u80fd\u4e4b\u4e00\uff1a\n1. \u6587\u4ef6\u8bfb\u53d6\u5de5\u5177\uff08\u7528\u4e8e\u8bbf\u95ee Cited/Uncited \u76ee\u5f55\uff09\n2. \u6587\u732e\u6570\u636e\u5e93\u67e5\u8be2\u5de5\u5177\n3. \u5411\u91cf\u641c\u7d22\u5de5\u5177\uff08\u7528\u4e8e\u8bed\u4e49\u5339\u914d\u6587\u732e\uff09\n\n\u5efa\u8bae\uff1a\n- \u4e3a LITERATURE AGENT \u914d\u7f6e\u6587\u732e\u8d44\u6e90\u8bbf\u95ee\u6743\u9650\n- \u63d0\u4f9b\u6587\u732e\u6570\u636e\u5e93\u7684 API \u63a5\u53e3\n- \u6216\u63d0\u4f9b\u6587\u4ef6\u7cfb\u7edf\u8bbf\u95ee\u5de5\u5177\u4ee5\u8bfb\u53d6\u672c\u5730\u6587\u732e\u5e93"
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "b2dcbb54-f236-4e1d-bb8d-82d9c4d01072",
+  "delegator_id": "test-api-user",
+  "assignee_id": "literature-agent",
+  "description": "Deep read AI literacy literature",
+  "payload": {
+    "task_type": "deep_read",
+    "query": "AI literacy"
+  },
+  "status": "timed_out",
+  "timeout_seconds": 120,
+  "created_at": 1768527408.455204,
+  "completed_at": 1768527536.738376,
+  "progress_reports": [
+    {
+      "timestamp": 1768527420.715502,
+      "message": "\u5f00\u59cb\u641c\u7d22 AI literacy \u76f8\u5173\u6587\u732e",
+      "data": null
+    },
+    {
+      "timestamp": 1768527427.27917,
+      "message": "\u5f00\u59cb\u6df1\u5ea6\u9605\u8bfb\uff1a\"Conceptualizing AI literacy - An exploratory review\"",
+      "data": null
+    }
+  ],
+  "result": null,
+  "error": null
+}

@@ -1,0 +1,124 @@
+{
+  "task_id": "9b54526e-9c2f-422e-9312-683ca0271d45",
+  "delegator_id": "academic-partner",
+  "assignee_id": "literature-agent",
+  "description": "\u641c\u7d22 AI literacy \u76f8\u5173\u6587\u732e\u5e76\u8fdb\u884c\u6df1\u5ea6\u9605\u8bfb\u5206\u6790",
+  "payload": {
+    "track_references": true,
+    "context": "\u9700\u8981\u641c\u7d22 AI literacy\uff08\u4eba\u5de5\u667a\u80fd\u7d20\u517b\uff09\u76f8\u5173\u7684\u5b66\u672f\u6587\u732e\uff0c\u91c7\u7528\u6df1\u5ea6\u9605\u8bfb\u65b9\u6cd5\uff1a\u8ffd\u8e2a Reference List\uff0c\u63d0\u53d6\u65b9\u6cd5\u8bba\u7ec6\u8282\uff0c\u5efa\u7acb\u4e0e\u7814\u7a76\u95ee\u9898\u7684\u5173\u8054",
+    "reading_depth": "deep",
+    "project_id": "ecc0bd6c-30a0-4ab2-99cc-31d5365a7e45",
+    "task_type": "search",
+    "query": "AI literacy"
+  },
+  "status": "completed",
+  "timeout_seconds": 600.0,
+  "created_at": 1768478166.970531,
+  "completed_at": 1768478201.038186,
+  "progress_reports": [
+    {
+      "timestamp": 1768478176.261239,
+      "message": "\u5f00\u59cb\u641c\u7d22 AI literacy \u76f8\u5173\u6587\u732e\uff0c\u4f18\u5148\u641c\u7d22 Uncited \u76ee\u5f55",
+      "data": null
+    },
+    {
+      "timestamp": 1768478201.0272582,
+      "message": "\u641c\u7d22\u5b8c\u6210\uff0c\u5171\u627e\u5230 12 \u7bc7\u76f8\u5173\u6587\u732e\uff087 \u7bc7 Uncited\uff0c5 \u7bc7 Cited\uff09\uff0c\u6b63\u5728\u6574\u7406\u7ed3\u679c",
+      "data": null
+    }
+  ],
+  "result": {
+    "query": "AI literacy",
+    "cited_literature": [
+      {
+        "priority": "\u53c2\u8003",
+        "path": "/Users/nature/\u4e2a\u4eba\u9879\u76ee/Bachelor-thesis/Reference/Cited/Conceptualizing AI literacy - An exploratory review.md",
+        "file_name": "Conceptualizing AI literacy - An exploratory review.md",
+        "relevance": "\u9ad8\u5ea6\u76f8\u5173 - AI literacy \u6982\u5ff5\u5316\u7684\u63a2\u7d22\u6027\u7efc\u8ff0\uff08\u5df2\u5f15\u7528\uff09"
+      },
+      {
+        "priority": "\u53c2\u8003",
+        "path": "/Users/nature/\u4e2a\u4eba\u9879\u76ee/Bachelor-thesis/Reference/Cited/Design and validation of the AI literacy questionnaire - The affective, behavioural, cognitive and e.md",
+        "file_name": "Design and validation of the AI literacy questionnaire - The affective, behavioural, cognitive and e.md",
+        "relevance": "\u9ad8\u5ea6\u76f8\u5173 - AI literacy \u95ee\u5377\u8bbe\u8ba1\u4e0e\u9a8c\u8bc1\uff08\u5df2\u5f15\u7528\uff09"
+      },
+      {
+        "priority": "\u53c2\u8003",
+        "path": "/Users/nature/\u4e2a\u4eba\u9879\u76ee/Bachelor-thesis/Reference/Cited/Measuring user competence in using artificial intelligence - validity and reliability of artificial.md",
+        "file_name": "Measuring user competence in using artificial intelligence - validity and reliability of artificial.md",
+        "relevance": "\u9ad8\u5ea6\u76f8\u5173 - AI \u4f7f\u7528\u80fd\u529b\u7684\u6d4b\u91cf\u5de5\u5177\uff08\u5df2\u5f15\u7528\uff09"
+      },
+      {
+        "priority": "\u53c2\u8003",
+        "path": "/Users/nature/\u4e2a\u4eba\u9879\u76ee/Bachelor-thesis/Reference/Cited/Explicating AI Literacy of Employees at Digital Workplaces.md",
+        "file_name": "Explicating AI Literacy of Employees at Digital Workplaces.md",
+        "relevance": "\u9ad8\u5ea6\u76f8\u5173 - \u6570\u5b57\u804c\u573a\u4e2d\u5458\u5de5\u7684 AI literacy\uff08\u5df2\u5f15\u7528\uff09"
+      },
+      {
+        "priority": "\u53c2\u8003",
+        "path": "/Users/nature/\u4e2a\u4eba\u9879\u76ee/Bachelor-thesis/Reference/Cited/\u4f55\u8c13\u4eba\u5de5\u667a\u80fd\u7d20\u517b -\u672c\u8d28\u3001\u6784\u6210\u4e0e\u8bc4\u4ef7\u4f53\u7cfb-.md",
+        "file_name": "\u4f55\u8c13\u4eba\u5de5\u667a\u80fd\u7d20\u517b -\u672c\u8d28\u3001\u6784\u6210\u4e0e\u8bc4\u4ef7\u4f53\u7cfb-.md",
+        "relevance": "\u9ad8\u5ea6\u76f8\u5173 - \u4e2d\u6587\u6587\u732e\uff0c\u7cfb\u7edf\u9610\u8ff0 AI literacy \u672c\u8d28\uff08\u5df2\u5f15\u7528\uff09"
+      }
+    ],
+    "recommendations": {
+      "priority_reading": [
+        "\u4eba\u5de5\u667a\u80fd\u7d20\u517b -\u63d0\u51fa\u80cc\u666f\u3001\u6982\u5ff5\u754c\u5b9a\u4e0e\u6784\u6210\u8981\u7d20-.md",
+        "\u6570\u667a\u65f6\u4ee3\u7684\u4eba\u5de5\u667a\u80fd\u7d20\u517b -\u5185\u6db5\u3001\u6846\u67b6\u4e0e\u5b9e\u65bd\u8def\u5f84.md",
+        "\u4eba\u5de5\u667a\u80fd\u7d20\u517b\u7684\u5185\u6db5\u3001\u7ed3\u6784\u548c\u8bc4\u4ef7\u4f53\u7cfb-.md",
+        "\u7eb5\u6a2a\u89c6\u89d2\u4e0b\u4eba\u5de5\u667a\u80fd\u7d20\u517b\u7684\u7406\u8bba\u7814\u7a76\u4e0e\u884c\u52a8\u542f\u793a-.md"
+      ],
+      "next_steps": "\u5efa\u8bae\u4ece Uncited \u76ee\u5f55\u4e2d\u7684 4 \u7bc7\u9ad8\u4f18\u5148\u7ea7\u6587\u732e\u5f00\u59cb\u6df1\u5ea6\u9605\u8bfb\uff0c\u8ffd\u8e2a\u5176 Reference List\uff0c\u63d0\u53d6\u65b9\u6cd5\u8bba\u7ec6\u8282\u548c\u4e0e\u7814\u7a76\u95ee\u9898\u7684\u5173\u8054\u3002"
+    },
+    "total_count": 12.0,
+    "task_type": "search",
+    "summary": "\u641c\u7d22 AI literacy \u76f8\u5173\u6587\u732e\uff0c\u5171\u627e\u5230 12 \u7bc7\u9ad8\u5ea6\u76f8\u5173\u6587\u732e\u3002Uncited \u76ee\u5f55\u4e2d\u6709 7 \u7bc7\u672a\u5f15\u7528\u6587\u732e\uff08\u5efa\u8bae\u4f18\u5148\u9605\u8bfb\uff09\uff0cCited \u76ee\u5f55\u4e2d\u6709 5 \u7bc7\u5df2\u5f15\u7528\u6587\u732e\u3002",
+    "cited_count": 5.0,
+    "uncited_literature": [
+      {
+        "priority": "\u9ad8",
+        "path": "/Users/nature/\u4e2a\u4eba\u9879\u76ee/Bachelor-thesis/Reference/Uncited/\u4eba\u5de5\u667a\u80fd\u7d20\u517b -\u63d0\u51fa\u80cc\u666f\u3001\u6982\u5ff5\u754c\u5b9a\u4e0e\u6784\u6210\u8981\u7d20-.md",
+        "file_name": "\u4eba\u5de5\u667a\u80fd\u7d20\u517b -\u63d0\u51fa\u80cc\u666f\u3001\u6982\u5ff5\u754c\u5b9a\u4e0e\u6784\u6210\u8981\u7d20-.md",
+        "relevance": "\u9ad8\u5ea6\u76f8\u5173 - \u4e2d\u6587\u6587\u732e\uff0c\u7cfb\u7edf\u9610\u8ff0 AI literacy \u7684\u80cc\u666f\u3001\u6982\u5ff5\u548c\u6784\u6210\u8981\u7d20"
+      },
+      {
+        "priority": "\u9ad8",
+        "path": "/Users/nature/\u4e2a\u4eba\u9879\u76ee/Bachelor-thesis/Reference/Uncited/\u6570\u667a\u65f6\u4ee3\u7684\u4eba\u5de5\u667a\u80fd\u7d20\u517b -\u5185\u6db5\u3001\u6846\u67b6\u4e0e\u5b9e\u65bd\u8def\u5f84.md",
+        "file_name": "\u6570\u667a\u65f6\u4ee3\u7684\u4eba\u5de5\u667a\u80fd\u7d20\u517b -\u5185\u6db5\u3001\u6846\u67b6\u4e0e\u5b9e\u65bd\u8def\u5f84.md",
+        "relevance": "\u9ad8\u5ea6\u76f8\u5173 - \u6570\u667a\u65f6\u4ee3\u80cc\u666f\u4e0b\u7684 AI literacy \u6846\u67b6\u548c\u5b9e\u65bd\u8def\u5f84"
+      },
+      {
+        "priority": "\u9ad8",
+        "path": "/Users/nature/\u4e2a\u4eba\u9879\u76ee/Bachelor-thesis/Reference/Uncited/\u4eba\u5de5\u667a\u80fd\u7d20\u517b\u7684\u5185\u6db5\u3001\u7ed3\u6784\u548c\u8bc4\u4ef7\u4f53\u7cfb-.md",
+        "file_name": "\u4eba\u5de5\u667a\u80fd\u7d20\u517b\u7684\u5185\u6db5\u3001\u7ed3\u6784\u548c\u8bc4\u4ef7\u4f53\u7cfb-.md",
+        "relevance": "\u9ad8\u5ea6\u76f8\u5173 - \u805a\u7126 AI literacy \u7684\u7ed3\u6784\u548c\u8bc4\u4ef7\u4f53\u7cfb"
+      },
+      {
+        "priority": "\u9ad8",
+        "path": "/Users/nature/\u4e2a\u4eba\u9879\u76ee/Bachelor-thesis/Reference/Uncited/\u7eb5\u6a2a\u89c6\u89d2\u4e0b\u4eba\u5de5\u667a\u80fd\u7d20\u517b\u7684\u7406\u8bba\u7814\u7a76\u4e0e\u884c\u52a8\u542f\u793a-.md",
+        "file_name": "\u7eb5\u6a2a\u89c6\u89d2\u4e0b\u4eba\u5de5\u667a\u80fd\u7d20\u517b\u7684\u7406\u8bba\u7814\u7a76\u4e0e\u884c\u52a8\u542f\u793a-.md",
+        "relevance": "\u9ad8\u5ea6\u76f8\u5173 - \u7eb5\u6a2a\u89c6\u89d2\u7684\u7406\u8bba\u7814\u7a76\uff0c\u63d0\u4f9b\u884c\u52a8\u542f\u793a"
+      },
+      {
+        "priority": "\u4e2d",
+        "path": "/Users/nature/\u4e2a\u4eba\u9879\u76ee/Bachelor-thesis/Reference/Uncited/Will Employee\u2013AI Collaboration Enhance Employees' Proactive Behavior A Study Based on the Conservati.md",
+        "file_name": "Will Employee\u2013AI Collaboration Enhance Employees' Proactive Behavior A Study Based on the Conservati.md",
+        "relevance": "\u4e2d\u5ea6\u76f8\u5173 - \u5458\u5de5\u4e0e AI \u534f\u4f5c\u7684\u5b9e\u8bc1\u7814\u7a76\uff0c\u6d89\u53ca\u5458\u5de5\u80fd\u529b\u7ef4\u5ea6"
+      },
+      {
+        "priority": "\u4e2d",
+        "path": "/Users/nature/\u4e2a\u4eba\u9879\u76ee/Bachelor-thesis/Reference/Uncited/Human-artificial intelligence collaboration in the modern workplace - Maximizing productivity and tr.md",
+        "file_name": "Human-artificial intelligence collaboration in the modern workplace - Maximizing productivity and tr.md",
+        "relevance": "\u4e2d\u5ea6\u76f8\u5173 - \u804c\u573a\u4e2d\u7684\u4eba\u673a\u534f\u4f5c\uff0c\u4e0e AI literacy \u5e94\u7528\u573a\u666f\u76f8\u5173"
+      },
+      {
+        "priority": "\u4f4e",
+        "path": "/Users/nature/\u4e2a\u4eba\u9879\u76ee/Bachelor-thesis/Reference/Uncited/\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\u7684\u504f\u89c1\uff1a \u4e3b\u8981\u8868\u73b0\u3001\u53d1\u751f\u673a\u5236\u4e0e\u6cbb\u7406\u8def\u5f84.md",
+        "file_name": "\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\u7684\u504f\u89c1\uff1a \u4e3b\u8981\u8868\u73b0\u3001\u53d1\u751f\u673a\u5236\u4e0e\u6cbb\u7406\u8def\u5f84.md",
+        "relevance": "\u4f4e\u5ea6\u76f8\u5173 - \u805a\u7126 AI \u504f\u89c1\u95ee\u9898\uff0c\u53ef\u80fd\u6d89\u53ca AI literacy \u7684\u4f26\u7406\u7ef4\u5ea6"
+      }
+    ],
+    "uncited_count": 7.0
+  },
+  "error": null
+}

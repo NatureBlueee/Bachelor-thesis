@@ -1,0 +1,84 @@
+# Academic Partner Agent - 学术研究协调者
+# 基于 03_research_team Router 模式 + 记忆系统
+
+type: "openagents.agents.collaborator_agent.CollaboratorAgent"
+agent_id: "academic-partner"
+
+config:
+  model_name: "auto"
+  max_iterations: 5
+
+  # 自定义记忆工具
+  tools:
+    - name: "add_memory"
+      description: "添加记忆到系统。category可选: preference/decision/insight/constraint/correction/inspiration"
+      implementation: "mods.memory_tools_sync.add_memory"
+      input_schema:
+        type: object
+        properties:
+          content:
+            type: string
+            description: "要记住的内容"
+          category:
+            type: string
+            description: "记忆分类"
+        required:
+          - content
+
+    - name: "search_memory"
+      description: "搜索相关记忆"
+      implementation: "mods.memory_tools_sync.search_memory"
+      input_schema:
+        type: object
+        properties:
+          query:
+            type: string
+            description: "搜索查询"
+          category:
+            type: string
+            description: "可选分类过滤"
+          limit:
+            type: integer
+            description: "返回数量限制"
+        required:
+          - query
+
+  instruction: |
+    你是 ACADEMIC PARTNER - 用户的学术研究合作伙伴。
+
+    你的身份：
+    - 统一的对话入口，用户只与你交流
+    - 批判性思考者：质疑假设，挑战论证
+    - 学术顾问：帮助文献研究、论文修改、学术讨论
+
+    记忆系统：
+    - 当用户表达偏好时（"我喜欢..."、"不要..."），使用 add_memory 记录
+    - 当用户纠正你的假设时，使用 add_memory(category="correction") 记录
+    - 回答问题前，使用 search_memory 查找相关记忆
+
+    原则：
+    - 每个观点都要有理论支持
+    - 不凭空编造文献
+    - 用中文回复
+
+  react_to_all_messages: true
+
+  triggers:
+    - event: "task.complete"
+      instruction: |
+        Literature Agent 返回了研究结果。
+        1. 分析 payload.results 中的内容
+        2. 用 send_channel_message 向用户展示研究报告
+        3. finish()
+
+mods:
+  - name: "openagents.mods.workspace.messaging"
+    enabled: true
+  - name: "openagents.mods.workspace.project"
+    enabled: true
+
+connection:
+  host: "localhost"
+  port: 8700
+  transport: "http"
+  password_hash: "bf24385098410391a81d92b2de72d3a2946d24f42ee387e51004a868281a2408"

@@ -1,0 +1,62 @@
+{
+  "task_id": "d2fa0350-4978-4c8e-93d7-0d8572011a2f",
+  "delegator_id": "academic-partner",
+  "assignee_id": "literature-agent",
+  "description": "\u641c\u7d22AI\u7d20\u517b\uff08\u4eba\u5de5\u667a\u80fd\u7d20\u517b\uff09\u76f8\u5173\u6587\u732e\uff0c\u63d0\u4f9b\u6587\u732e\u5217\u8868\u548c\u7b80\u8981\u6982\u8ff0",
+  "payload": {
+    "limit": 10.0,
+    "task_type": "search",
+    "query": "AI\u7d20\u517b \u4eba\u5de5\u667a\u80fd\u7d20\u517b",
+    "context": "\u7528\u6237\u9700\u8981\u641c\u7d22AI\u7d20\u517b\u76f8\u5173\u7684\u5b66\u672f\u6587\u732e"
+  },
+  "status": "completed",
+  "timeout_seconds": 300.0,
+  "created_at": 1768528569.1254778,
+  "completed_at": 1768528758.167915,
+  "progress_reports": [
+    {
+      "timestamp": 1768528727.331285,
+      "message": "\u5f00\u59cb\u641c\u7d22AI\u7d20\u517b\u76f8\u5173\u6587\u732e\uff0c\u4f18\u5148\u641c\u7d22Uncited\u76ee\u5f55",
+      "data": {
+        "status": "started",
+        "step": "search_uncited"
+      }
+    },
+    {
+      "timestamp": 1768528734.580467,
+      "message": "Uncited\u76ee\u5f55\u672a\u627e\u5230\u7ed3\u679c\uff0c\u6b63\u5728\u641c\u7d22Cited\u76ee\u5f55",
+      "data": {
+        "status": "searching",
+        "step": "search_cited"
+      }
+    },
+    {
+      "timestamp": 1768528741.1612842,
+      "message": "\u5c1d\u8bd5\u4f7f\u7528\u82f1\u6587\u5173\u952e\u8bcd\uff1aartificial intelligence literacy",
+      "data": {
+        "status": "searching",
+        "step": "search_english_terms"
+      }
+    }
+  ],
+  "result": {
+    "summary": "\u7ecf\u8fc7\u591a\u8f6e\u641c\u7d22\uff08\u5305\u62ec\u4e2d\u6587\u3001\u82f1\u6587\u53ca\u76f8\u5173\u6982\u5ff5\uff09\uff0c\u672c\u5730\u6587\u732e\u5e93\u4e2d\u6682\u672a\u627e\u5230AI\u7d20\u517b\u76f8\u5173\u7684\u5b66\u672f\u6587\u732e\u3002\u5efa\u8bae\uff1a\n\n1. **\u6269\u5145\u6587\u732e\u5e93**\uff1a\u6dfb\u52a0AI\u7d20\u517b\u76f8\u5173\u7684\u6838\u5fc3\u6587\u732e\uff0c\u5982\uff1a\n   - Long & Magerko (2020) \u7684AI\u7d20\u517b\u6846\u67b6\u7814\u7a76\n   - Ng et al. (2021) \u7684AI\u7d20\u517b\u6982\u5ff5\u5316\u7814\u7a76\n   - Wang et al. (2023) \u7684AI\u7d20\u517b\u6d4b\u91cf\u5de5\u5177\n\n2. **\u76f8\u5173\u9886\u57df\u6587\u732e**\uff1a\u53ef\u8003\u8651\u641c\u7d22\u76f8\u5173\u4e3b\u9898\uff1a\n   - \u6570\u5b57\u7d20\u517b\uff08digital literacy\uff09\n   - \u8ba1\u7b97\u601d\u7ef4\uff08computational thinking\uff09\n   - STEM\u6559\u80b2\n   - \u6280\u672f\u63a5\u53d7\u5ea6\u7814\u7a76\n\n3. **\u5efa\u8bae\u64cd\u4f5c**\uff1a\u5411Academic Partner\u7533\u8bf7\u6dfb\u52a0AI\u7d20\u517b\u76f8\u5173\u6587\u732e\u5230\u6587\u732e\u5e93",
+    "task_type": "search",
+    "query": "AI\u7d20\u517b \u4eba\u5de5\u667a\u80fd\u7d20\u517b",
+    "search_strategies_tried": [
+      "\u4e2d\u6587\u5173\u952e\u8bcd\uff1aAI\u7d20\u517b\u3001\u4eba\u5de5\u667a\u80fd\u7d20\u517b",
+      "\u82f1\u6587\u5173\u952e\u8bcd\uff1aartificial intelligence literacy, AI literacy",
+      "\u76f8\u5173\u6982\u5ff5\uff1adigital literacy, computational thinking, technology literacy",
+      "AI\u6559\u80b2\u76f8\u5173\uff1aAI education, machine learning literacy"
+    ],
+    "results": {
+      "uncited_count": 0.0,
+      "found_count": 0.0,
+      "cited_count": 0.0,
+      "literature_list": []
+    },
+    "recommendation": "\u6587\u732e\u5e93\u9700\u8981\u8865\u5145AI\u7d20\u517b\u76f8\u5173\u6587\u732e\u624d\u80fd\u652f\u6301\u540e\u7eed\u7684\u6df1\u5ea6\u9605\u8bfb\u548c\u5f15\u7528\u5efa\u8bae\u4efb\u52a1",
+    "search_status": "completed"
+  },
+  "error": null
+}

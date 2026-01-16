@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Research Network</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-panel: #0d0d14;
+            --bg-card: #12121a;
+            --cyan: #00f0ff;
+            --cyan-dim: #00f0ff40;
+            --amber: #ffb800;
+            --amber-dim: #ffb80040;
+            --green: #00ff88;
+            --red: #ff4057;
+            --text: #e8e8f0;
+            --text-dim: #6a6a80;
+            --border: #1a1a28;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: var(--bg-deep);
+            color: var(--text);
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Scan line overlay */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 2px,
+                rgba(0, 240, 255, 0.01) 2px,
+                rgba(0, 240, 255, 0.01) 4px
+            );
+            pointer-events: none;
+            z-index: 1000;
+        }
+
+        .app {
+            display: grid;
+            grid-template-rows: 60px 1fr;
+            height: 100vh;
+        }
+
+        /* Header */
+        header {
+            background: var(--bg-panel);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 24px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            border: 2px solid var(--cyan);
+            border-radius: 8px;
+            display: grid;
+            place-items: center;
+            position: relative;
+        }
+
+        .logo-icon::before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            background: var(--cyan);
+            border-radius: 50%;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(0.8); }
+        }
+
+        .logo h1 {
+            font-size: 18px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        .logo h1 span {
+            color: var(--cyan);
+        }
+
+        .status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--green);
+            box-shadow: 0 0 12px var(--green);
+        }
+
+        .status-dot.disconnected {
+            background: var(--red);
+            box-shadow: 0 0 12px var(--red);
+        }
+
+        .status-dot.demo {
+            background: var(--amber);
+            box-shadow: 0 0 12px var(--amber);
+        }
+
+        /* Main layout */
+        main {
+            display: grid;
+            grid-template-columns: 240px 1fr 320px;
+            gap: 1px;
+            background: var(--border);
+        }
+
+        /* Panels */
+        .panel {
+            background: var(--bg-panel);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .panel-header {
+            padding: 16px;
+            border-bottom: 1px solid var(--border);
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--text-dim);
+        }
+
+        /* Agents panel */
+        .agents-list {
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .agent-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .agent-card.active {
+            border-color: var(--cyan);
+            box-shadow: 0 0 20px var(--cyan-dim), inset 0 0 20px var(--cyan-dim);
+        }
+
+        .agent-card.delegating {
+            border-color: var(--amber);
+            box-shadow: 0 0 20px var(--amber-dim), inset 0 0 20px var(--amber-dim);
+        }
+
+        .agent-name {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            font-weight: 500;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .agent-status-indicator {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--text-dim);
+        }
+
+        .agent-card.active .agent-status-indicator,
+        .agent-card.delegating .agent-status-indicator {
+            background: var(--green);
+            box-shadow: 0 0 8px var(--green);
+        }
+
+        .agent-role {
+            font-size: 11px;
+            color: var(--text-dim);
+            line-height: 1.4;
+        }
+
+        .agent-task {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid var(--border);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            color: var(--cyan);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .agent-card.active .agent-task,
+        .agent-card.delegating .agent-task {
+            opacity: 1;
+        }
+
+        /* Chat panel */
+        .chat-panel {
+            background: var(--bg-deep);
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .message {
+            max-width: 85%;
+            animation: messageIn 0.3s ease-out;
+        }
+
+        @keyframes messageIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .message.user {
+            align-self: flex-end;
+        }
+
+        .message.system {
+            align-self: flex-start;
+        }
+
+        .message-content {
+            padding: 14px 18px;
+            border-radius: 16px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .message.user .message-content {
+            background: linear-gradient(135deg, var(--cyan-dim), transparent);
+            border: 1px solid var(--cyan);
+        }
+
+        .message.system .message-content {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+        }
+
+        .message-sender {
+            font-size: 11px;
+            color: var(--text-dim);
+            margin-bottom: 6px;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .message.user .message-sender {
+            text-align: right;
+            color: var(--cyan);
+        }
+
+        /* Structured output */
+        .structured-output {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            margin-top: 12px;
+            overflow: hidden;
+        }
+
+        .output-header {
+            background: var(--bg-panel);
+            padding: 10px 14px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: var(--amber);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .output-body {
+            padding: 14px;
+            font-size: 13px;
+            line-height: 1.7;
+        }
+
+        .output-body h4 {
+            color: var(--cyan);
+            font-size: 12px;
+            margin: 12px 0 6px;
+            font-weight: 500;
+        }
+
+        .output-body h4:first-child {
+            margin-top: 0;
+        }
+
+        .output-body ul {
+            padding-left: 18px;
+            color: var(--text-dim);
+        }
+
+        .output-body li {
+            margin: 4px 0;
+        }
+
+        /* Chat input */
+        .chat-input-area {
+            padding: 16px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-panel);
+        }
+
+        .chat-input-wrapper {
+            display: flex;
+            gap: 12px;
+        }
+
+        .chat-input {
+            flex: 1;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 14px 18px;
+            color: var(--text);
+            font-family: 'Outfit', sans-serif;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .chat-input:focus {
+            border-color: var(--cyan);
+        }
+
+        .chat-input::placeholder {
+            color: var(--text-dim);
+        }
+
+        .send-btn {
+            background: var(--cyan);
+            border: none;
+            border-radius: 12px;
+            padding: 0 24px;
+            color: var(--bg-deep);
+            font-family: 'Outfit', sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .send-btn:hover {
+            box-shadow: 0 0 20px var(--cyan-dim);
+            transform: translateY(-1px);
+        }
+
+        .send-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* Logs panel */
+        .logs-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 12px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+        }
+
+        .log-entry {
+            padding: 10px 12px;
+            border-left: 2px solid var(--border);
+            margin-bottom: 8px;
+            animation: logIn 0.4s ease-out;
+            background: var(--bg-card);
+            border-radius: 0 6px 6px 0;
+        }
+
+        @keyframes logIn {
+            from { opacity: 0; transform: translateX(-10px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        .log-entry.event { border-left-color: var(--cyan); }
+        .log-entry.delegate { border-left-color: var(--amber); }
+        .log-entry.tool { border-left-color: var(--green); }
+        .log-entry.result { border-left-color: #a855f7; }
+
+        .log-time {
+            color: var(--text-dim);
+            margin-bottom: 4px;
+        }
+
+        .log-source {
+            color: var(--cyan);
+            margin-bottom: 4px;
+        }
+
+        .log-entry.delegate .log-source { color: var(--amber); }
+        .log-entry.tool .log-source { color: var(--green); }
+        .log-entry.result .log-source { color: #a855f7; }
+
+        .log-message {
+            color: var(--text);
+            line-height: 1.4;
+        }
+
+        /* Demo banner */
+        .demo-banner {
+            background: linear-gradient(90deg, var(--amber-dim), transparent);
+            border: 1px solid var(--amber);
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin: 12px;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .demo-banner-icon {
+            font-size: 16px;
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-deep);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 3px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--text-dim);
+        }
+    </style>
+</head>
+<body>
+    <div class="app">
+        <header>
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <h1>Academic Research <span>Network</span></h1>
+            </div>
+            <div class="status">
+                <div class="status-dot demo" id="statusDot"></div>
+                <span id="statusText">Demo Mode</span>
+            </div>
+        </header>
+
+        <main>
+            <div class="panel agents-panel">
+                <div class="panel-header">Agents</div>
+                <div class="agents-list">
+                    <div class="agent-card" id="academic-partner">
+                        <div class="agent-name">
+                            <div class="agent-status-indicator"></div>
+                            academic-partner
+                        </div>
+                        <div class="agent-role">协调者 - 接收用户请求，分析任务，委派给专业 Agent</div>
+                        <div class="agent-task" id="academic-partner-task">等待任务...</div>
+                    </div>
+                    <div class="agent-card" id="literature-agent">
+                        <div class="agent-name">
+                            <div class="agent-status-indicator"></div>
+                            literature-agent
+                        </div>
+                        <div class="agent-role">文献专家 - 搜索、阅读、分析学术文献</div>
+                        <div class="agent-task" id="literature-agent-task">等待任务...</div>
+                    </div>
+                </div>
+                <div class="demo-banner">
+                    <span class="demo-banner-icon">⚡</span>
+                    <span>输入消息发送到 Agent</span>
+                </div>
+            </div>
+
+            <div class="panel chat-panel">
+                <div class="chat-messages" id="chatMessages"></div>
+                <div class="chat-input-area">
+                    <div class="chat-input-wrapper">
+                        <input type="text" class="chat-input" id="chatInput"
+                               placeholder="输入消息..."
+                               value="请帮我深度阅读《人工智能素养》相关文献">
+                        <button class="send-btn" id="sendBtn">发送</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel logs-panel">
+                <div class="panel-header">实时日志</div>
+                <div class="logs-list" id="logsList"></div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const chatMessages = document.getElementById('chatMessages');
+        const logsList = document.getElementById('logsList');
+        const chatInput = document.getElementById('chatInput');
+        const sendBtn = document.getElementById('sendBtn');
+        const statusDot = document.getElementById('statusDot');
+        const statusText = document.getElementById('statusText');
+
+        const API_BASE = 'http://localhost:8700/api';
+        let clientId = 'demo-client-' + Date.now();
+        let secret = null;
+        let isConnected = false;
+        let pollInterval = null;
+
+        // 注册客户端并订阅所有事件
+        async function register() {
+            try {
+                const res = await fetch(`${API_BASE}/register`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ agent_id: clientId, metadata: { type: 'demo-ui' } })
+                });
+                const data = await res.json();
+                if (data.success) {
+                    secret = data.secret;
+                    isConnected = true;
+                    statusDot.className = 'status-dot';
+                    statusText.textContent = 'Connected';
+                    addLog('system', `已连接: ${clientId}`, 'event');
+
+                    // 订阅所有事件以看到流式输出
+                    await fetch(`${API_BASE}/send_event`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            event_id: 'sub-' + Date.now(),
+                            event_name: 'system.subscribe_events',
+                            source_id: clientId,
+                            target_agent_id: 'system:system',
+                            payload: { event_patterns: ['*'] },
+                            secret: secret
+                        })
+                    });
+                    addLog('system', '已订阅所有事件流', 'event');
+
+                    startPolling();
+                    return true;
+                }
+            } catch (e) {
+                console.error('Register failed:', e);
+            }
+            statusDot.className = 'status-dot disconnected';
+            statusText.textContent = 'Disconnected';
+            return false;
+        }
+
+        // 轮询消息 (更快的间隔以获取流式效果)
+        function startPolling() {
+            pollInterval = setInterval(async () => {
+                if (!isConnected) return;
+                try {
+                    const res = await fetch(`${API_BASE}/poll?agent_id=${clientId}&secret=${secret}`);
+                    const data = await res.json();
+                    if (data.success && data.messages) {
+                        for (const msg of data.messages) {
+                            handleIncomingEvent(msg);
+                        }
+                    }
+                } catch (e) { console.error('Poll error:', e); }
+            }, 500);  // 500ms 轮询以获取更流畅的更新
+        }
+
+        // 处理收到的事件 - 详细展示执行过程
+        function handleIncomingEvent(event) {
+            const name = event.event_name || '';
+            const payload = event.payload || {};
+            const source = event.source_id || 'system';
+            const target = event.destination_id || event.target_agent_id || '';
+
+            // 根据事件类型分类显示
+            if (name.includes('delegate_task') || name.includes('task.created')) {
+                // 任务委派
+                const taskDesc = payload.description || payload.task || JSON.stringify(payload).slice(0, 80);
+                addLog(source, `📤 委派任务 → ${target}: ${taskDesc}`, 'delegate');
+                setAgentState('academic-partner', 'delegating', `委派给 ${target}`);
+                if (target.includes('literature')) {
+                    setAgentState('literature-agent', 'active', '接收任务...');
+                }
+            } else if (name.includes('tool') || name.includes('function_call')) {
+                // 工具调用
+                const toolName = payload.tool || payload.name || payload.function || 'unknown';
+                const args = payload.arguments || payload.args || payload.input || {};
+                addLog(source, `🔧 调用工具: ${toolName}(${JSON.stringify(args).slice(0, 60)})`, 'tool');
+                setAgentState(source.includes('literature') ? 'literature-agent' : 'academic-partner', 'active', `执行 ${toolName}`);
+            } else if (name.includes('tool_result') || name.includes('function_result')) {
+                // 工具结果
+                const result = payload.result || payload.output || JSON.stringify(payload).slice(0, 100);
+                addLog(source, `✅ 工具返回: ${result}`, 'result');
+            } else if (name.includes('llm') || name.includes('stream') || name.includes('chunk')) {
+                // LLM 流式输出
+                const content = payload.content || payload.text || payload.chunk || '';
+                if (content) {
+                    appendStreamContent(source, content);
+                }
+            } else if (name.includes('complete') || name.includes('done') || name.includes('finished')) {
+                // 任务完成
+                addLog(source, `🎉 任务完成`, 'result');
+                setAgentState('academic-partner', '', '等待任务...');
+                setAgentState('literature-agent', '', '等待任务...');
+            } else if (name.includes('reply') || name.includes('message') || name.includes('response')) {
+                // 消息/响应 - content 可能是 {text: "..."} 或直接是字符串
+                let content = payload.content;
+                if (content && typeof content === 'object') content = content.text || '';
+                content = content || payload.message || payload.text || '';
+                const sender = payload.sender_id || source;
+                if (content && sender !== clientId) {
+                    addMessage(content, 'system', sender);
+                }
+                addLog(sender, `💬 ${content.slice(0, 80)}`, 'event');
+            } else if (name.includes('progress')) {
+                // 进度更新
+                const progress = payload.progress || payload.status || payload.message || '';
+                addLog(source, `⏳ ${progress}`, 'event');
+            } else {
+                // 其他事件也显示
+                addLog(source, `${name}: ${JSON.stringify(payload).slice(0, 80)}`, 'event');
+            }
+
+            // 更新 Agent 状态指示器
+            if (source.includes('academic-partner')) {
+                setAgentState('academic-partner', 'active', name.split('.').pop());
+            } else if (source.includes('literature')) {
+                setAgentState('literature-agent', 'active', name.split('.').pop());
+            }
+        }
+
+        // 流式内容追加到最后一条消息
+        let lastStreamMsg = null;
+        function appendStreamContent(source, content) {
+            if (!lastStreamMsg || lastStreamMsg.dataset.source !== source) {
+                lastStreamMsg = document.createElement('div');
+                lastStreamMsg.className = 'message system';
+                lastStreamMsg.dataset.source = source;
+                lastStreamMsg.innerHTML = `
+                    <div class="message-sender">${source}</div>
+                    <div class="message-content"></div>
+                `;
+                chatMessages.appendChild(lastStreamMsg);
+            }
+            const contentEl = lastStreamMsg.querySelector('.message-content');
+            contentEl.textContent += content;
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        // 发送消息
+        async function sendMessage(content) {
+            if (!isConnected) {
+                addLog('system', '未连接，尝试重连...', 'event');
+                await register();
+                if (!isConnected) return;
+            }
+
+            addMessage(content, 'user', 'You');
+            setAgentState('academic-partner', 'active', '处理中...');
+
+            const event = {
+                event_id: clientId + '_' + Date.now() + '_' + Math.random().toString(36).slice(2, 10),
+                event_name: 'thread.channel_message.post',
+                source_id: clientId,
+                target_agent_id: 'channel:general',
+                payload: {
+                    channel: 'general',
+                    content: { text: content },
+                    message_type: 'channel_message'
+                },
+                secret: secret
+            };
+
+            try {
+                const res = await fetch(`${API_BASE}/send_event`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(event)
+                });
+                const data = await res.json();
+                addLog(clientId, `发送消息 → channel:general`, 'delegate');
+                if (!data.success) {
+                    addLog('system', `发送失败: ${data.message}`, 'event');
+                }
+            } catch (e) {
+                addLog('system', `发送错误: ${e.message}`, 'event');
+            }
+        }
+
+        // 初始化连接
+        register();
+
+        function addMessage(content, type, sender = '') {
+            const msg = document.createElement('div');
+            msg.className = `message ${type}`;
+            msg.innerHTML = `
+                ${sender ? `<div class="message-sender">${sender}</div>` : ''}
+                <div class="message-content">${content}</div>
+            `;
+            chatMessages.appendChild(msg);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function addLog(source, message, type = 'event') {
+            const time = new Date().toLocaleTimeString('zh-CN', { hour12: false });
+            const log = document.createElement('div');
+            log.className = `log-entry ${type}`;
+            log.innerHTML = `
+                <div class="log-time">${time}</div>
+                <div class="log-source">${source}</div>
+                <div class="log-message">${message}</div>
+            `;
+            logsList.appendChild(log);
+            logsList.scrollTop = logsList.scrollHeight;
+        }
+
+        function setAgentState(agentId, state, task = '') {
+            const card = document.getElementById(agentId);
+            const taskEl = document.getElementById(`${agentId}-task`);
+            card.className = `agent-card ${state}`;
+            if (task) taskEl.textContent = task;
+        }
+
+        async function runDemo(userMessage) {
+            sendBtn.disabled = true;
+
+            // User message
+            addMessage(userMessage, 'user', 'You');
+
+            await delay(500);
+
+            // Academic partner receives
+            setAgentState('academic-partner', 'active', '分析用户请求...');
+            addLog('academic-partner', '收到用户请求: 深度阅读文献', 'event');
+
+            await delay(1200);
+
+            // Delegate to literature agent
+            setAgentState('academic-partner', 'delegating', '委派任务给 literature-agent');
+            addLog('academic-partner', '任务类型: 文献深度阅读 → 委派给 literature-agent', 'delegate');
+
+            await delay(800);
+
+            // Literature agent starts
+            setAgentState('literature-agent', 'active', '执行文献搜索...');
+            setAgentState('academic-partner', '', '等待子任务完成');
+            addLog('literature-agent', '收到任务委派，开始执行', 'event');
+
+            await delay(600);
+
+            // Tool call: search
+            addLog('literature-agent', '调用工具: search_literature("人工智能素养")', 'tool');
+
+            await delay(1500);
+
+            addLog('literature-agent', '搜索完成: 找到 12 篇相关文献', 'result');
+            setAgentState('literature-agent', 'active', '读取文献内容...');
+
+            await delay(800);
+
+            // Tool call: read
+            addLog('literature-agent', '调用工具: read_literature("何谓人工智能素养")', 'tool');
+
+            await delay(2000);
+
+            addLog('literature-agent', '文献读取完成: 28,812 字符', 'result');
+
+            await delay(600);
+
+            // Generate notes
+            setAgentState('literature-agent', 'active', '生成结构化笔记...');
+            addLog('literature-agent', '正在生成深度阅读笔记...', 'event');
+
+            await delay(1500);
+
+            // Task complete
+            setAgentState('literature-agent', '', '任务完成');
+            addLog('literature-agent', '任务完成，返回结果给 academic-partner', 'result');
+
+            await delay(500);
+
+            setAgentState('academic-partner', 'active', '整合结果...');
+            addLog('academic-partner', '收到 literature-agent 结果，整合输出', 'event');
+
+            await delay(800);
+
+            // Final response
+            const response = `
+                已完成《人工智能素养》相关文献的深度阅读。
+                <div class="structured-output">
+                    <div class="output-header">📚 深度阅读笔记 - 何谓人工智能素养</div>
+                    <div class="output-body">
+                        <h4>核心概念</h4>
+                        <ul>
+                            <li>AI素养是数字素养在人工智能时代的延伸与深化</li>
+                            <li>包含认知、技能、态度三个维度</li>
+                        </ul>
+                        <h4>理论贡献</h4>
+                        <ul>
+                            <li>提出 AI 素养的三层结构模型</li>
+                            <li>区分"使用AI"与"理解AI"的能力边界</li>
+                        </ul>
+                        <h4>对本研究的启示</h4>
+                        <ul>
+                            <li>可作为"AI素养"操作化定义的理论基础</li>
+                            <li>支持资源依赖视角下的能力差异分析</li>
+                        </ul>
+                    </div>
+                </div>
+            `;
+
+            addMessage(response, 'system', 'academic-partner');
+            setAgentState('academic-partner', '', '等待任务...');
+            addLog('academic-partner', '响应已发送给用户', 'event');
+
+            sendBtn.disabled = false;
+        }
+
+        function delay(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        sendBtn.addEventListener('click', () => {
+            const msg = chatInput.value.trim();
+            if (!msg) return;
+            chatInput.value = '';
+            sendMessage(msg);
+        });
+
+        chatInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') sendBtn.click();
+        });
+    </script>
+</body>
+</html>

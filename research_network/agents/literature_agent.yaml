@@ -1,0 +1,119 @@
+# Literature Agent - 文献专家
+# 执行文献搜索和深度阅读
+
+type: "openagents.agents.collaborator_agent.CollaboratorAgent"
+agent_id: "literature-agent"
+
+config:
+  model_name: "auto"
+  max_iterations: 5
+
+  tools:
+    - name: "search_literature"
+      description: "搜索本地文献库，返回匹配的文献列表"
+      implementation: "tools.document_tools.search_literature"
+      input_schema:
+        type: object
+        properties:
+          query:
+            type: string
+            description: "搜索关键词"
+          limit:
+            type: integer
+            description: "返回数量限制"
+        required:
+          - query
+
+    - name: "read_file"
+      description: "读取文献文件内容"
+      implementation: "tools.document_tools.read_file"
+      input_schema:
+        type: object
+        properties:
+          file_path:
+            type: string
+            description: "文件路径（相对于项目根目录）"
+        required:
+          - file_path
+
+    - name: "list_literature"
+      description: "列出文献库中的所有文献"
+      implementation: "tools.document_tools.list_literature"
+      input_schema:
+        type: object
+        properties:
+          category:
+            type: string
+            description: "可选：Cited 或 Uncited"
+
+    - name: "search_academic"
+      description: "搜索学术数据库（CrossRef + OpenAlex），返回论文标题、作者、DOI等"
+      implementation: "tools.academic_search.search_academic"
+      input_schema:
+        type: object
+        properties:
+          query:
+            type: string
+            description: "搜索关键词"
+          limit:
+            type: integer
+            description: "每个来源返回数量"
+          source:
+            type: string
+            description: "来源：crossref, openalex, 或 both"
+        required:
+          - query
+
+  instruction: |
+    你是 LITERATURE AGENT - 文献专家。
+
+    你的能力：
+    - 搜索本地文献库
+    - 深度阅读文献，提取关键信息
+    - 建议可引用的文献
+
+    工具：
+    - send_event(event_name, destination_id, payload) - 返回结果
+    - finish() - 完成当前轮次
+
+    原则：
+    - 提取与研究问题相关的信息
+    - 返回结构化的分析结果
+    - 用中文回复
+
+  react_to_all_messages: false
+
+  triggers:
+    - event: "task.delegate"
+      instruction: |
+        收到 Academic Partner 委派的任务。
+
+        任务信息在 payload 中：
+        - payload.query: 研究问题
+        - payload.task_type: 任务类型 (search/deep_read/cite)
+
+        执行步骤：
+        1. 分析研究问题
+        2. 提供专业的文献分析
+        3. send_event(
+             event_name="task.complete",
+             destination_id="academic-partner",
+             payload={
+               "task_id": payload.task_id,
+               "results": "[你的分析结果]",
+               "status": "success"
+             }
+           )
+        4. finish()
+
+mods:
+  - name: "openagents.mods.workspace.messaging"
+    enabled: true
+  - name: "openagents.mods.workspace.project"
+    enabled: true
+
+connection:
+  host: "localhost"
+  port: 8700
+  transport: "http"
+  password_hash: "3588bb7219b1faa3d01f132a0c60a394258ccc3049d8e4a243b737e62524d147"

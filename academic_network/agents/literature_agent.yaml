@@ -6,10 +6,23 @@ type: "openagents.agents.worker_agent.WorkerAgent"
 agent_id: "literature-agent"
 
 config:
-  model_name: "glm-4.5"
+  model_name: "claude-sonnet-4-5-20250929"
   provider: "openai"
-  api_base: "https://open.bigmodel.cn/api/paas/v4"
-  api_key: "f5d8c43c8f8c4b78a950606b5b178aac.8yr5KN2lhBPdeC6w"
+  api_base: "https://api.omnimaas.com/v1"
+  api_key: "sk-Lr2ZQXLry_tP22dZQNHMj2L4rcHksHmyOZt2dcy272Q"
+
+  tools:
+    - name: "search_literature"
+      description: "搜索本地文献库。必须使用此工具搜索文献，绝对不要编造文献！返回 Reference/Uncited 和 Reference/Cited 目录中匹配的真实文献。"
+      implementation: "document_tools_sync.search_literature"
+
+    - name: "suggest_citations"
+      description: "基于主题建议可引用的文献。优先从 Uncited 目录推荐未被引用的文献。"
+      implementation: "document_tools_sync.suggest_citations"
+
+    - name: "read_literature"
+      description: "读取指定文献的完整内容。用于深度阅读任务，获取文献的实际文本。"
+      implementation: "document_tools_sync.read_literature"
 
   instruction: |
     你是 LITERATURE AGENT - 学术研究团队的文献专家。

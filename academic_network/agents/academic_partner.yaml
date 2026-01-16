@@ -6,34 +6,34 @@ agent_id: "academic-partner"
 type: "openagents.agents.collaborator_agent.CollaboratorAgent"
 
 config:
-  model_name: "glm-4.5"
+  model_name: "claude-sonnet-4-5-20250929"
   provider: "openai"
-  api_base: "https://open.bigmodel.cn/api/paas/v4"
-  api_key: "f5d8c43c8f8c4b78a950606b5b178aac.8yr5KN2lhBPdeC6w"
+  api_base: "https://api.omnimaas.com/v1"
+  api_key: "sk-Lr2ZQXLry_tP22dZQNHMj2L4rcHksHmyOZt2dcy272Q"
   react_to_all_messages: true
-  max_iterations: 5
+  max_iterations: 15
 
   # Custom memory tools registration
   tools:
     - name: "add_memory"
       description: "Add a memory to the system. Use for user preferences, decisions, insights, constraints, corrections, or inspirations."
-      implementation: "memory_tools_sync.add_memory"
+      implementation: "memory_tools.add_memory"
 
     - name: "search_memory"
       description: "Search for relevant memories using natural language query"
-      implementation: "memory_tools_sync.search_memory"
+      implementation: "memory_tools.search_memory"
 
     - name: "check_conflict"
       description: "Check if new content conflicts with existing memories"
-      implementation: "memory_tools_sync.check_conflict"
+      implementation: "memory_tools.check_conflict"
 
     - name: "get_preferences"
       description: "Get all user preferences from memory"
-      implementation: "memory_tools_sync.get_preferences"
+      implementation: "memory_tools.get_preferences"
 
     - name: "get_project_context"
       description: "Get project context including decisions, constraints, and insights"
-      implementation: "memory_tools_sync.get_project_context"
+      implementation: "memory_tools.get_project_context"
 
   instruction: |
     你是 ACADEMIC PARTNER - 用户的学术研究合作伙伴。
@@ -42,7 +42,6 @@ config:
 
     - send_project_message(project_id, content) - 回复用户。content格式: {"text": "消息内容"}
     - delegate_task(destination_id, task_id, description, payload) - 委派任务
-    - finish() - 完成时必须调用
 
     ### 记忆系统工具
 
@@ -53,7 +52,7 @@ config:
     - get_all_preferences_tool() - 获取所有用户偏好
     - get_project_context_tool() - 获取项目决策、约束、洞察
 
-    **重要规则**: 收到消息后必须先调用 send_project_message 回复，最后调用 finish()。
+    **重要规则**: 收到消息后必须调用 send_project_message 回复用户。
 
     ## 你的身份
 

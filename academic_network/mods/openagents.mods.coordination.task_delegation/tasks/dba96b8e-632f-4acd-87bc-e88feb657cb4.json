@@ -1,0 +1,18 @@
+{
+  "task_id": "dba96b8e-632f-4acd-87bc-e88feb657cb4",
+  "delegator_id": "academic-partner",
+  "assignee_id": "literature-agent",
+  "description": "\u641c\u7d22\u548c\u6574\u7406\u73b0\u6709\u7684\u6587\u732e\u8d44\u6e90\uff0c\u5305\u62ec\u9879\u76ee\u76f8\u5173\u7684\u6240\u6709\u6587\u732e\u3001\u7814\u7a76\u8bba\u6587\u3001\u53c2\u8003\u8d44\u6599\u7b49",
+  "payload": {
+    "query": "\u73b0\u6709\u6587\u732e\u8d44\u6e90 \u9879\u76ee\u6587\u732e",
+    "task_type": "search",
+    "context": "\u7528\u6237\u60f3\u4e86\u89e3\u76ee\u524d\u9879\u76ee\u4e2d\u5df2\u6709\u7684\u6587\u732e\u8d44\u6e90"
+  },
+  "status": "timed_out",
+  "timeout_seconds": 300.0,
+  "created_at": 1767804984.420684,
+  "completed_at": 1767805288.031672,
+  "progress_reports": [],
+  "result": null,
+  "error": null
+}

@@ -18,8 +18,8 @@ aiofiles>=23.0.0
 # PDF 处理（已有 convert_api.py 使用）
 requests>=2.31.0
 
-# 向量存储（Mem0 可选后端）
-# qdrant-client>=1.7.0  # 如需使用 Qdrant
+# 向量存储（Mem0 后端）
+qdrant-client>=1.7.0
 
 # 嵌入模型
 sentence-transformers>=2.2.0

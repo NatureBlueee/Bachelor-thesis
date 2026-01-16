@@ -71,7 +71,7 @@ class AcademicMemory:
                 # 创建智谱AI embeddings实例
                 zhipu_embeddings = ZhipuAIEmbeddings(
                     model="embedding-3",  # 智谱AI的embedding模型
-                    api_key=os.getenv("ZHIPUAI_API_KEY", "f5d8c43c8f8c4b78a950606b5b178aac.8yr5KN2lhBPdeC6w")
+                    api_key=os.getenv("ZHIPUAI_API_KEY")
                 )
 
                 # 配置Mem0使用LangChain provider
@@ -80,7 +80,7 @@ class AcademicMemory:
                         "provider": "openai",  # GLM兼容OpenAI接口
                         "config": {
                             "model": "glm-4-flash",
-                            "api_key": os.getenv("ZHIPU_API_KEY", "f5d8c43c8f8c4b78a950606b5b178aac.8yr5KN2lhBPdeC6w"),
+                            "api_key": os.getenv("ZHIPUAI_API_KEY"),
                             "openai_base_url": "https://open.bigmodel.cn/api/paas/v4"  # 正确参数名
                         }
                     },

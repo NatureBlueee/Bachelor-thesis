@@ -1,0 +1,18 @@
+{
+  "task_id": "3f8ac30f-c081-4592-92d1-6b270529681d",
+  "delegator_id": "academic-partner",
+  "assignee_id": "literature-agent",
+  "description": "\u641c\u7d22AI\u7d20\u517b\u76f8\u5173\u7684\u5b66\u672f\u6587\u732e",
+  "payload": {
+    "task_type": "search",
+    "context": "\u7528\u6237\u9700\u8981\u641c\u7d22AI\u7d20\u517b\u76f8\u5173\u7684\u6587\u732e\uff0c\u5305\u62ec\u7406\u8bba\u57fa\u7840\u3001\u6559\u80b2\u5b9e\u8df5\u3001\u8bc4\u4f30\u6846\u67b6\u7b49\u65b9\u9762\u7684\u6700\u65b0\u7814\u7a76",
+    "query": "AI\u7d20\u517b AI Literacy"
+  },
+  "status": "timed_out",
+  "timeout_seconds": 300.0,
+  "created_at": 1767807682.254339,
+  "completed_at": 1767807987.811405,
+  "progress_reports": [],
+  "result": null,
+  "error": null
+}

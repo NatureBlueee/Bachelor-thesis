@@ -1,0 +1,26 @@
+network:
+  name: demo-network
+  host: localhost
+  port: 9700
+  grpc_port: 9600
+  transports:
+  - type: http
+    config:
+      port: 9700
+      host: localhost
+      serve_studio: true
+  - type: grpc
+    config:
+      port: 9600
+  mods:
+  - name: openagents.mods.workspace.default
+    enabled: true
+  - name: openagents.mods.workspace.messaging
+    enabled: true
+  studio:
+    enabled: true
+    templates:
+    - name: Demo Chat
+      agent: demo-assistant
+  initialized: true
+  created_by_version: 0.8.5

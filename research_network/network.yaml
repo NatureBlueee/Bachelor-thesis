@@ -1,0 +1,136 @@
+network:
+  name: AcademicResearchNetwork
+  mode: centralized
+  node_id: academic-hub-1
+  initialized: true
+  transports:
+  - type: http
+    config:
+      port: 8700
+      serve_studio: true
+      serve_mcp: true
+  manifest_transport: http
+  recommended_transport: http
+  encryption_enabled: false
+  requires_password: false
+  default_agent_group: guest
+  discovery_interval: 10
+  discovery_enabled: true
+  max_connections: 20
+  connection_timeout: 30.0
+  retry_attempts: 3
+  heartbeat_interval: 60
+  agent_timeout: 180
+  message_queue_size: 1000
+  message_timeout: 30.0
+  message_routing_enabled: true
+  agent_groups:
+    coordinators:
+      description: 协调者 - 统一入口，批判性思考，任务委派
+      password_hash: bf24385098410391a81d92b2de72d3a2946d24f42ee387e51004a868281a2408
+      metadata:
+        permissions:
+        - create_projects
+        - delegate_tasks
+        - communicate_with_users
+        agents:
+        - academic-partner
+    experts:
+      description: 专家 - 执行深度研究任务
+      password_hash: 3588bb7219b1faa3d01f132a0c60a394258ccc3049d8e4a243b737e62524d147
+      metadata:
+        permissions:
+        - execute_tasks
+        - report_results
+        - access_documents
+        agents:
+        - literature-agent
+  mods:
+  - name: openagents.mods.workspace.messaging
+    enabled: true
+    config:
+      default_channels:
+      - name: general
+        description: 学术讨论频道
+      max_thread_depth: 5
+  - name: openagents.mods.workspace.project
+    enabled: true
+    config:
+      max_concurrent_projects: 5
+      project_templates:
+        thesis_modification:
+          name: 论文修改流程
+          description: PR-driven 的论文修改工作流
+          agent_groups:
+          - coordinators
+          - experts
+          - guest
+          context: '论文修改工作流：
+
+            1. Academic Partner 接收用户修改请求
+
+            2. 分析需求，委派任务给 Literature Agent
+
+            3. 专家返回分析结果
+
+            4. Academic Partner 整合形成共识
+
+            '
+        deep_reading:
+          name: 深度阅读流程
+          description: 博士生式深度阅读
+          agent_groups:
+          - coordinators
+          - experts
+          - guest
+          context: '深度阅读工作流：
+
+            1. 用户提供文献或主题
+
+            2. Academic Partner 委派给 Literature Agent
+
+            3. Literature Agent 执行深度阅读
+
+            4. 返回结构化笔记
+
+            '
+        academic_discussion:
+          name: 学术讨论
+          description: 探索性的学术问题讨论
+          agent_groups:
+          - coordinators
+          - experts
+          - guest
+          context: '学术讨论工作流：
+
+            1. 用户提出问题
+
+            2. Academic Partner 批判性分析
+
+            3. 如需文献支持，委派搜索
+
+            4. 形成共识或记录分歧
+
+            '
+  created_by_version: 0.8.5.post2
+network_profile:
+  discoverable: false
+  name: Academic Research Network
+  description: 学术研究多Agent协作系统
+  tags:
+  - academic
+  - research
+  - thesis
+  categories:
+  - productivity
+  - research
+  required_openagents_version: 0.8.0
+  capacity: 10
+  authentication:
+    type: none
+  host: localhost
+  port: 8700
+log_level: INFO
+data_dir: ./data
+runtime_limit: null
+shutdown_timeout: 30
